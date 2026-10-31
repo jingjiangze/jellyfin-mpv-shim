@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-24 02:13-0400\n"
-"PO-Revision-Date: 2026-10-27 09:42+0000\n"
-"Last-Translator: Lukas Förström <chillabiffen@gmail.com>\n"
+"PO-Revision-Date: 2026-11-01 01:06+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://translate.jellyfin.org/projects/jellyfin/"
 "jellyfin-mpv-shim/sv/>\n"
 "Language: sv\n"
@@ -863,10 +863,8 @@ msgstr "Kunde inte starta uppspelning."
 #. Status line after picking Offline in the top bar's server picker when
 #. there are no downloads to browse.
 #: jellyfin_mpv_shim/mpvtk_browser/app.py
-#, fuzzy
-#| msgid "There is nothing downloaded to browse."
 msgid "Nothing is downloaded to browse offline."
-msgstr "Det finns inget nedladdat att bläddra bland."
+msgstr "Inget är hämtat för offlinebläddring."
 
 #. Tooltip of the button on the now-playing bar that opens the list of what
 #. is queued to play. A noun.
@@ -963,8 +961,6 @@ msgstr "Ny PIN-kod"
 #. second time, to check it was typed correctly. A verb. Split from the
 #. yes/no dialog's title of the same English word.
 #: jellyfin_mpv_shim/mpvtk_browser/auth.py
-#, fuzzy
-#| msgid "Confirm"
 msgctxt "form label"
 msgid "Confirm"
 msgstr "Bekräfta"
@@ -1024,10 +1020,8 @@ msgstr "PIN-koden kunde inte sparas."
 #. adding a new one. "Again" is the load-bearing word.
 #: jellyfin_mpv_shim/mpvtk_browser/auth.py
 #: jellyfin_mpv_shim/mpvtk_browser/settings/servers.py
-#, fuzzy
-#| msgid "Sign In"
 msgid "Sign In Again"
-msgstr "Logga in"
+msgstr "Logga in igen"
 
 #. Title of the page that connects this application to a Jellyfin server.
 #: jellyfin_mpv_shim/mpvtk_browser/auth.py
@@ -1129,10 +1123,8 @@ msgstr "Anslut"
 #. the local network, on the add-server screen. The list below it is
 #. "Previously added servers".
 #: jellyfin_mpv_shim/mpvtk_browser/auth.py
-#, fuzzy
-#| msgid "Server Configuration"
 msgid "Servers on your network"
-msgstr "Serverkonfiguration"
+msgstr "Servrar i ditt nätverk"
 
 #. Error on the sign-in page when Quick Connect was pressed with the server
 #. address left empty.
@@ -1177,10 +1169,8 @@ msgstr "Ansluter…"
 #. Error under the Sign In Again form when the server refused the username
 #. or password.
 #: jellyfin_mpv_shim/mpvtk_browser/auth.py
-#, fuzzy
-#| msgid "Could not connect. Please check your details."
 msgid "Could not sign in. Please check your details."
-msgstr "Det gick inte att ansluta. Vänligen kontrollera dina uppgifter."
+msgstr "Det gick inte att logga in. Kontrollera dina uppgifter."
 
 #. Error on the sign-in page when signing in failed, most often a wrong
 #. address, name or password.
@@ -1294,10 +1284,8 @@ msgstr "Favorit"
 #. and artwork. Sentence case, like the other entries in that menu.
 #: jellyfin_mpv_shim/mpvtk_browser/components/detail.py
 #: jellyfin_mpv_shim/mpvtk_browser/tiles.py
-#, fuzzy
-#| msgid "Refresh"
 msgid "Refresh metadata"
-msgstr "Uppdatera"
+msgstr "Uppdatera metadata"
 
 #. Deletes the media file from the server itself, not just the entry. Used
 #. as the action on an item's menu and as the title and confirming button
@@ -1319,10 +1307,8 @@ msgstr "Mer"
 #. Heading over the row of a film's or show's extras (featurettes, deleted
 #. scenes, interviews) on its page. Jellyfin Web uses the same words.
 #: jellyfin_mpv_shim/mpvtk_browser/components/detail.py
-#, fuzzy
-#| msgid "Features"
 msgid "Special Features"
-msgstr "Innehåll"
+msgstr "Extramaterial"
 
 #. Button on an item's page that plays its trailer, or opens it in the web
 #. browser when the server only has a link to one.
@@ -1342,11 +1328,9 @@ msgstr "Webb"
 #. what kind of extra it is. Jellyfin Web uses the same word. A short
 #. promotional film about the making of the film.
 #: jellyfin_mpv_shim/mpvtk_browser/components/labels.py
-#, fuzzy
-#| msgid "Features"
 msgctxt "kind of special feature"
 msgid "Featurette"
-msgstr "Innehåll"
+msgstr "bakomfilm"
 
 #. Caption under a special feature's tile on a film's or show's page, naming
 #. what kind of extra it is. Jellyfin Web uses the same word. Footage of the
@@ -1370,22 +1354,18 @@ msgstr "Bortklippt scen"
 #. what kind of extra it is. Jellyfin Web uses the same word. An interview
 #. with the cast or crew.
 #: jellyfin_mpv_shim/mpvtk_browser/components/labels.py
-#, fuzzy
-#| msgid "Interlaced"
 msgctxt "kind of special feature"
 msgid "Interview"
-msgstr "Sammanflätad"
+msgstr "Intervju"
 
 # seeded from jellyfin-web: HeaderScenes
 #. Caption under a special feature's tile on a film's or show's page, naming
 #. what kind of extra it is. Jellyfin Web uses the same word. A scene from
 #. the film itself.
 #: jellyfin_mpv_shim/mpvtk_browser/components/labels.py
-#, fuzzy
-#| msgid "Scenes"
 msgctxt "kind of special feature"
 msgid "Scene"
-msgstr "Kapitel"
+msgstr "Scen"
 
 # seeded from jellyfin-web: MediaInfoSampleRate
 #. Caption under a special feature's tile on a film's or show's page, naming
@@ -1410,7 +1390,7 @@ msgstr "Klipp"
 #: jellyfin_mpv_shim/mpvtk_browser/components/labels.py
 msgctxt "kind of special feature"
 msgid "Short"
-msgstr ""
+msgstr "Kortfilm"
 
 #. A chip drawn on the corner of an episode tile, and on nothing else: this
 #. episode has not been broadcast yet, so the server lists it but has no file
@@ -2808,10 +2788,8 @@ msgstr "Stil för spelarkontroller"
 #. Label of the checkbox for the "thumbnail_enable" setting (Settings >
 #. Playback > Player Controls).
 #: jellyfin_mpv_shim/mpvtk_browser/config.py
-#, fuzzy
-#| msgid "Enable thumbnail previews"
 msgid "Enable Trickplay Thumbnails"
-msgstr "Använd miniatyr-förhandsvisning"
+msgstr "Aktivera Trickplay-miniatyrer"
 
 #. Label of the checkbox for the "trickplay_fast_mode" setting (Settings >
 #. Playback > Player Controls).
@@ -2922,13 +2900,13 @@ msgstr "Serieläsningsläge"
 #. General tab of Settings).
 #: jellyfin_mpv_shim/mpvtk_browser/config.py
 msgid "Cast-target mode (no library browsing)"
-msgstr ""
+msgstr "Cast-mottagarläge (ingen biblioteksbläddring)"
 
 #. Label of the checkbox for the "display_mirror_summon" setting (Settings
 #. > General > Window).
 #: jellyfin_mpv_shim/mpvtk_browser/config.py
 msgid "Casting Opens the Library Browser"
-msgstr ""
+msgstr "Castning öppnar biblioteksbläddraren"
 
 #. Label of the checkbox for the "browser_fullscreen" setting (Settings >
 #. General > Window).
@@ -2952,14 +2930,14 @@ msgstr "Bind alltid piltangenterna till spelarstyrningen"
 #. Playback > Player Controls).
 #: jellyfin_mpv_shim/mpvtk_browser/config.py
 msgid "Player Controls Activation Key"
-msgstr ""
+msgstr "Aktiveringstangent för spelarkontroller"
 
 # seeded from jellyfin-web: SelectAll
 #. Label of the text field for the "ui_select_key" setting (under Advanced
 #. on the General tab of Settings).
 #: jellyfin_mpv_shim/mpvtk_browser/config.py
 msgid "Select Key"
-msgstr "Välj"
+msgstr "Välj-tangent"
 
 #. Label of the dropdown for the "hud_scrim" setting (Settings > Playback >
 #. Player Controls).
@@ -2989,89 +2967,85 @@ msgstr "Krympa spelarkontrollerna i ett smalt fönster"
 #. Playback > Player Controls).
 #: jellyfin_mpv_shim/mpvtk_browser/config.py
 msgid "Mouse Back/Forward Buttons Skip Chapters"
-msgstr ""
+msgstr "Musknapparna Bakåt/Framåt hoppar över kapitel"
 
 #. Label of the dropdown for the "audio_mode" setting (Settings > Playback
 #. > Audio).
 #: jellyfin_mpv_shim/mpvtk_browser/config.py
 msgid "Audio Output Mode"
-msgstr ""
+msgstr "Läge för ljudutmatning"
 
 #. Label of the text field for the "audio_device" setting (Settings >
 #. Playback > Audio).
 #: jellyfin_mpv_shim/mpvtk_browser/config.py
 msgid "Audio Output Device"
-msgstr ""
+msgstr "Ljudutmatningsenhet"
 
 #. Label of the checkbox for the "audio_exclusive" setting (Settings >
 #. Playback > Audio).
 #: jellyfin_mpv_shim/mpvtk_browser/config.py
 msgid "Take the Device Exclusively"
-msgstr ""
+msgstr "Använd enheten exklusivt"
 
 #. Label of the checkbox for the "shader_pack_enable" setting (Settings >
 #. Playback > Video Enhancement).
 #: jellyfin_mpv_shim/mpvtk_browser/config.py
-#, fuzzy
-#| msgid "Video Playback Profiles"
 msgid "Enable Video Playback Profiles"
-msgstr "Uppspelningsprofiler"
+msgstr "Aktivera videouppspelningsprofiler"
 
 #. Label of the dropdown for the "shader_pack_subtype" setting (Settings >
 #. Playback > Video Enhancement).
 #: jellyfin_mpv_shim/mpvtk_browser/config.py
-#, fuzzy
-#| msgid "New Group"
 msgid "Profile Group"
-msgstr "Ny grupp"
+msgstr "Profilgrupp"
 
 #. Label of the checkbox for the "shader_pack_remember" setting (Settings >
 #. Playback > Video Enhancement).
 #: jellyfin_mpv_shim/mpvtk_browser/config.py
 msgid "Remember Last Used Profile"
-msgstr ""
+msgstr "Kom ihåg senast använda profil"
 
 #. Label of the dropdown for the "shader_pack_gpu_api" setting (Settings >
 #. Playback > Video Enhancement).
 #: jellyfin_mpv_shim/mpvtk_browser/config.py
 msgid "Graphics API for Shaders"
-msgstr ""
+msgstr "Grafik-API för shaders"
 
 #. Label of the checkbox for the "audio_passthrough_ac3" setting (Settings
 #. > Playback > Audio).
 #: jellyfin_mpv_shim/mpvtk_browser/config.py
 msgid "Pass Through AC3"
-msgstr ""
+msgstr "Genomströmning av AC3"
 
 #. Label of the checkbox for the "audio_passthrough_dts" setting (Settings
 #. > Playback > Audio).
 #: jellyfin_mpv_shim/mpvtk_browser/config.py
 msgid "Pass Through DTS"
-msgstr ""
+msgstr "Genomströmning av DTS"
 
 #. Label of the checkbox for the "audio_passthrough_eac3" setting (Settings
 #. > Playback > Audio).
 #: jellyfin_mpv_shim/mpvtk_browser/config.py
 msgid "Pass Through E-AC3"
-msgstr ""
+msgstr "Genomströmning av E-AC3"
 
 #. Label of the checkbox for the "audio_passthrough_dts_hd" setting
 #. (Settings > Playback > Audio).
 #: jellyfin_mpv_shim/mpvtk_browser/config.py
 msgid "Pass Through DTS-HD"
-msgstr ""
+msgstr "Genomströmning av DTS-HD"
 
 #. Label of the checkbox for the "audio_passthrough_truehd" setting
 #. (Settings > Playback > Audio).
 #: jellyfin_mpv_shim/mpvtk_browser/config.py
 msgid "Pass Through TrueHD"
-msgstr ""
+msgstr "Genomströmning av TrueHD"
 
 #. Label of the checkbox for the "audio_optical_encode_ac3" setting
 #. (Settings > Playback > Audio).
 #: jellyfin_mpv_shim/mpvtk_browser/config.py
 msgid "Re-encode Others to AC3"
-msgstr ""
+msgstr "Omkoda övrigt till AC3"
 
 #. Explanation shown under the "Close to Tray (keep running)" setting
 #. (Settings > General > Window). Explanation shown under the "Keep Running
@@ -3082,6 +3056,10 @@ msgid ""
 "setup: the app waits out of the way, plays fullscreen when something casts "
 "to it, and goes back to waiting when the video ends or you press Q."
 msgstr ""
+"Med \"Starta minimerad\" och \"Helskärm\" är detta den klassiska cast-"
+"mottagarkonfigurationen: programmet väntar i bakgrunden, spelar upp i "
+"helskärm när något castas till det och återgår till att vänta när videon är "
+"slut eller du trycker på Q."
 
 #. Explanation shown under the "Language Filter" list of language codes
 #. (Settings > Playback > Subtitles & Languages). The "two switches below it"
@@ -3094,6 +3072,10 @@ msgid ""
 "which one is picked automatically; the preset above is what does that. "
 "\"und\" means untagged, so removing it hides untagged tracks as well."
 msgstr ""
+"Den här listan gör inget på egen hand – aktivera någon av de två växlarna "
+"under den. Den ändrar vilka spår ljud- och undertextmenyerna erbjuder, inte "
+"vilket som väljs automatiskt; det styrs av förinställningen ovan. \"und\" "
+"betyder omärkt, så om den tas bort döljs även omärkta spår."
 
 #. Explanation shown under the track-preset dropdown (Settings > Playback >
 #. Subtitles & Languages). "Subbed", "Dubbed", "shows only" and "Custom" are
@@ -3109,6 +3091,12 @@ msgid ""
 "assume the original audio is Japanese; if yours is not, choose Custom and "
 "write the rules yourself."
 msgstr ""
+"\"Textad\" behåller originalljudet och lägger till fullständiga undertexter "
+"på ditt språk. \"Dubbad\" föredrar ljud på ditt språk med undertexter för "
+"skyltar och sånger och återgår till textad där det inte finns någon "
+"dubbning. Paret \"endast serier\" låter filmer följa serverns val. De "
+"textade förinställningarna förutsätter att originalljudet är japanska; om "
+"ditt inte är det väljer du Anpassad och skriver reglerna själv."
 
 #. Explanation shown under the "Language" setting (Settings > General >
 #. This Device).
@@ -3118,6 +3106,9 @@ msgid ""
 "far; the rest stays in English. Translations are contributed at "
 "translate.jellyfin.org."
 msgstr ""
+"Procenttalet visar hur stor del av programmet som hittills har översatts "
+"till språket; resten förblir på engelska. Översättningar bidras med på "
+"translate.jellyfin.org."
 
 #. Explanation shown under the "Tell Me About Updates" setting (Settings >
 #. General > This Device).
@@ -3127,6 +3118,9 @@ msgid ""
 "announces updates and \"flatpak update\" installs them, and leaves it on "
 "everywhere else."
 msgstr ""
+"\"Automatiskt\" stänger av detta i en Flatpak, där skrivbordet redan "
+"meddelar uppdateringar och \"flatpak update\" installerar dem, och låter det "
+"vara på överallt annars."
 
 #. Explanation shown under the "Game Controller" setting (Settings >
 #. General > Input).
@@ -3138,6 +3132,12 @@ msgid ""
 "with SDL2 gamepad support; if yours lacks it this setting is ignored and the "
 "log says so. Any button can be reassigned in your input.conf."
 msgstr ""
+"Flytta med styrkorset eller vänster spak, sök med höger spak, använd "
+"axelknapparna för att bläddra och Start för menyn. En handkontroll känner "
+"inte av fokus, så den når programmet även när ett annat fönster ligger "
+"framför. Kräver en version av mpv med stöd för SDL2-handkontroller; om din "
+"saknar det ignoreras inställningen och det anges i loggen. Alla knappar kan "
+"tilldelas om i input.conf."
 
 #. Explanation shown under the "Swap Confirm and Back Buttons" setting
 #. (Settings > General > Input).
@@ -3146,6 +3146,8 @@ msgid ""
 "Turn this on for a controller whose A button is on the right rather than at "
 "the bottom (Switch Pro, most 8BitDo pads)."
 msgstr ""
+"Aktivera detta för en handkontroll vars A-knapp sitter till höger i stället "
+"för längst ned (Switch Pro och de flesta 8BitDo-kontroller)."
 
 #. Explanation shown under the "Block Player Keybinds While Browsing"
 #. setting (Settings > General > Input).
@@ -3156,6 +3158,10 @@ msgid ""
 "no video for them to act on. Turn it off to use your own MPV key bindings "
 "there."
 msgstr ""
+"Hindrar MPV:s egna kortkommandon – bildjustering, skärmbilder, byte av "
+"undertext och ljud – från att fungera medan du är i biblioteket, där det "
+"inte finns någon video att påverka. Stäng av det för att använda egna MPV-"
+"tangentbindningar där."
 
 #. Explanation shown under the "Select Key" setting (under Advanced on the
 #. General tab of Settings).
@@ -3165,6 +3171,9 @@ msgid ""
 "controls. An mpv key name; changing it hands Enter back to MPV. The game "
 "controller's Confirm button and a phone's Select follow it."
 msgstr ""
+"Aktiverar det som är markerat i biblioteket och på spelarkontrollerna. Detta "
+"är ett mpv-tangentnamn; om du ändrar det lämnas Enter tillbaka till MPV. "
+"Handkontrollens Bekräfta-knapp och en telefons Välj följer det."
 
 #. Help text under the setting above. "Grace period" and "rewatch" are
 #. also the words people search the settings box for, so keep whatever the
@@ -3176,6 +3185,10 @@ msgid ""
 "instead of going on the next check. Running out of storage still removes "
 "watched downloads before the time is up."
 msgstr ""
+"En respitperiod efter att du har sett klart något: det förblir hämtat så "
+"länge så att du kan se det igen eller någon annan i hemmet kan komma ikapp, "
+"i stället för att tas bort vid nästa kontroll. Om lagringen tar slut tas "
+"sedda hämtningar ändå bort innan tiden har gått ut."
 
 #. Explanation shown under the "Top Up When Fewer Than (episodes)" setting
 #. (Settings > Browse > Download Tuning).
@@ -3185,6 +3198,9 @@ msgid ""
 "of the first two together: episodes are then fetched in one batch when a "
 "series runs low, instead of one at a time."
 msgstr ""
+"Lämna dessa tomma om inte hämtningar väcker dina diskar för ofta. Ange de "
+"två första tillsammans: avsnitt hämtas då i en sats när en serie börjar ta "
+"slut, i stället för ett i taget."
 
 #. Explanation shown under the "Show Episode Thumbnails on Detail Pages"
 #. setting (Settings > Browse > Library Browser).
@@ -3192,6 +3208,8 @@ msgstr ""
 msgid ""
 "An episode's thumbnail is a frame of an episode you may not have watched yet."
 msgstr ""
+"Ett avsnitts miniatyr är en bildruta från ett avsnitt som du kanske inte har "
+"sett ännu."
 
 #. Explanation shown under the "Left Click Pauses Playback" setting
 #. (Settings > Playback > Player Controls).
@@ -3201,6 +3219,9 @@ msgid ""
 "window, and the right button does whatever your MPV config gives it. Double "
 "click is full screen either way."
 msgstr ""
+"Av använder i stället MPV:s eget musbeteende: dra videon för att flytta "
+"fönstret och höger knapp gör det som MPV-konfigurationen anger. Dubbelklick "
+"ger helskärm oavsett."
 
 #. Explanation shown under the "Deinterlace Automatically" setting
 #. (Settings > Playback > Video Enhancement).
@@ -3213,6 +3234,12 @@ msgid ""
 "player's settings menu, which lasts until you return to the library. Needs "
 "MPV 0.38 or newer."
 msgstr ""
+"Avfläta video som filen anger är sammanflätad. Av är standard, precis som i "
+"MPV: markeringen är inte tillförlitlig åt något håll och avflätning av "
+"progressiv video gör en i övrigt bra bild mjukare. Om du vill tvinga på det "
+"för något som är sammanflätat utan att ange det använder du Avfläta i "
+"spelarens inställningsmeny; den inställningen gäller tills du återvänder "
+"till biblioteket. Kräver MPV 0.38 eller senare."
 
 #. Explanation shown under the "Debanding" setting (Settings > Playback >
 #. Video Enhancement).
@@ -3226,6 +3253,13 @@ msgid ""
 "if you set the deband options in mpv.conf yourself — Off writes nothing at "
 "all, so your values are left alone."
 msgstr ""
+"Jämnar ut de blockiga steg som syns i toningar – himlar, mörka scener och "
+"övertoningar. Animering och anime gynnas mest, eftersom platta toningar "
+"utgör större delen av bilden; spelfilm påverkas i stort sett inte, även om "
+"en stark inställning kan mjuka upp verkligt fina detaljer. Det kostar GPU-"
+"arbete oavsett innehåll, vilket är bra att känna till på en liten eller "
+"äldre dator. Lämna detta Av om du själv anger avbandningsalternativen i "
+"mpv.conf – Av skriver ingenting alls, så dina värden lämnas orörda."
 
 #. Explanation shown under the "HDR Tone Mapping" setting (Settings >
 #. Playback > Video Enhancement).
@@ -3237,6 +3271,10 @@ msgid ""
 "is the reference curve, and Clip is what to try if highlights look grey "
 "rather than bright."
 msgstr ""
+"Hur HDR-video anpassas till en SDR-skärm. Detta gör inget när HDR skickas "
+"vidare till en HDR-skärm, eftersom ingen tonmappning sker. Låt den stå på "
+"Automatiskt om inte HDR-filmer ser fel ut; BT.2390 är referenskurvan och "
+"Klipp är vad du ska prova om högdagrar ser grå ut i stället för ljusa."
 
 #. Explanation shown under the "Rendering Quality" setting (Settings >
 #. Playback > Video Enhancement).
@@ -3247,6 +3285,10 @@ msgid ""
 "files and does not use up your shader profile, so it is the thing to try "
 "before the shader pack below."
 msgstr ""
+"Hög kvalitet använder samma alternativ som MPV:s egna förinställning för hög "
+"kvalitet: bättre uppskalning och HDR-hantering till priset av viss GPU-"
+"belastning. Den behöver inga shaderfiler och använder inte din shaderprofil, "
+"så prova den före shaderpaketet nedan."
 
 #. Explanation shown under the "Extract Image Subtitles" setting (Settings >
 #. Playback > Transcoding). PGS and VobSub are subtitle format names; keep
@@ -3260,6 +3302,11 @@ msgid ""
 "and server disk space on a large file. Subtitles in their own file are not "
 "affected."
 msgstr ""
+"När en video omkodas visas dess inbyggda Blu-ray- eller DVD-undertexter "
+"(PGS, VobSub) som ett separat spår i stället för att brännas in i bilden, så "
+"att de förblir skarpa och kan bytas utan omstart. När en visas måste servern "
+"först extrahera varje undertextspår i filen, vilket tar tid och diskutrymme "
+"på servern för en stor fil. Undertexter i egna filer påverkas inte."
 
 #. Explanation shown under the "Network Buffer" setting (Settings >
 #. Playback > Playback).
@@ -3270,6 +3317,10 @@ msgid ""
 "this if playback keeps stopping for buffering. Larger buffers use more "
 "memory and make the first few seconds of a file slower to start."
 msgstr ""
+"Hur långt före uppspelningen data läses. MPV:s standard är en sekund, vilket "
+"är kort för en server via internet eller en långsam anslutning – höj detta "
+"om uppspelningen stannar för buffring. Större buffertar använder mer minne "
+"och gör att en fils första sekunder startar långsammare."
 
 #. Explanation shown under the "Motion Interpolation" setting (Settings >
 #. Playback > Video Enhancement).
@@ -3280,6 +3331,9 @@ msgid ""
 "display. May cause dropped frames if your displays have mismatched frame "
 "rates."
 msgstr ""
+"Bildrutesammanblandning (blandar bildrutor, inte samma sak som SVP/DLSS/"
+"framegen). Minskar ryckighet som orsakas av olika bildfrekvens för innehåll "
+"och skärm. Kan ge tappade bildrutor om dina skärmar har olika bildfrekvens."
 
 #. Explanation shown under the "Hardware Decoding" setting (Settings >
 #. Playback > Playback).
@@ -3292,6 +3346,12 @@ msgid ""
 "another VapourSynth filter. If video stops working, start with --disable-"
 "hwdec and change this back."
 msgstr ""
+"Av som standard eftersom vissa grafikdrivrutiner hanterar det dåligt. "
+"\"Endast över 1080p\" är det försiktiga sättet att aktivera det: de flesta "
+"datorer avkodar 1080p i programvara utan hjälp. \"Kopiera (avancerat)\" är "
+"långsammare, men är läget som fungerar med videofilter, så välj det om du "
+"använder SVP eller ett annat VapourSynth-filter. Om videon slutar fungera "
+"börjar du med --disable-hwdec och återställer detta."
 
 #. Explanation shown under the "Enable GUI" setting (under Advanced on the
 #. General tab of Settings).
@@ -3302,6 +3362,10 @@ msgid ""
 "you get MPV's own on-screen controls; use Player Controls Style under "
 "Interface for that."
 msgstr ""
+"Av innebär kommandoradsläge: inget fönster, inget systemfält och ingen "
+"inställningsskärm, så enda vägen tillbaka är att redigera conf.json "
+"manuellt. Detta ger inte MPV:s egna skärmkontroller; använd "
+"Spelarkontrollstil under Gränssnitt för det."
 
 #. Explanation shown under the "Cast-target mode (no library browsing)"
 #. setting (under Advanced on the General tab of Settings).
@@ -3312,6 +3376,11 @@ msgid ""
 "way back is to edit conf.json. This is for a shared TV nobody should be able "
 "to browse from; for an ordinary cast target, use the Interface settings."
 msgstr ""
+"Visa endast det som castas till den här datorn. Biblioteket, inklusive "
+"inställningsskärmen, kan inte nås härifrån och utan en ikon i systemfältet "
+"är enda vägen tillbaka att redigera conf.json. Detta är för en delad tv som "
+"ingen ska kunna bläddra från; för ett vanligt cast-mål använder du "
+"Gränssnittsinställningarna."
 
 #. Explanation shown under the "Window Buttons in the Top Bar" setting
 #. (Settings > General > Window).
@@ -3323,6 +3392,11 @@ msgid ""
 "it. On \"Only when the window has no title bar\", MPV is asked whether this "
 "window got one, so desktops that draw a title bar are left alone."
 msgstr ""
+"Vissa skrivbord, särskilt GNOME på Wayland, ritar ingen namnlist på "
+"spelarfönstret, så det inte går att flytta eller stänga det. Detta lägger i "
+"stället minimera, maximera och stäng i översta raden och låter dig dra "
+"fönstret därifrån. Med \"Endast när fönstret saknar namnlist\" frågas MPV om "
+"fönstret fick en sådan, så skrivbord som ritar en namnlist lämnas orörda."
 
 #. Explanation shown under the "Keep Window Buttons in Full Screen" setting
 #. (Settings > General > Window).
@@ -3332,6 +3406,9 @@ msgid ""
 "the buttons are normally hidden there. Turn this on to keep a way out of "
 "full screen that is not a keyboard shortcut."
 msgstr ""
+"Helskärm har ingen namnlist och inget att flytta eller maximera, så "
+"knapparna är normalt dolda där. Aktivera detta för att behålla en väg ut ur "
+"helskärm som inte är ett kortkommando."
 
 #. Explanation shown under the "Hide the Desktop Title Bar" setting
 #. (Settings > General > Window).
@@ -3343,6 +3420,11 @@ msgid ""
 "unless you want them, since a window with neither can be awkward to move on "
 "some desktops."
 msgstr ""
+"Ber skrivbordet att inte rita någon namnlist på spelarfönstret, så översta "
+"raden ovan blir den enda. Fungerar tillsammans med inställningen ovan: med "
+"\"Endast när fönstret saknar namnlist\" visas knapparna så snart detta är "
+"aktiverat. Låt båda vara av om du inte vill ha dem, eftersom ett fönster "
+"utan någon av dem kan vara svårt att flytta på vissa skrivbord."
 
 #. Explanation shown under the "Enable Trickplay Thumbnails" setting
 #. (Settings > Playback > Player Controls).
@@ -3353,6 +3435,10 @@ msgid ""
 "images are fetched from the server per video, which costs disk space and "
 "memory -- tens of MB for an episode, a few hundred for a long film."
 msgstr ""
+"Visar en förhandsvisningsbild medan du drar sökfältet. Fungerar med alla "
+"spelarkontrollstilar, även ett eget OSC-skript om det stöder thumbfast. "
+"Bilderna hämtas från servern per video, vilket kostar diskutrymme och minne "
+"– tiotals MB för ett avsnitt och några hundra för en lång film."
 
 #. Explanation shown under the "Preferred Language" setting (Settings >
 #. Playback > Subtitles & Languages), which only appears when a Dubbed or
@@ -3366,6 +3452,9 @@ msgid ""
 "preference heuristics are built around English naming conventions, your "
 "mileage may vary. Use a language code such as eng."
 msgstr ""
+"Språket som används för dubbat ljud eller textade undertexter. Observera att "
+"preferensheuristiken bygger på engelska namnkonventioner, så resultatet kan "
+"variera. Använd en språkkod som eng."
 
 #. Explanation shown under the "Load All Seek Previews at Once" setting
 #. (Settings > Playback > Player Controls).
@@ -3378,6 +3467,11 @@ msgid ""
 "the next time you seek somewhere new; turning it off applies to the next "
 "video."
 msgstr ""
+"Sökförhandsvisningar hämtas normalt några minuter i taget runt den punkt där "
+"du söker, så att söka till en ny plats väntar kort. Aktivera detta för att i "
+"stället läsa in alla direkt: inget behöver då vänta, men en lång film kan "
+"använda flera hundra MB minne. Aktivering gäller det du tittar på nästa gång "
+"du söker till en ny plats; avstängning gäller nästa video."
 
 #. Explanation shown under the "Player Controls Style" setting (Settings >
 #. Playback > Player Controls).
@@ -3390,6 +3484,12 @@ msgid ""
 "library a solid background, so the script's idle screen cannot show through "
 "it."
 msgstr ""
+"MPV:s tangentbindningar används som standard. Tryck ENTER för att styra "
+"spelarkontrollerna med tangentbordet. \"Inga spelarkontroller\" lämnar "
+"uppspelningen avskalad; biblioteket, kortkommandona och menytangenten "
+"fungerar fortfarande. Välj \"Anpassad OSC\" när du har installerat ett eget "
+"OSC-skript: det stänger av MPV:s egna och ger biblioteket en heltäckande "
+"bakgrund så att skriptets viloskärm inte lyser igenom."
 
 #. Explanation shown under the "Scroll Wheel Pixels" setting (Settings >
 #. Browse > Library Browser).
@@ -3400,6 +3500,10 @@ msgid ""
 "notches spans one row, in every scroll mode, so a trackpad or trackball "
 "never leaves you a sliver of a row off."
 msgstr ""
+"Antal pixlar som ett steg med mushjulet rullar. Höj värdet för snabbare "
+"rullning och sänk det för finare styrning. I ett rutnät avrundas värdet så "
+"att ett helt antal steg täcker en rad i alla rullningslägen, så att en "
+"styrplatta eller kulmus aldrig lämnar kvar en del av en rad."
 
 #. Explanation shown under the "Scroll Mode" setting (Settings > Browse >
 #. Library Browser).
@@ -3411,14 +3515,17 @@ msgid ""
 "remote display, or with an external MPV. Pick \"One row per notch\" to move "
 "a whole row, or one home-screen section, at a time."
 msgstr ""
+"\"Kontinuerlig\" rullar i pixlar och stannar där hjulet lämnar den; rader "
+"justeras automatiskt om skärmen inte hinner med. Välj \"Justera till rader\" "
+"om rullningen fortfarande hackar, vilket kan hända på en mycket stor, "
+"långsam eller fjärransluten skärm eller med en extern MPV. Välj \"En rad per "
+"steg\" för att flytta en hel rad eller ett startskärmsavsnitt i taget."
 
 #. Explanation shown under the "Show What You're Watching in Discord"
 #. setting (Settings > General > This Device).
 #: jellyfin_mpv_shim/mpvtk_browser/config.py
-#, fuzzy
-#| msgid "Discord Rich Presence"
 msgid "Discord Rich Presence."
-msgstr "Discord Rich Presence"
+msgstr "Discord Rich Presence."
 
 #. Help note under the "mpris" setting (Settings > General > This Device).
 #. MPRIS is the name of the Linux standard; leave it untranslated.
@@ -3428,6 +3535,9 @@ msgid ""
 "widgets play, pause and skip, and shows what is playing with its cover "
 "(MPRIS, Linux only)."
 msgstr ""
+"Låter tangentbordets medietangenter, headsetknappar, låsskärmen och "
+"skrivbordets mediewidgetar spela upp, pausa och hoppa över samt visar det "
+"som spelas med omslag (MPRIS, endast Linux)."
 
 #. Explanation shown under the "Audio Output Device" setting (Settings >
 #. Playback > Audio).
@@ -3438,6 +3548,11 @@ msgid ""
 "before it'll let *any* audio through in passthrough mode. In my tests I got "
 "silence otherwise, but results may vary."
 msgstr ""
+"Låt detta vara Standard om du inte konfigurerar genomströmning. Observera "
+"att vissa ljudservrar, som PipeWire, inte fungerar med genomströmning och "
+"måste inaktiveras för ett ljudkort innan de släpper igenom något ljud alls i "
+"genomströmningsläge. I mina tester blev det annars tyst, men resultaten kan "
+"variera."
 
 #. Explanation shown under the "Take the Device Exclusively" setting
 #. (Settings > Playback > Audio).
@@ -3446,6 +3561,8 @@ msgid ""
 "Stop anything else using the device while playing. Needed for passthrough on "
 "some systems, and it means other applications will be silent."
 msgstr ""
+"Stoppa allt annat som använder enheten under uppspelning. Det krävs för "
+"genomströmning på vissa system och innebär att andra program blir tysta."
 
 #. Explanation shown under the "Paginated" setting (Settings > Browse >
 #. Library Browser).
@@ -3455,6 +3572,9 @@ msgid ""
 "screenful with First / Previous / Next / Last controls and a page number you "
 "can type into. Easier than precise scrolling on a trackpad."
 msgstr ""
+"Sidindela biblioteks- och musikrutnäten i stället för att rulla: varje sida "
+"fyller en skärm och har kontrollerna Första/Föregående/Nästa/Sista samt ett "
+"sidnummer som du kan skriva in. Enklare än precis rullning med styrplatta."
 
 #. Explanation shown under the "Remember Library Filters" setting (Settings >
 #. Browse > Library Browser). "Filters" are the choices in a library's Filter
@@ -3465,6 +3585,9 @@ msgid ""
 "favorites and the rest), saved to your account on the server. Off, filters "
 "only last until you leave the library."
 msgstr ""
+"Öppna varje bibliotek igen med de filter det hade förra gången (genre, "
+"ospelat, favoriter och övriga), sparade på ditt konto på servern. Av innebär "
+"att filtren bara finns kvar tills du lämnar biblioteket."
 
 #. Explanation shown under the "Make Live TV logos more legible" setting
 #. (Settings > Browse > Library Browser).
@@ -3476,6 +3599,11 @@ msgid ""
 "get a drop shadow so they keep an edge against it. Off, they get the theme's "
 "card colour and no shadow, as Jellyfin Web does."
 msgstr ""
+"Kanallogotyper är ritade med bläck på genomskinlig bakgrund för den vita yta "
+"som andra klienter använder; på en mörk yta försvinner därför de svarta. På "
+"ger varje logotyp den ljusa platta den skapades för, och de få med vit "
+"kontur får en skugga så att kanten syns. Av använder temats kortfärg utan "
+"skugga, precis som Jellyfin Web."
 
 #. Explanation shown under the "Make library logos more legible" setting
 #. (Settings > Browse > Library Browser).
@@ -3486,6 +3614,10 @@ msgid ""
 "background, and it is the plate that makes it need a shadow. Turn it on if "
 "yours are dark."
 msgstr ""
+"Samma behandling för ett bibliotek som visar bildmaterial av typen Logotyp. "
+"Av är standard: en film- eller serielogotyp är enligt praxis vit och syns "
+"redan på mörk bakgrund, och det är plattan som gör att den behöver en "
+"skugga. Aktivera det om dina är mörka."
 
 #. Explanation shown under the "Theme" setting (Settings > Browse > Theme).
 #: jellyfin_mpv_shim/mpvtk_browser/config.py
@@ -3493,6 +3625,8 @@ msgid ""
 "Palette, glow, cover style and default cover size. Colours change "
 "immediately; cover and heading sizes take effect after a restart."
 msgstr ""
+"Palett, glöd, omslagsstil och standardstorlek för omslag. Färger ändras "
+"omedelbart; storlekar för omslag och rubrik börjar gälla efter omstart."
 
 #. Explanation shown under the "Grid Spacing" setting (Settings > Browse >
 #. Library Browser).
@@ -3502,6 +3636,9 @@ msgid ""
 "gaps keeps the page margins the same on every screen size; centring keeps "
 "the covers evenly spaced and moves both margins instead."
 msgstr ""
+"Var den bredd som ett helt antal omslag inte använder hamnar. Större "
+"mellanrum behåller samma sidmarginaler på alla skärmstorlekar; centrering "
+"håller omslagen jämnt fördelade och flyttar i stället båda marginalerna."
 
 #. Explanation shown under the "Full-Width Backdrops" setting (Settings >
 #. Browse > Library Browser).
@@ -3511,12 +3648,16 @@ msgid ""
 "client does. It shows more of the artwork without taking any more vertical "
 "space."
 msgstr ""
+"Låt bakgrunden på en detaljsida gå ut till fönstrets kanter, som i "
+"webbklienten. Det visar mer av bildmaterialet utan att ta mer lodrätt "
+"utrymme."
 
 #. Explanation shown under the "Cover Size" setting (Settings > Browse >
 #. Theme).
 #: jellyfin_mpv_shim/mpvtk_browser/config.py
 msgid "Overrides the theme's cover size. Also on the View menu of any library."
 msgstr ""
+"Åsidosätter temats omslagsstorlek. Finns även på menyn Vy i varje bibliotek."
 
 #. Explanation shown under the "12-Hour Clock" setting (Settings > Browse >
 #. Library Browser).
@@ -3526,6 +3667,9 @@ msgid ""
 "and its air times, and the \"Ends at\" labels on a detail page and the "
 "player controls."
 msgstr ""
+"Visa tider på dagen som \"8:30 PM\" i stället för \"20:30\" – i Live TV-"
+"guiden och dess sändningstider samt i \"Slutar kl.\"-etiketterna på "
+"detaljsidan och spelarkontrollerna."
 
 #. Explanation shown under the "Shading Behind the Player Controls" setting
 #. (Settings > Playback > Player Controls).
@@ -3534,6 +3678,8 @@ msgid ""
 "The controls have to stay legible over any frame. \"None\" gives the text a "
 "drop shadow instead of shading the picture behind it."
 msgstr ""
+"Kontrollerna måste vara läsliga över varje bildruta. \"Ingen\" ger texten en "
+"skugga i stället för att tona ned bilden bakom den."
 
 #. Explanation shown under the "When the Player Controls Hide" setting
 #. (Settings > Playback > Player Controls).
@@ -3542,6 +3688,8 @@ msgid ""
 "\"Hide unless hovered\" keeps them up only while the pointer is on them, "
 "paused or not."
 msgstr ""
+"\"Dölj om inte muspekaren är över\" visar dem bara medan muspekaren är över "
+"dem, oavsett om uppspelningen är pausad."
 
 #. Explanation shown under the "Hide the Player Controls After (seconds)"
 #. setting (Settings > Playback > Player Controls).
@@ -3550,6 +3698,8 @@ msgid ""
 "0 hides them as soon as the pointer is not on them, and forces \"Hide unless "
 "hovered\"."
 msgstr ""
+"0 döljer dem så fort muspekaren inte är över dem och tvingar fram \"Dölj om "
+"inte muspekaren är över\"."
 
 #. Explanation shown under the "Shrink the Player Controls on a Narrow
 #. Window" setting (Settings > Playback > Player Controls).
@@ -3559,6 +3709,9 @@ msgid ""
 "the accessibility minimum, instead of dropping buttons sooner. Off keeps the "
 "older, larger floor."
 msgstr ""
+"När fönstret smalnar minskas kontrollerna tills den minsta knappen når "
+"tillgänglighetsminimum, i stället för att knappar tas bort tidigare. Av "
+"behåller den äldre, större miniminivån."
 
 #. Explanation shown under the "Mouse Back/Forward Buttons Skip Chapters"
 #. setting (Settings > Playback > Player Controls).
@@ -3567,6 +3720,8 @@ msgid ""
 "During playback only; in the library those buttons stay Back and Forward. "
 "Off by default because they are easy to hit by accident on some mice."
 msgstr ""
+"Endast under uppspelning; i biblioteket förblir knapparna Bakåt och Framåt. "
+"Av är standard eftersom de är lätta att trycka på av misstag med vissa möss."
 
 #. Explanation shown under the "Interface Scale" setting (Settings > Browse
 #. > Theme).
@@ -3575,6 +3730,8 @@ msgstr ""
 msgid ""
 "\"Follow display\" uses the scale your desktop reports, which is 100% on X11."
 msgstr ""
+"\"Följ skärmen\" använder den skala som skrivbordet rapporterar, vilket är "
+"100 % på X11."
 
 #. Explanation shown under the "Text size" setting (Settings > Browse >
 #. Theme).
@@ -3586,6 +3743,11 @@ msgid ""
 "captions are ellipsized, and what needs to be bigger is the whole interface, "
 "which is Interface Scale."
 msgstr ""
+"Skalar endast texten. Gränssnittsskala ovan ändrar storlek på allt, även "
+"bildmaterial, mellanrum och kontroller, så använd denna när orden är för små "
+"i stället för hela gränssnittet. Den stannar vid 150 %: över det förkortas "
+"de flesta rutaetiketter, och det som behöver bli större är hela "
+"gränssnittet, vilket är Gränssnittsskala."
 
 #. Explanation shown under the "Minimum Text Size" setting (Settings >
 #. Browse > Theme).
@@ -3594,6 +3756,9 @@ msgid ""
 "Nothing renders smaller than this, whatever Text Size works out to. Raises "
 "the smallest labels without enlarging headings, which a percentage cannot do."
 msgstr ""
+"Inget visas mindre än detta, oavsett vilket resultat Textstorlek ger. Höjer "
+"de minsta etiketterna utan att förstora rubriker, vilket en procentsats inte "
+"kan göra."
 
 #. Explanation shown under the "Audio Output Mode" setting (Settings >
 #. Playback > Audio).
@@ -3602,6 +3767,8 @@ msgid ""
 "\"Default\" changes nothing and lets MPV (and your own mpv.conf) decide. "
 "Pick a mode only if you are sending audio to a receiver."
 msgstr ""
+"\"Standard\" ändrar inget och låter MPV (och din egen mpv.conf) avgöra. Välj "
+"ett läge endast om du skickar ljudet till en AV-receiver."
 
 #. Explanation shown under the "Re-encode Others to AC3" setting (Settings
 #. > Playback > Audio).
@@ -3611,6 +3778,9 @@ msgid ""
 "surround fits down an optical cable. Turn this off if the encoder causes "
 "audio delay; those tracks become stereo instead."
 msgstr ""
+"Ljud som mottagaren inte kan ta emot direkt kodas till AC3, det enda sättet "
+"att få surroundljud genom en optisk kabel. Stäng av detta om kodaren orsakar "
+"ljudfördröjning; de spåren blir då stereo i stället."
 
 #. Explanation shown under the "Profile Group" setting (Settings > Playback
 #. > Video Enhancement).
@@ -3618,6 +3788,8 @@ msgstr ""
 msgid ""
 "\"hq\" offers heavier profiles. Pick it if you have a fast graphics card."
 msgstr ""
+"\"hq\" erbjuder mer krävande profiler. Välj det om du har ett snabbt "
+"grafikkort."
 
 #. Explanation shown under the "Graphics API for Shaders" setting (Settings
 #. > Playback > Video Enhancement).
@@ -3626,6 +3798,8 @@ msgid ""
 "Leave on Automatic unless video breaks when a profile is loaded. This only "
 "applies while a profile is active, and OpenGL can cost you HDR output."
 msgstr ""
+"Låt stå på Automatiskt om videon bryts när en profil laddas. Detta gäller "
+"bara när en profil är aktiv, och OpenGL kan göra att HDR-utmatning uteblir."
 
 #. Explanation shown under the "Type Size" setting (Settings > Browse >
 #. Reading).
@@ -3634,6 +3808,8 @@ msgid ""
 "In pixels, before interface scaling. The A- and A+ buttons in the reader "
 "change this too."
 msgstr ""
+"I pixlar, före gränssnittsskalning. Knapparna A- och A+ i läsaren ändrar "
+"också detta."
 
 #. Explanation shown under the "Comic Reading Mode" setting (Settings >
 #. Browse > Reading).
@@ -3642,6 +3818,8 @@ msgid ""
 "How a comic page is fitted to the window when you open it. The reader's own "
 "buttons change this too."
 msgstr ""
+"Hur en seriesida anpassas till fönstret när du öppnar den. Läsarens egna "
+"knappar ändrar också detta."
 
 #. Explanation shown under the "Night Mode (Auto Volume Adj)" setting
 #. (Settings > Playback > Audio).
@@ -3651,6 +3829,8 @@ msgid ""
 "it is enabled, because the volume has to be adjusted before your receiver "
 "gets the audio."
 msgstr ""
+"Jämnar ut höga effekter och låg dialog. Genomströmning stängs av när detta "
+"är aktiverat, eftersom volymen måste justeras innan din receiver får ljudet."
 
 # seeded from jellyfin-web: HeaderStatus
 #. Heading of the first section of the library filter panel, above the
@@ -3670,10 +3850,8 @@ msgstr "Inte spelad"
 #. items the viewer has already watched. Must read differently from "Play":
 #. in one language these collapsed and the row read "Not played / Play".
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
-#| msgid "SyncPlay"
 msgid "Played"
-msgstr "SyncPlay"
+msgstr "Spelad"
 
 #. Three uses, all about items the viewer has marked with the heart. A
 #. checkbox in the library filter panel; a button that filters the Live TV
@@ -3682,19 +3860,16 @@ msgstr "SyncPlay"
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
 #: jellyfin_mpv_shim/mpvtk_browser/window_chrome.py
-#, fuzzy
-#| msgid "Remove Server"
 msgid "Favorites"
-msgstr "Ta bort server"
+msgstr "Favoriter"
 
 # seeded from jellyfin-web: ButtonResume
 #. Checkbox in the filter panel's Status section. Restricts the library to
 #. items that were started and not finished, so playback would resume part
 #. way in.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
 msgid "Resumable"
-msgstr "Återuppta"
+msgstr "Kan återupptas"
 
 # seeded from jellyfin-web: Genres
 #. Heading of the library filter panel's genre section, and the label of
@@ -3710,7 +3885,6 @@ msgstr "Genrer"
 #. Heading of a filter-panel section, above a dropdown listing the release
 #. years in this library.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
 msgid "Years"
 msgstr "År"
 
@@ -3733,15 +3907,13 @@ msgstr "Etiketter"
 #. languages available in this library.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "Audio Language"
-msgstr ""
+msgstr "Ljudspråk"
 
 #. Heading of a filter-panel section, above a dropdown of the subtitle
 #. languages available in this library.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
-#| msgid "Subtitle Size: {0}"
 msgid "Subtitle Language"
-msgstr "Storlek på undertexter: {0}"
+msgstr "Undertextspråk"
 
 # seeded from jellyfin-web: Features
 #. Heading of a filter-panel section, above checkboxes for extras an item
@@ -3753,44 +3925,39 @@ msgstr "Innehåll"
 #. Checkbox in the filter panel's Features section. Restricts the library
 #. to items that carry subtitles.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
-#| msgid "Subtitle Size: {0}"
 msgid "Has Subtitles"
-msgstr "Storlek på undertexter: {0}"
+msgstr "Har undertexter"
 
 #. Checkbox in the filter panel's Features section. Restricts the library
 #. to items that have a trailer.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
-#| msgid "Fail"
 msgid "Has Trailer"
-msgstr "Misslyckat"
+msgstr "Har förhandsvisning"
 
 #. Checkbox in the filter panel's Features section. Restricts the library
 #. to items with bonus material (deleted scenes, featurettes).
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "Has Special Features"
-msgstr ""
+msgstr "Har extramaterial"
 
 #. Checkbox in the filter panel's Features section. Restricts the library
 #. to items with a theme song attached.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "Has Theme Song"
-msgstr ""
+msgstr "Har temasång"
 
 #. Checkbox in the filter panel's Features section. Restricts the library
 #. to items with a theme video attached.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "Has Theme Video"
-msgstr ""
+msgstr "Har temavideo"
 
 # seeded from jellyfin-web: HeaderVideos
 #. Heading of a filter-panel section, above checkboxes for resolution and
 #. disc format (SD, HD, 4K, 3D, DVD, Blu-ray, ISO).
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
 msgid "Video Types"
-msgstr "Videor"
+msgstr "Videotyper"
 
 # seeded from jellyfin-web: ChannelResolutionSD
 #. Checkbox in the filter panel's Video Types section: standard definition.
@@ -3811,7 +3978,7 @@ msgstr "HD"
 #. Normally left as-is.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "4K"
-msgstr ""
+msgstr "4K"
 
 # seeded from jellyfin-web: Option3D
 #. Checkbox in the filter panel's Video Types section: stereoscopic 3D
@@ -3831,32 +3998,30 @@ msgstr "DVD"
 #. Blu-ray disc. A trademark, left as-is.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "Blu-ray"
-msgstr ""
+msgstr "Blu-ray"
 
 #. Checkbox in the filter panel's Video Types section: a whole disc image
 #. file. Left as-is.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "ISO"
-msgstr ""
+msgstr "ISO"
 
 #. Title of the modal that puts the selected item into a playlist.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
-#| msgid "Remove Server"
 msgid "Add to Playlist"
-msgstr "Ta bort server"
+msgstr "Lägg till i spellista"
 
 #. Shown in the Add to Playlist modal when the viewer has no playlists on
 #. the server.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "No playlists yet."
-msgstr ""
+msgstr "Inga spellistor än."
 
 #. Placeholder text in the empty text field where a new playlist's name is
 #. typed, in the Add to Playlist modal.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "New playlist name…"
-msgstr ""
+msgstr "Namn på ny spellista…"
 
 # seeded from jellyfin-web: Create
 #. Button in the Add to Playlist and Add to Collection modals. Makes the
@@ -3870,15 +4035,13 @@ msgstr "Skapa"
 #. is visible to other users of the server.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "Private (only you can see it)"
-msgstr ""
+msgstr "Privat (endast du kan se den)"
 
 #. Button in the Add to Playlist modal that switches to the Add to
 #. Collection modal. The ellipsis means it opens another view.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
-#| msgid "Remove Server"
 msgid "Collections…"
-msgstr "Ta bort server"
+msgstr "Samlingar…"
 
 #. Button that dismisses something without acting. Used on modals (Add to
 #. Playlist, Reading Progress, SyncPlay, the recording dialogs) and as the
@@ -3893,25 +4056,19 @@ msgstr "Stäng"
 #. Title of the modal that puts the selected item into a collection
 #. (Jellyfin's grouping of related items, such as a film series).
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
-#| msgid "Remove Server"
 msgid "Add to Collection"
-msgstr "Ta bort server"
+msgstr "Lägg till i samling"
 
 #. Shown in the Add to Collection modal when the server has no collections.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
-#| msgid "Remove Server"
 msgid "No collections yet."
-msgstr "Ta bort server"
+msgstr "Inga samlingar än."
 
 #. Placeholder text in the empty text field where a new collection's name
 #. is typed.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
-#| msgid "Username: "
 msgid "New collection name…"
-msgstr "Användarnamn: "
+msgstr "Namn på ny samling…"
 
 # seeded from jellyfin-web: ButtonBack
 #. Goes one step back. The navigation bar's back button, the row that
@@ -3929,8 +4086,6 @@ msgstr "Föregående"
 #. Stands in for the name of a media source (a file or version of an item)
 #. that the server did not name, in the Media Info modal.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
-#| msgid "Unkn"
 msgid "Unknown"
 msgstr "Okänd"
 
@@ -3938,7 +4093,7 @@ msgstr "Okänd"
 #. or subtitle stream details for the item.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "No media information is available."
-msgstr ""
+msgstr "Det finns ingen medieinformation tillgänglig."
 
 # seeded from jellyfin-web: MoreMediaInfo
 #. The panel listing an item's video, audio and subtitle stream details.
@@ -3960,34 +4115,20 @@ msgstr "OK"
 #. Error in the Download modal for a special feature (an extra belonging to a
 #. film or show). They can only be played from the server.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
-#| msgid ""
-#| "Could not add server.\n"
-#| "Please check your connection information."
 msgid "Special features cannot be downloaded."
-msgstr ""
-"Kunde inte lägga till server.\n"
-"Var snäll och kolla din uppkoppling."
+msgstr "Extramaterial kan inte hämtas."
 
 #. Error shown in the Download modal when the server could not be asked
 #. which episodes are still missing.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
-#| msgid ""
-#| "Could not add server.\n"
-#| "Please check your connection information."
 msgid "Could not check what needs downloading."
-msgstr ""
-"Kunde inte lägga till server.\n"
-"Var snäll och kolla din uppkoppling."
+msgstr "Kunde inte kontrollera vad som behöver hämtas."
 
 #. Placeholder in the Download modal while the app works out how many items
 #. would be downloaded and how much space they need.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
-#| msgid "SVP Settings"
 msgid "Estimating…"
-msgstr "SVP Inställningar"
+msgstr "Beräknar…"
 
 #. Summary line in the Download modal. %(count)d is a number of items,
 #. %(size)s an already-formatted size such as "4.2 GB". The middle
@@ -3996,28 +4137,28 @@ msgstr "SVP Inställningar"
 #: jellyfin_mpv_shim/mpvtk_browser/settings/downloads.py
 #, python-format
 msgid "%(count)d items · %(size)s"
-msgstr ""
+msgstr "%(count)d objekt · %(size)s"
 
 #. Part of the Download modal's summary, in a parenthesised list: how many
 #. of the items are on disk already.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 #, python-format
 msgid "%d already downloaded"
-msgstr ""
+msgstr "%d har redan hämtats"
 
 #. Part of the Download modal's summary, in a parenthesised list: how many
 #. of the items have already been watched.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 #, python-format
 msgid "%d watched"
-msgstr ""
+msgstr "%d har setts"
 
 #. Part of the Download modal's summary, in a parenthesised list: how many
 #. items the server would not give a size for.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 #, python-format
 msgid "%d of unknown size"
-msgstr ""
+msgstr "%d av okänd storlek"
 
 # seeded from jellyfin-web: Download
 #. Title of the modal that downloads items for offline viewing. A noun
@@ -4032,24 +4173,24 @@ msgstr "Ladda ned"
 #. left out of the download.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "Include watched"
-msgstr ""
+msgstr "Inkludera sedda"
 
 #. Shown in the Download modal when every item in the selection is already
 #. on disk.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "Nothing left to download."
-msgstr ""
+msgstr "Inget återstår att hämta."
 
 #. Error shown when the Download modal's button failed to queue anything.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "The download could not be started."
-msgstr ""
+msgstr "Det gick inte att starta hämtningen."
 
 #. Shown in place of the filter controls when the server offers nothing to
 #. filter this library by.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "This library offers no filters."
-msgstr ""
+msgstr "Det här biblioteket erbjuder inga filter."
 
 # seeded from jellyfin-web: Filters
 #. Title of the modal that filters a library grid.
@@ -4069,24 +4210,22 @@ msgstr "%d objekt"
 
 #. Button in the Filters modal. Removes every filter that is set.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
-#| msgid "SyncPlay"
 msgid "Clear All"
-msgstr "SyncPlay"
+msgstr "Rensa alla"
 
 #. Button that closes the Filters modal, and the View settings modal,
 #. keeping what was chosen. Not "finished" in the sense of a task
 #. completing.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "Done"
-msgstr ""
+msgstr "Klar"
 
 #. First entry of every filter-panel dropdown, meaning no restriction on
 #. this field. Neuter, since it stands for genre, year, rating, tag or
 #. language alike.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "Any"
-msgstr ""
+msgstr "Alla"
 
 #. One English word, two senses. The first choice in a library's Artwork
 #. dropdown, where the tile shape is taken from whatever artwork the item
@@ -4094,10 +4233,8 @@ msgstr ""
 #. playback controls, where it means MPV decides.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 #: jellyfin_mpv_shim/mpvtk_browser/hud.py jellyfin_mpv_shim/osc_bridge.py
-#, fuzzy
-#| msgid "Auto Play"
 msgid "Auto"
-msgstr "Automatisk uppspelning"
+msgstr "Automatiskt"
 
 # seeded from jellyfin-web: Poster
 #. Choice in the Artwork dropdown of a library's View settings: tall
@@ -4110,15 +4247,13 @@ msgstr "Affisch"
 #. landscape still.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "Thumbnail"
-msgstr ""
+msgstr "Miniatyr"
 
 #. Choice in the Artwork dropdown of a library's View settings: a wide,
 #. short banner image.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
-#| msgid "Quit and Mark Unwatched"
 msgid "Banner"
-msgstr "Avsluta och märk som ospelad"
+msgstr "Banderoll"
 
 # seeded from jellyfin-web: Logo
 #. Choice in the Artwork dropdown of a library's View settings: the title
@@ -4139,7 +4274,7 @@ msgstr "Skiva"
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 #: jellyfin_mpv_shim/mpvtk_browser/settings/home.py
 msgid "Artwork"
-msgstr ""
+msgstr "Bildmaterial"
 
 #. Explanation under the Artwork dropdown in a library's View settings.
 #. "Auto" and "Poster" are two of that dropdown's choices; keep them
@@ -4149,27 +4284,26 @@ msgid ""
 "“Auto” shapes the tiles from the artwork itself, which usually comes out as "
 "posters. Choose “Poster” to insist on them."
 msgstr ""
+"\"Automatiskt\" formar rutorna efter själva bildmaterialet, vilket "
+"vanligtvis blir affischer. Välj \"Affisch\" för att alltid använda dem."
 
 #. Checkbox in a library's View settings. Draws each item's name under its
 #. tile.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
-#| msgid "Subtitle Size: {0}"
 msgid "Show titles"
-msgstr "Storlek på undertexter: {0}"
+msgstr "Visa titlar"
 
 #. Checkbox in a library's View settings. Draws each item's release year
 #. under its tile.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
 msgid "Show years"
-msgstr "Serier"
+msgstr "Visa årtal"
 
 #. Checkbox in a library's View settings, switching the layout from tiles
 #. to a single-column list.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "List instead of a grid"
-msgstr ""
+msgstr "Lista i stället för rutnät"
 
 #. Explanation in a library's View settings, saying those choices are saved
 #. to the Jellyfin server rather than to this device, so Jellyfin Web sees
@@ -4177,14 +4311,14 @@ msgstr ""
 #. as-is.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "These are stored on your server and shared with Jellyfin Web."
-msgstr ""
+msgstr "Dessa lagras på din server och delas med Jellyfin Web."
 
 #. Checkbox in a library's View settings, switching the grid from scrolling
 #. to one screenful at a time with page buttons.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 #: jellyfin_mpv_shim/mpvtk_browser/pages/music.py
 msgid "Paginated"
-msgstr ""
+msgstr "Sidindelad"
 
 #. Explanation under the Paginated checkbox in a library's View settings.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
@@ -4192,14 +4326,14 @@ msgid ""
 "Show one page of tiles at a time instead of scrolling. Applies to every "
 "library on this device."
 msgstr ""
+"Visa en sida med rutor i taget i stället för att rulla. Gäller alla "
+"bibliotek på enheten."
 
 #. Title of the modal that chooses how one library's tiles are drawn.
 #. Sentence case in English.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
-#| msgid "SVP Settings"
 msgid "View settings"
-msgstr "SVP Inställningar"
+msgstr "Visningsinställningar"
 
 #. Explanation under the "Make library logos more legible" checkbox in a
 #. library's View settings. "Plate" here is the solid light rectangle drawn
@@ -4210,24 +4344,27 @@ msgid ""
 "shadows the ones whose own outline is white. Off puts the theme's card "
 "colour behind them instead, with no shadows."
 msgstr ""
+"Lägger den ljusa platta bakom genomskinliga logotyper som de är ritade för "
+"och skuggar de logotyper vars egen kontur är vit. Av använder i stället "
+"temats kortfärg bakom dem, utan skuggor."
 
 #. Default title of the plain message dialog, used when the caller supplied
 #. none.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "Notice"
-msgstr ""
+msgstr "Meddelande"
 
 #. Message shown when the viewer asked to copy text but this build of MPV
 #. cannot reach the system clipboard.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "Copying to the clipboard is not available."
-msgstr ""
+msgstr "Kopiering till urklipp är inte tillgänglig."
 
 #. Message shown when the viewer asked to paste but this build of MPV
 #. cannot reach the system clipboard.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "Pasting from the clipboard is not available."
-msgstr ""
+msgstr "Klistra in från urklipp är inte tillgängligt."
 
 #. Follows the message saying the clipboard is unavailable. %(package)s is
 #. a software package name and the parenthesis holds a shell command; leave
@@ -4238,6 +4375,8 @@ msgid ""
 "Install the \"%(package)s\" package (for example \"apt install "
 "%(package)s\"), or use MPV 0.41 or newer."
 msgstr ""
+"Installera paketet \"%(package)s\" (till exempel \"apt install %(package)s\")"
+", eller använd MPV 0.41 eller senare."
 
 #. Follows the message saying the clipboard is unavailable. %(package)s is
 #. a software package name and the parenthesis holds a shell command; leave
@@ -4248,27 +4387,27 @@ msgid ""
 "Install the \"%(package)s\" package (for example \"apt install "
 "%(package)s\")."
 msgstr ""
+"Installera paketet \"%(package)s\" (till exempel \"apt install %(package)s\")"
+"."
 
 #. Follows the clipboard message above, naming the MPV version that gained
 #. clipboard support.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "Use MPV 0.41 or newer."
-msgstr ""
+msgstr "Använd MPV 0.41 eller senare."
 
 #. Title of the dialog explaining that copy or paste is unavailable.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "Clipboard"
-msgstr ""
+msgstr "Urklipp"
 
 #. Default title of the yes/no dialog, used when the caller supplied none.
 #. A noun naming the dialog, not an instruction to the reader. Split from
 #. the Set PIN dialog's field label of the same English word.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
-#| msgid "Confirm"
 msgctxt "dialog heading"
 msgid "Confirm"
-msgstr "Bekräfta"
+msgstr "Bekräftelse"
 
 #. Shown in the Reading Progress dialog. %s is another application's name.
 #. Jellyfin stores an ebook position as a fraction of the whole book, not
@@ -4280,100 +4419,94 @@ msgid ""
 "shows you a number for — so there is nothing meaningful to set by hand. It "
 "is still read from the server and shown above."
 msgstr ""
+"%s sparar din plats som läsposition i e-boken, vilket inget program visar "
+"som ett tal – därför finns inget meningsfullt att ange manuellt. Den läses "
+"fortfarande från servern och visas ovan."
 
 #. Shown in the Reading Progress dialog. %s is another application's name.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 #, python-format
 msgid "%s stores no reading position."
-msgstr ""
+msgstr "%s sparar ingen läsposition."
 
 #. Title of the dialog that reads or writes how far through a book the
 #. viewer is.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
-#| msgid "Open Config Folder"
 msgid "Reading Progress"
-msgstr "Öppna konfigurationsmapp"
+msgstr "Läsförlopp"
 
 #. Shown in the Reading Progress dialog while the stored position is being
 #. fetched from the server.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "Reading the position…"
-msgstr ""
+msgstr "Läser läspositionen…"
 
 #. Button in the Reading Progress dialog. Takes the position stored on the
 #. server and applies it here. An imperative verb, paired with Push.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "Pull"
-msgstr ""
+msgstr "Hämta"
 
 #. Button in the Reading Progress dialog. Sends the position reached here
 #. up to the server. An imperative verb, paired with Pull.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "Push"
-msgstr ""
+msgstr "Skicka"
 
 #. Error in the Reading Progress dialog when the stored reading position
 #. could not be fetched from the server.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "The position could not be read."
-msgstr ""
+msgstr "Det gick inte att läsa läspositionen."
 
 #. Validation message in the Reading Progress dialog when what was typed in
 #. the page field is not a number.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
-#| msgid "Change Subtitles"
 msgid "Enter a number."
-msgstr "Ändra undertexter"
+msgstr "Ange ett tal."
 
 #. Validation message in the Reading Progress dialog. %d is the last page
 #. of the book.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 #, python-format
 msgid "Enter a page between 1 and %d."
-msgstr ""
+msgstr "Ange en sida mellan 1 och %d."
 
 #. Validation message in the Reading Progress dialog, used when the book's
 #. length is unknown.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "Enter a page of 1 or more."
-msgstr ""
+msgstr "Ange en sida som är minst 1."
 
 #. Status message confirming the reading position was sent to the server.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "Reading position saved."
-msgstr ""
+msgstr "Läspositionen har sparats."
 
 #. Error in the Reading Progress dialog when the reading position could not
 #. be sent to the server.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "The position could not be saved."
-msgstr ""
+msgstr "Det gick inte att spara läspositionen."
 
 #. One row of the SyncPlay group list. %s is a group's name, and the suffix
 #. marks the group this device is currently in.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy, python-format
-#| msgid "{0} has joined."
+#, python-format
 msgid "%s (joined)"
-msgstr "{0} har anslutit."
+msgstr "%s (ansluten)"
 
 #. Stands in for the name of a SyncPlay group the server did not name. A
 #. set of people watching in sync.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
-#| msgid "New Group"
 msgid "Group"
-msgstr "Ny grupp"
+msgstr "Grupp"
 
 #. Shown in the SyncPlay dialog when nobody on this server has a watch-
 #. together group open.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
-#| msgid "New Group"
 msgid "No active groups."
-msgstr "Ny grupp"
+msgstr "Inga aktiva grupper."
 
 #. Button that starts a new SyncPlay watch-together group. On the SyncPlay
 #. dialog and on the playback controls.
@@ -4393,10 +4526,8 @@ msgstr "Återuppta lokal uppspelning"
 #. Button in the SyncPlay dialog that takes this device out of the watch-
 #. together group. An imperative verb.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
-#| msgid "New Group"
 msgid "Leave"
-msgstr "Ny grupp"
+msgstr "Lämna"
 
 # seeded from jellyfin-web: Refresh
 #. Button that fetches something again: the SyncPlay group list, the
@@ -4409,68 +4540,43 @@ msgstr "Uppdatera"
 
 #. Error shown when joining a watch-together group failed.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
-#| msgid ""
-#| "Could not add server.\n"
-#| "Please check your connection information."
 msgid "Could not join the SyncPlay group."
-msgstr ""
-"Kunde inte lägga till server.\n"
-"Var snäll och kolla din uppkoppling."
+msgstr "Det gick inte att ansluta till SyncPlay-gruppen."
 
 #. Error shown when starting a watch-together group failed.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
-#| msgid ""
-#| "Could not add server.\n"
-#| "Please check your connection information."
 msgid "Could not create the SyncPlay group."
-msgstr ""
-"Kunde inte lägga till server.\n"
-"Var snäll och kolla din uppkoppling."
+msgstr "Det gick inte att skapa SyncPlay-gruppen."
 
 #. Error shown when leaving a watch-together group failed.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
-#| msgid ""
-#| "Could not add server.\n"
-#| "Please check your connection information."
 msgid "Could not leave the SyncPlay group."
-msgstr ""
-"Kunde inte lägga till server.\n"
-"Var snäll och kolla din uppkoppling."
+msgstr "Det gick inte att lämna SyncPlay-gruppen."
 
 #. Error shown when returning to synchronised playback failed.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
-#, fuzzy
-#| msgid "Could not start Quick Connect."
 msgid "Could not resume SyncPlay playback."
-msgstr "Kunde inte starta Quick Connect."
+msgstr "Det gick inte att återuppta SyncPlay-uppspelningen."
 
 #. Heading of a downloads group: episodes fetched automatically because
 #. they are next to watch in a series being followed.
 #: jellyfin_mpv_shim/mpvtk_browser/downloads.py
-#, fuzzy
-#| msgid "Automatic"
 msgid "Automatic: Next Up"
-msgstr "Automatisk"
+msgstr "Automatiskt: Nästa på tur"
 
 #. Heading of a downloads group: episodes fetched automatically because the
 #. series is being watched right now.
 #: jellyfin_mpv_shim/mpvtk_browser/downloads.py
-#, fuzzy
-#| msgid "Remove Server"
 msgid "Automatic: Actively Watched"
-msgstr "Ta bort server"
+msgstr "Automatiskt: Aktivt tittande"
 
 # seeded from jellyfin-web: Audio
 #. Name of a search-results and library group holding books read aloud.
 #: jellyfin_mpv_shim/mpvtk_browser/downloads.py
 #: jellyfin_mpv_shim/mpvtk_browser/pages/search.py
 #: jellyfin_mpv_shim/mpvtk_browser/repository.py
-#, fuzzy
 msgid "Audiobooks"
-msgstr "Ljud"
+msgstr "Ljudböcker"
 
 # seeded from jellyfin-web: Books
 #. Name of a search-results and library group holding readable books, and
@@ -4485,7 +4591,7 @@ msgstr "Böcker"
 #. folder, so there is nothing to file them under.
 #: jellyfin_mpv_shim/mpvtk_browser/downloads.py
 msgid "Ungrouped"
-msgstr ""
+msgstr "Ogrupperat"
 
 # seeded from jellyfin-web: Episodes
 #. Name of a search-results and library group holding single episodes of a
@@ -4510,50 +4616,43 @@ msgstr "Specialavsnitt"
 #: jellyfin_mpv_shim/mpvtk_browser/downloads.py
 #, python-format
 msgid "Season %s"
-msgstr ""
+msgstr "Säsong %s"
 
 #. State of a download in progress. %d is the percentage finished; the
 #. doubled percent sign prints one.
 #: jellyfin_mpv_shim/mpvtk_browser/downloads.py
 #, python-format
 msgid "Downloading %d%%"
-msgstr ""
+msgstr "Hämtar %d %%"
 
 #. State of a download that has started but has no progress figure yet.
 #: jellyfin_mpv_shim/mpvtk_browser/downloads.py
-#, fuzzy
-#| msgid "Remove Server"
 msgid "Downloading"
-msgstr "Ta bort server"
+msgstr "Hämtar"
 
 #. Status of one queued download in Settings > Downloads, in place of
 #. "Queued": it was queued by another profile whose saved login no longer
 #. works, so it waits for that person to sign in. %s is the profile's name.
 #: jellyfin_mpv_shim/mpvtk_browser/downloads.py
-#, fuzzy, python-format
-#| msgid "Waiting for approval…"
+#, python-format
 msgid "Waiting for %s to sign in…"
-msgstr "Väntar på godkännande…"
+msgstr "Väntar på att %s ska logga in…"
 
 #. Same status as "Waiting for %s to sign in…", when no profile on this
 #. computer holds the login that queued the download any more.
 #: jellyfin_mpv_shim/mpvtk_browser/downloads.py
-#, fuzzy
-#| msgid "Waiting for approval…"
 msgid "Waiting for its profile to sign in…"
-msgstr "Väntar på godkännande…"
+msgstr "Väntar på att dess profil ska logga in…"
 
 #. State of a download waiting for its turn.
 #: jellyfin_mpv_shim/mpvtk_browser/downloads.py
 msgid "Queued"
-msgstr ""
+msgstr "I kö"
 
 #. State of a download that did not finish.
 #: jellyfin_mpv_shim/mpvtk_browser/downloads.py
-#, fuzzy
-#| msgid "Fail"
 msgid "Failed"
-msgstr "Misslyckat"
+msgstr "Misslyckades"
 
 # seeded from jellyfin-web: ButtonTogglePlaylist
 #. Stands in for the name of a downloaded playlist the catalog did not
@@ -4566,25 +4665,25 @@ msgstr "Spellista"
 #. Heading of a downloads group whose series could not be identified.
 #: jellyfin_mpv_shim/mpvtk_browser/downloads.py
 msgid "Unknown Series"
-msgstr ""
+msgstr "Okänd serie"
 
 #. Heading of the downloads group holding films and standalone videos.
 #: jellyfin_mpv_shim/mpvtk_browser/downloads.py
 msgid "Movies & Videos"
-msgstr ""
+msgstr "Filmer och videor"
 
 #. First entry of the audio or video track list on the playback controls:
 #. no explicit choice, so MPV picks. "mpv" is the media player's name,
 #. always lower case.
 #: jellyfin_mpv_shim/mpvtk_browser/gateway/playback.py
 msgid "Default (mpv decides)"
-msgstr ""
+msgstr "Standard (mpv avgör)"
 
 #. Shown on the Live TV Channels tab when the server offers no channels.
 #: jellyfin_mpv_shim/mpvtk_browser/guide_view.py
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
 msgid "No channels available."
-msgstr ""
+msgstr "Inga kanaler tillgängliga."
 
 # seeded from jellyfin-web: None
 #. Choice for a home-screen row, leaving that slot empty. It agrees with
@@ -4625,9 +4724,8 @@ msgstr "Fortsätt lyssna på"
 #. choice for one in the Home Screen settings.
 #: jellyfin_mpv_shim/mpvtk_browser/home_sections.py
 #: jellyfin_mpv_shim/mpvtk_browser/repository.py
-#, fuzzy
 msgid "Continue Reading"
-msgstr "Fortsätt titta"
+msgstr "Fortsätt läsa"
 
 # seeded from jellyfin-web: NextUp
 #. The next unwatched episode of a series being followed. The name of a
@@ -4661,15 +4759,13 @@ msgstr "Pågående inspelningar"
 #. first. The ellipsis means it opens another menu.
 #: jellyfin_mpv_shim/mpvtk_browser/hud.py
 msgid "Secondary…"
-msgstr ""
+msgstr "Sekundär…"
 
 #. Tooltip of the subtitle button on the playback controls drawn over the
 #. video.
 #: jellyfin_mpv_shim/mpvtk_browser/hud.py
-#, fuzzy
-#| msgid "Select Subtitle Track"
 msgid "Subtitle Track"
-msgstr "Välj undertext"
+msgstr "Undertextspår"
 
 #. Stands in for the name of a chapter the file did not name, wherever
 #. chapters are listed. %d is its number.
@@ -4679,7 +4775,7 @@ msgstr "Välj undertext"
 #: jellyfin_mpv_shim/mpvtk_browser/pages/detail.py
 #, python-format
 msgid "Chapter %d"
-msgstr ""
+msgstr "Kapitel %d"
 
 #. The chapter list of what is playing. The tooltip of the chapter button
 #. on the playback controls and the now-playing bar, and the heading over
@@ -4688,23 +4784,19 @@ msgstr ""
 #: jellyfin_mpv_shim/mpvtk_browser/music.py
 #: jellyfin_mpv_shim/mpvtk_browser/pages/books.py
 msgid "Chapters"
-msgstr ""
+msgstr "Kapitel"
 
 #. Tooltip of the audio button on the playback controls drawn over the
 #. video.
 #: jellyfin_mpv_shim/mpvtk_browser/hud.py
-#, fuzzy
-#| msgid "Select Audio Track"
 msgid "Audio Track"
-msgstr "Välj ljudfil"
+msgstr "Ljudspår"
 
 #. Tooltip of the quality button on the playback controls, which limits how
 #. much bandwidth the server may use.
 #: jellyfin_mpv_shim/mpvtk_browser/hud.py
-#, fuzzy
-#| msgid "Change Video Quality"
 msgid "Video Quality"
-msgstr "Ändra filmkvalité"
+msgstr "Videokvalitet"
 
 # seeded from jellyfin-web: PlaybackRate
 #. Row on the settings menu of the playback controls, opening a list of
@@ -4725,43 +4817,35 @@ msgstr "Bildförhållande"
 #. on for this video only, for a file that is interlaced without saying so.
 #. An imperative verb.
 #: jellyfin_mpv_shim/mpvtk_browser/hud.py
-#, fuzzy
 msgid "Deinterlace"
-msgstr "Sammanflätad"
+msgstr "Avfläta"
 
 #. Row on the settings menu of the playback controls, and the title of the
 #. in-player submenu, choosing how large subtitles are drawn.
 #: jellyfin_mpv_shim/mpvtk_browser/hud.py jellyfin_mpv_shim/osc_bridge.py
-#, fuzzy
-#| msgid "Subtitle Size: {0}"
 msgid "Subtitle Size"
-msgstr "Storlek på undertexter: {0}"
+msgstr "Undertextstorlek"
 
 #. Row on the settings menu of the playback controls, and the title of the
 #. in-player submenu, choosing where on screen subtitles are drawn.
 #: jellyfin_mpv_shim/mpvtk_browser/hud.py jellyfin_mpv_shim/osc_bridge.py
-#, fuzzy
-#| msgid "Subtitle Position: {0}"
 msgid "Subtitle Position"
-msgstr "Position på undertexter: {0}"
+msgstr "Undertextplacering"
 
 #. Row on the settings menu of the playback controls, and the title of the
 #. in-player submenu, choosing the colour subtitles are drawn in. American
 #. spelling of "colour".
 #: jellyfin_mpv_shim/mpvtk_browser/hud.py jellyfin_mpv_shim/osc_bridge.py
-#, fuzzy
-#| msgid "Subtitle Color: {0}"
 msgid "Subtitle Color"
-msgstr "Färg på undertexter: {0}"
+msgstr "Undertextfärg"
 
 # seeded from jellyfin-web: HeaderSyncPlayPlaybackSettings
 #. Row on the settings menu of the playback controls, and the title of the
 #. panel it opens, listing how the video is reaching this device and what
 #. MPV is doing with it.
 #: jellyfin_mpv_shim/mpvtk_browser/hud.py
-#, fuzzy
 msgid "Playback Info"
-msgstr "Uppspelning"
+msgstr "Uppspelningsinformation"
 
 #. Means "nothing chosen, and the feature is off". The first entry of the
 #. SyncPlay list on the playback controls, and of the video-profile list.
@@ -4780,10 +4864,8 @@ msgstr "Hårdvaruacceleration"
 #. Row in the Playback Info panel: which MPV video output driver is drawing
 #. the picture.
 #: jellyfin_mpv_shim/mpvtk_browser/hud.py
-#, fuzzy
-#| msgid "Change Video Quality"
 msgid "Video output"
-msgstr "Ändra filmkvalité"
+msgstr "Videoutmatning"
 
 # seeded from jellyfin-web: LabelDroppedFrames
 #. Row in the Playback Info panel: how many frames were skipped rather than
@@ -4797,62 +4879,57 @@ msgstr "Tappade bildrutor"
 #: jellyfin_mpv_shim/mpvtk_browser/hud.py
 #, python-format
 msgid "%(vo)d output, %(dec)d decoder"
-msgstr ""
+msgstr "%(vo)d utdata, %(dec)d avkodare"
 
 #. Row in the Playback Info panel: how far the audio and video have drifted
 #. apart, in seconds. Short for audio/video.
 #: jellyfin_mpv_shim/mpvtk_browser/hud.py
 msgid "A/V sync"
-msgstr ""
+msgstr "A/V-synk"
 
 #. Row in the Playback Info panel: how many seconds of the stream have been
 #. read ahead.
 #: jellyfin_mpv_shim/mpvtk_browser/hud.py
 msgid "Buffered"
-msgstr ""
+msgstr "Buffrad"
 
 #. Value of the Buffered row in the Playback Info panel. The unit is
 #. seconds.
 #: jellyfin_mpv_shim/mpvtk_browser/hud.py
 #, python-format
 msgid "%.1f s"
-msgstr ""
+msgstr "%.1f s"
 
 # seeded from jellyfin-web: DownloadManager
 #. Row in the Playback Info panel: how fast the stream is arriving from the
 #. server.
 #: jellyfin_mpv_shim/mpvtk_browser/hud.py
-#, fuzzy
 msgid "Download speed"
-msgstr "Nedladdningar"
+msgstr "Hämtningshastighet"
 
 #. Row in the Playback Info panel: what kind of item is playing, such as
 #. Movie or Episode.
 #: jellyfin_mpv_shim/mpvtk_browser/hud.py
-#, fuzzy
-#| msgid "Media Key Seek"
 msgid "Media type"
-msgstr "Media nyckelsökning"
+msgstr "Medietyp"
 
 #. Parenthesised after the play method in the Playback Info panel: the file
 #. being played was downloaded to this device earlier.
 #: jellyfin_mpv_shim/mpvtk_browser/hud.py
-#, fuzzy
-#| msgid "Remove Server"
 msgid "downloaded copy"
-msgstr "Ta bort server"
+msgstr "hämtad kopia"
 
 #. Parenthesised after the play method in the Playback Info panel: the file
 #. is being read from a shared folder rather than streamed.
 #: jellyfin_mpv_shim/mpvtk_browser/hud.py
 msgid "local file"
-msgstr ""
+msgstr "lokal fil"
 
 #. Parenthesised after the play method in the Playback Info panel: the file
 #. is arriving over the network from the Jellyfin server.
 #: jellyfin_mpv_shim/mpvtk_browser/hud.py
 msgid "stream from server"
-msgstr ""
+msgstr "ström från server"
 
 # seeded from jellyfin-web: LabelPlayMethod
 #. Row in the Playback Info panel: how the video is reaching this device.
@@ -4867,17 +4944,14 @@ msgstr "Spelmetod"
 #. server had to re-encode. Do not confuse with "Seasons": an earlier
 #. translation sweep put a translation of that word here.
 #: jellyfin_mpv_shim/mpvtk_browser/hud.py
-#, fuzzy
 msgid "Reasons"
-msgstr "Säsonger"
+msgstr "Orsaker"
 
 #. Heading of a block in the Playback Info panel holding MPV's own
 #. statistics. The player program, not a person.
 #: jellyfin_mpv_shim/mpvtk_browser/hud.py
-#, fuzzy
-#| msgid "SyncPlay"
 msgid "Player"
-msgstr "SyncPlay"
+msgstr "Spelare"
 
 # seeded from jellyfin-web: File
 #. Heading of a block in the Playback Info panel holding the media file's
@@ -4889,7 +4963,7 @@ msgstr "Fil"
 #. Shown in the Playback Info panel when nothing is playing.
 #: jellyfin_mpv_shim/mpvtk_browser/hud.py
 msgid "Nothing is playing."
-msgstr ""
+msgstr "Inget spelas upp."
 
 # seeded from jellyfin-web: Previous
 #. Tooltip of the button that goes back one: the previous item in the queue
@@ -4905,29 +4979,25 @@ msgstr "Föregående"
 #. previous chapter.
 #: jellyfin_mpv_shim/mpvtk_browser/hud.py
 #: jellyfin_mpv_shim/mpvtk_browser/music.py
-#, fuzzy
-#| msgid "Successfully added server."
 msgid "Previous chapter"
-msgstr "Servern har lagts till."
+msgstr "Föregående kapitel"
 
 #. Tooltip of the rewind button on the playback controls.
 #: jellyfin_mpv_shim/mpvtk_browser/hud.py
 msgid "Back 10 Seconds"
-msgstr ""
+msgstr "Bakåt 10 sekunder"
 
 #. Tooltip of the fast-forward button on the playback controls.
 #: jellyfin_mpv_shim/mpvtk_browser/hud.py
 msgid "Forward 30 Seconds"
-msgstr ""
+msgstr "Framåt 30 sekunder"
 
 #. Tooltip of the button on the playback controls that jumps to the next
 #. chapter.
 #: jellyfin_mpv_shim/mpvtk_browser/hud.py
 #: jellyfin_mpv_shim/mpvtk_browser/music.py
-#, fuzzy
-#| msgid "Next page"
 msgid "Next chapter"
-msgstr "Nästa sida"
+msgstr "Nästa kapitel"
 
 # seeded from jellyfin-web: Next
 #. Tooltip of the button that goes forward one: the next item in the queue
@@ -4960,30 +5030,26 @@ msgstr "Tyst"
 #: jellyfin_mpv_shim/mpvtk_browser/hud.py
 #: jellyfin_mpv_shim/mpvtk_browser/settings/__init__.py
 #: jellyfin_mpv_shim/mpvtk_browser/window_chrome.py
-#, fuzzy
-#| msgid "SVP Settings"
 msgid "Settings"
-msgstr "SVP Inställningar"
+msgstr "Inställningar"
 
 #. Tooltip of the button on the playback controls that fills the screen
 #. with the video.
 #: jellyfin_mpv_shim/mpvtk_browser/hud.py
-#, fuzzy
-#| msgid "Auto Fullscreen"
 msgid "Fullscreen"
-msgstr "Automatiskt fullskärm"
+msgstr "Helskärm"
 
 #. Status message after clicking a row on the Play Queue page when playback
 #. has already ended, so there is no queue left to jump within.
 #: jellyfin_mpv_shim/mpvtk_browser/item_actions.py
 msgid "Playback has stopped, so this queue is gone."
-msgstr ""
+msgstr "Uppspelningen har stoppats, så den här kön är borta."
 
 #. Status message when adding items to the play queue failed.
 #: jellyfin_mpv_shim/mpvtk_browser/item_actions.py
 #: jellyfin_mpv_shim/mpvtk_browser/tiles.py
 msgid "Those items could not be added to the queue."
-msgstr ""
+msgstr "Det gick inte att lägga till de objekten i kön."
 
 # seeded from jellyfin-web: SeriesRecordingScheduled
 #. Status message confirming every episode of a show is now set to record.
@@ -5000,15 +5066,14 @@ msgstr "Inspelning schemalagd."
 #. Status message when the server refused to set up a recording.
 #: jellyfin_mpv_shim/mpvtk_browser/item_actions.py
 msgid "The recording could not be scheduled."
-msgstr ""
+msgstr "Det gick inte att schemalägga inspelningen."
 
 # seeded from jellyfin-web: HeaderCancelRecording
 #. Question in the dialog confirming a scheduled recording is to be called
 #. off.
 #: jellyfin_mpv_shim/mpvtk_browser/item_actions.py
-#, fuzzy
 msgid "Cancel recording?"
-msgstr "Avbryt inspelning"
+msgstr "Avbryt inspelningen?"
 
 # seeded from jellyfin-web: RecordingCancelled
 #. Status message confirming a scheduled recording was called off.
@@ -5028,13 +5093,13 @@ msgstr "Avbryt inspelning"
 #. to be dropped.
 #: jellyfin_mpv_shim/mpvtk_browser/item_actions.py
 msgid "Stop recording this series?"
-msgstr ""
+msgstr "Sluta spela in den här serien?"
 
 #. Status message confirming the rule that records every episode was
 #. dropped.
 #: jellyfin_mpv_shim/mpvtk_browser/item_actions.py
 msgid "Series recording cancelled."
-msgstr ""
+msgstr "Serieinspelningen har avbrutits."
 
 #. Button that stops the rule recording every episode of a show, and the
 #. title of the dialog confirming it. An imperative verb.
@@ -5042,26 +5107,24 @@ msgstr ""
 #: jellyfin_mpv_shim/mpvtk_browser/livetv_dialogs.py
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
 #: jellyfin_mpv_shim/mpvtk_browser/tiles.py
-#, fuzzy
-#| msgid "Configure Servers"
 msgid "Cancel Series"
-msgstr "Konfigurera servrar"
+msgstr "Avbryt serie"
 
 #. Status message when the server refused to call off a recording.
 #: jellyfin_mpv_shim/mpvtk_browser/item_actions.py
 msgid "The recording could not be cancelled."
-msgstr ""
+msgstr "Det gick inte att avbryta inspelningen."
 
 #. Status message confirming the recording dialog's changes reached the
 #. server.
 #: jellyfin_mpv_shim/mpvtk_browser/item_actions.py
 msgid "Recording settings saved."
-msgstr ""
+msgstr "Inspelningsinställningarna har sparats."
 
 #. Status message when the server refused the recording dialog's changes.
 #: jellyfin_mpv_shim/mpvtk_browser/item_actions.py
 msgid "The recording settings could not be saved."
-msgstr ""
+msgstr "Det gick inte att spara inspelningsinställningarna."
 
 #. A one-line status message at the bottom of the screen after the menu entry
 #. above was used. %s is the name of the film, show or album. It reports that
@@ -5069,19 +5132,14 @@ msgstr ""
 #: jellyfin_mpv_shim/mpvtk_browser/item_actions.py
 #, python-format
 msgid "The server is refreshing %s."
-msgstr ""
+msgstr "Servern uppdaterar %s."
 
 #. A one-line status message: the server refused the refresh request. %s is
 #. the name of the film, show or album.
 #: jellyfin_mpv_shim/mpvtk_browser/item_actions.py
-#, fuzzy, python-format
-#| msgid ""
-#| "Could not add server.\n"
-#| "Please check your connection information."
+#, python-format
 msgid "%s could not be refreshed."
-msgstr ""
-"Kunde inte lägga till server.\n"
-"Var snäll och kolla din uppkoppling."
+msgstr "Det gick inte att uppdatera %s."
 
 # seeded from jellyfin-web: ConfirmDeleteItem
 #. Warning in the dialog that deletes media from the server. This removes
@@ -5099,31 +5157,28 @@ msgstr ""
 #: jellyfin_mpv_shim/mpvtk_browser/item_actions.py
 #, python-format
 msgid "%s was deleted."
-msgstr ""
+msgstr "%s togs bort."
 
 #. Status message when the server refused to delete an item. %s is its
 #. name.
 #: jellyfin_mpv_shim/mpvtk_browser/item_actions.py
 #, python-format
 msgid "%s could not be deleted."
-msgstr ""
+msgstr "Det gick inte att ta bort %s."
 
 #. Question in the dialog that removes a download from this device. The
 #. item stays on the server. %s is its name.
 #: jellyfin_mpv_shim/mpvtk_browser/item_actions.py
 #: jellyfin_mpv_shim/mpvtk_browser/settings/downloads.py
-#, fuzzy, python-format
-#| msgid "Remove Server"
+#, python-format
 msgid "Delete the downloaded copy of %s?"
-msgstr "Ta bort server"
+msgstr "Ta bort den hämtade kopian av %s?"
 
 #. Title of the dialog that removes a downloaded copy from this device.
 #: jellyfin_mpv_shim/mpvtk_browser/item_actions.py
 #: jellyfin_mpv_shim/mpvtk_browser/settings/downloads.py
-#, fuzzy
-#| msgid "Remove Server"
 msgid "Delete Download"
-msgstr "Ta bort server"
+msgstr "Ta bort hämtning"
 
 # seeded from jellyfin-web: Delete
 #. Confirming button of a dialog that removes something for good: a
@@ -5139,28 +5194,28 @@ msgstr "Ta bort"
 #: jellyfin_mpv_shim/mpvtk_browser/item_actions.py
 #: jellyfin_mpv_shim/mpvtk_browser/settings/downloads.py
 msgid "The download could not be removed."
-msgstr ""
+msgstr "Det gick inte att ta bort hämtningen."
 
 #. Status message while a file is being handed to whatever application the
 #. system opens it with. %s is the item's name.
 #: jellyfin_mpv_shim/mpvtk_browser/item_actions.py
 #, python-format
 msgid "Opening %s…"
-msgstr ""
+msgstr "Öppnar %s…"
 
 #. Status message when the operating system has no application registered
 #. for that file type. %s is the item's name.
 #: jellyfin_mpv_shim/mpvtk_browser/item_actions.py
 #, python-format
 msgid "Nothing on this system could open %s."
-msgstr ""
+msgstr "Inget på systemet kunde öppna %s."
 
 #. Status message when the item asked for is already on this device. %s is
 #. its name.
 #: jellyfin_mpv_shim/mpvtk_browser/item_actions.py
 #, python-format
 msgid "%s is already downloaded."
-msgstr ""
+msgstr "%s har redan hämtats."
 
 #. Status message when opening a book fails because the Jellyfin account
 #. lacks the permission that allows downloading.
@@ -5169,39 +5224,35 @@ msgid ""
 "Your account is not allowed to download from this server, and a book can "
 "only be read by downloading it."
 msgstr ""
+"Ditt konto har inte behörighet att hämta från den här servern, och en bok "
+"kan bara läsas om den hämtas."
 
 #. Status message when something was asked of a download that is not on
 #. this device. %s is the item's name.
 #: jellyfin_mpv_shim/mpvtk_browser/item_actions.py
 #, python-format
 msgid "%s has not been downloaded."
-msgstr ""
+msgstr "%s har inte hämtats."
 
 #. Status message when fetching an item to this device failed. %s is its
 #. name.
 #: jellyfin_mpv_shim/mpvtk_browser/item_actions.py
-#, fuzzy, python-format
-#| msgid ""
-#| "Could not add server.\n"
-#| "Please check your connection information."
+#, python-format
 msgid "%s could not be downloaded."
-msgstr ""
-"Kunde inte lägga till server.\n"
-"Var snäll och kolla din uppkoppling."
+msgstr "Det gick inte att hämta %s."
 
 #. Status message while an item is being fetched to this device. %s is its
 #. name.
 #: jellyfin_mpv_shim/mpvtk_browser/item_actions.py
-#, fuzzy, python-format
-#| msgid "Remove Server"
+#, python-format
 msgid "Downloading %s…"
-msgstr "Ta bort server"
+msgstr "Hämtar %s…"
 
 #. Error in the recording options dialog when the server would not return
 #. the recording rule.
 #: jellyfin_mpv_shim/mpvtk_browser/livetv_dialogs.py
 msgid "The recording could not be read."
-msgstr ""
+msgstr "Det gick inte att läsa inspelningen."
 
 # seeded from jellyfin-web: HeaderSeriesOptions
 #. Button on a programme page, and the title of the dialog it opens,
@@ -5214,10 +5265,8 @@ msgstr "Seriealternativ"
 #. Title of the dialog holding one programme's recording settings. A noun
 #. naming the thing being set up.
 #: jellyfin_mpv_shim/mpvtk_browser/livetv_dialogs.py
-#, fuzzy
-#| msgid " (Transcode)"
 msgid "Recording"
-msgstr " (Omkoda)"
+msgstr "Inspelning"
 
 # seeded from jellyfin-web: LabelRecord
 #. Label of the dropdown in the series recording dialog choosing which
@@ -5254,7 +5303,7 @@ msgstr "Spela inte in avsnitt som redan finns i mitt bibliotek"
 #: jellyfin_mpv_shim/mpvtk_browser/livetv_dialogs.py
 #, python-format
 msgid "Only %s"
-msgstr ""
+msgstr "Endast %s"
 
 # seeded from jellyfin-web: OneChannel
 #. Choice in the "Channels" dropdown of the series recording dialog, used
@@ -5299,15 +5348,14 @@ msgstr "Runt %s"
 #. showings at the time the series normally airs.
 #: jellyfin_mpv_shim/mpvtk_browser/livetv_dialogs.py
 msgid "Original air time"
-msgstr ""
+msgstr "Ursprunglig sändningstid"
 
 # seeded from jellyfin-web: LabelRuntimeMinutes
 #. Choice in the "Air time" dropdown of the series recording dialog: record
 #. the show whenever it airs.
 #: jellyfin_mpv_shim/mpvtk_browser/livetv_dialogs.py
-#, fuzzy
 msgid "Anytime"
-msgstr "Speltid"
+msgstr "När som helst"
 
 # seeded from jellyfin-web: LabelKeepUpTo
 #. Label of the dropdown in the series recording dialog limiting how many
@@ -5321,13 +5369,13 @@ msgstr "Behåll upp till"
 #. many minutes before the programme starts.
 #: jellyfin_mpv_shim/mpvtk_browser/livetv_dialogs.py
 msgid "Start early (minutes)"
-msgstr ""
+msgstr "Börja tidigare (minuter)"
 
 #. Label of the number field in the recording dialog: keep recording this
 #. many minutes after the programme ends.
 #: jellyfin_mpv_shim/mpvtk_browser/livetv_dialogs.py
 msgid "Stop late (minutes)"
-msgstr ""
+msgstr "Sluta senare (minuter)"
 
 # seeded from jellyfin-web: AsManyAsPossible
 #. Choice in the "Keep up to" dropdown of the series recording dialog:
@@ -5361,18 +5409,14 @@ msgstr "Sortera kanaler efter"
 #. Choice in the "Sort channels by" dropdown of Guide Settings: order
 #. channels by the number the provider gives them.
 #: jellyfin_mpv_shim/mpvtk_browser/livetv_dialogs.py
-#, fuzzy
-#| msgid "Change Subtitles"
 msgid "Channel number"
-msgstr "Ändra undertexter"
+msgstr "Kanalnummer"
 
 #. Choice in the "Sort channels by" dropdown of Guide Settings: put the
 #. channels watched most recently first.
 #: jellyfin_mpv_shim/mpvtk_browser/livetv_dialogs.py
-#, fuzzy
-#| msgid "Quit and Mark Unwatched"
 msgid "Recently watched"
-msgstr "Avsluta och märk som ospelad"
+msgstr "Nyligen visade"
 
 # seeded from jellyfin-web: PlaceFavoriteChannelsAtBeginning
 #. Checkbox in Guide Settings, moving channels marked as favourites to the
@@ -5406,23 +5450,20 @@ msgstr "Kategorier"
 #. holding how channels are sorted and which badges are shown.
 #: jellyfin_mpv_shim/mpvtk_browser/livetv_dialogs.py
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
-#, fuzzy
-#| msgid "SVP Settings"
 msgid "Guide Settings"
-msgstr "SVP Inställningar"
+msgstr "Guideinställningar"
 
 #. Error shown when Guide Settings could not be written to the server.
 #: jellyfin_mpv_shim/mpvtk_browser/livetv_dialogs.py
 msgid "Guide settings could not be saved."
-msgstr ""
+msgstr "Det gick inte att spara guideinställningarna."
 
 # seeded from jellyfin-web: Programs
 #. Checkbox in Guide Settings: badge programmes broadcast in high
 #. definition. American spelling of "programmes".
 #: jellyfin_mpv_shim/mpvtk_browser/live_tv.py
-#, fuzzy
 msgid "HD programs"
-msgstr "Program"
+msgstr "HD-program"
 
 # seeded from jellyfin-web: LiveBroadcasts
 #. Checkbox in Guide Settings: badge programmes going out as they happen.
@@ -5433,9 +5474,8 @@ msgstr "Direktsändningar"
 # seeded from jellyfin-web: NewEpisodesOnly
 #. Checkbox in Guide Settings: badge first-run episodes.
 #: jellyfin_mpv_shim/mpvtk_browser/live_tv.py
-#, fuzzy
 msgid "New episodes"
-msgstr "Endast nya avsnitt"
+msgstr "Nya avsnitt"
 
 # seeded from jellyfin-web: Premieres
 #. Checkbox in Guide Settings: badge first showings.
@@ -5446,9 +5486,8 @@ msgstr "Premiärer"
 # seeded from jellyfin-web: AllEpisodes
 #. Checkbox in Guide Settings: badge episodes shown before.
 #: jellyfin_mpv_shim/mpvtk_browser/live_tv.py
-#, fuzzy
 msgid "Repeat episodes"
-msgstr "Alla avsnitt"
+msgstr "Upprepa avsnitt"
 
 # seeded from jellyfin-web: Movies
 #. Checkbox in Guide Settings, colour coding film programmes. Also a
@@ -5513,62 +5552,51 @@ msgstr "Upprepa"
 #. grouped by day.
 #: jellyfin_mpv_shim/mpvtk_browser/live_tv.py
 msgid "Scheduled"
-msgstr ""
+msgstr "Schemalagd"
 
 #. Error shown when an item took too long to start playing.
 #: jellyfin_mpv_shim/mpvtk_browser/load_feedback.py
 msgid "Timed out loading this item"
-msgstr ""
+msgstr "Tidsgränsen överskreds när objektet lästes in"
 
 #. Error shown when an item would not start playing.
 #: jellyfin_mpv_shim/mpvtk_browser/load_feedback.py
-#, fuzzy
-#| msgid ""
-#| "Could not add server.\n"
-#| "Please check your connection information."
 msgid "Could not play this item"
-msgstr ""
-"Kunde inte lägga till server.\n"
-"Var snäll och kolla din uppkoppling."
+msgstr "Det gick inte att spela upp objektet"
 
 #. Button on the playback error screen that tries again while asking the
 #. server to re-encode the video. An imperative verb phrase.
 #: jellyfin_mpv_shim/mpvtk_browser/load_feedback.py
-#, fuzzy
-#| msgid "No Transcode"
 msgid "Retry with Transcode"
-msgstr "Ingen omkodning"
+msgstr "Försök igen med omkodning"
 
 # seeded from jellyfin-web: Repeat
 #. State of the repeat button on the now-playing bar: play the whole queue
 #. again when it ends.
 #: jellyfin_mpv_shim/mpvtk_browser/music.py
-#, fuzzy
 msgid "Repeat all"
-msgstr "Upprepa"
+msgstr "Upprepa alla"
 
 # seeded from jellyfin-web: Repeat
 #. State of the repeat button on the now-playing bar: play the current
 #. track over and over.
 #: jellyfin_mpv_shim/mpvtk_browser/music.py
-#, fuzzy
 msgid "Repeat one"
-msgstr "Upprepa"
+msgstr "Upprepa en"
 
 # seeded from jellyfin-web: Repeat
 #. State of the repeat button on the now-playing bar: stop when the queue
 #. ends.
 #: jellyfin_mpv_shim/mpvtk_browser/music.py
-#, fuzzy
 msgid "Repeat off"
-msgstr "Upprepa"
+msgstr "Upprepning av"
 
 #. Tooltip of the rewind button on the now-playing bar. %d is how many
 #. seconds it jumps.
 #: jellyfin_mpv_shim/mpvtk_browser/music.py
 #, python-format
 msgid "Back %d seconds"
-msgstr ""
+msgstr "Bakåt %d sekunder"
 
 #. Action on an item's menu that starts it. An imperative verb, and it must
 #. not read the same as "Played": in one language it did, and a filter row
@@ -5579,10 +5607,8 @@ msgstr ""
 #: jellyfin_mpv_shim/mpvtk_browser/pages/music.py
 #: jellyfin_mpv_shim/mpvtk_browser/pages/season.py
 #: jellyfin_mpv_shim/mpvtk_browser/tiles.py
-#, fuzzy
-#| msgid "SyncPlay"
 msgid "Play"
-msgstr "SyncPlay"
+msgstr "Spela"
 
 # seeded from jellyfin-web: ButtonPause
 #. Tooltip of the button on the now-playing bar that halts playback. An
@@ -5596,7 +5622,7 @@ msgstr "Paus"
 #: jellyfin_mpv_shim/mpvtk_browser/music.py
 #, python-format
 msgid "Forward %d seconds"
-msgstr ""
+msgstr "Framåt %d sekunder"
 
 # seeded from jellyfin-web: ButtonStop
 #. Tooltip of the button on the now-playing bar that ends playback. An
@@ -5610,20 +5636,16 @@ msgstr "Stopp"
 #: jellyfin_mpv_shim/mpvtk_browser/music.py
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
 #: jellyfin_mpv_shim/mpvtk_browser/tiles.py
-#, fuzzy
-#| msgid "Remove Server"
 msgid "Remove from favorites"
-msgstr "Ta bort server"
+msgstr "Ta bort från favoriter"
 
 #. Button that marks an item, channel or track as a favourite. An
 #. imperative verb phrase.
 #: jellyfin_mpv_shim/mpvtk_browser/music.py
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
 #: jellyfin_mpv_shim/mpvtk_browser/tiles.py
-#, fuzzy
-#| msgid "Remove Server"
 msgid "Add to favorites"
-msgstr "Ta bort server"
+msgstr "Lägg till i favoriter"
 
 #. Tooltip of the loop button on the now-playing bar, in the state where
 #. nothing repeats. A verb, and the family word behind "Repeat all" and
@@ -5637,25 +5659,19 @@ msgstr "Upprepa"
 #. Tooltip of the loudness slider on the now-playing bar.
 #: jellyfin_mpv_shim/mpvtk_browser/music.py
 msgid "Volume"
-msgstr ""
+msgstr "Volym"
 
 #. Status message when a web address could not be handed to the system's
 #. browser.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/base.py
-#, fuzzy
-#| msgid ""
-#| "Could not add server.\n"
-#| "Please check your connection information."
 msgid "Could not open that link."
-msgstr ""
-"Kunde inte lägga till server.\n"
-"Var snäll och kolla din uppkoppling."
+msgstr "Det gick inte att öppna länken."
 
 #. Caption under an audiobook's title, counting its chapters.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/books.py
 #, python-format
 msgid "%d chapters"
-msgstr ""
+msgstr "%d kapitel"
 
 # seeded from jellyfin-web: ButtonResume
 #. Action on an item's menu that carries on from where watching stopped. An
@@ -5679,31 +5695,29 @@ msgstr "Starta om"
 #: jellyfin_mpv_shim/mpvtk_browser/pages/books.py
 #: jellyfin_mpv_shim/mpvtk_browser/pages/music.py
 #: jellyfin_mpv_shim/mpvtk_browser/tiles.py
-#, fuzzy
-#| msgid "Remove Server"
 msgid "Add to play queue"
-msgstr "Ta bort server"
+msgstr "Lägg till i uppspelningskön"
 
 #. Button on a book or audiobook's page that marks it as read or listened
 #. to, drawn ticked when it already is. It replaces "Watched", which is
 #. wrong for something you read or listen to.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/books.py
 msgid "Finished"
-msgstr ""
+msgstr "Slutförd"
 
 #. Shown in place of a page's content when the item could not be fetched
 #. from the server.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/books.py
 #: jellyfin_mpv_shim/mpvtk_browser/pages/detail.py
 msgid "Item not available."
-msgstr ""
+msgstr "Objektet är inte tillgängligt."
 
 #. Caption on an audiobook's page saying how far in the listener has got,
 #. as in "1h 12m in". %s is an already-formatted duration.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/books.py
 #, python-format
 msgid "%s in"
-msgstr ""
+msgstr "%s om"
 
 # seeded from jellyfin-web: ButtonStart
 #. Column heading in an audiobook's chapter table: the time each chapter
@@ -5716,7 +5730,7 @@ msgstr "Börja"
 #: jellyfin_mpv_shim/mpvtk_browser/pages/books.py
 #, python-format
 msgid "%d pages"
-msgstr ""
+msgstr "%d sidor"
 
 #. Action on a book's menu that opens it in the reader. An imperative verb.
 #. It carries a context because the English word is also the past tense
@@ -5725,71 +5739,65 @@ msgstr ""
 #: jellyfin_mpv_shim/mpvtk_browser/tiles.py
 msgctxt "open a book"
 msgid "Read"
-msgstr ""
+msgstr "Läst"
 
 # seeded from jellyfin-web: MediaInfoExternal
 #. Button on a book's page that hands the file to whatever application the
 #. system opens it with. An imperative verb phrase.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/books.py
-#, fuzzy
 msgid "Open Externally"
-msgstr "Externa"
+msgstr "Öppna externt"
 
 #. Shown on a book's page while the file is being fetched to this device.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/books.py
-#, fuzzy
-#| msgid "Remove Server"
 msgid "Downloading…"
-msgstr "Ta bort server"
+msgstr "Hämtar…"
 
 # seeded from jellyfin-web: Programs
 #. Shown on a book's page while the stored reading position is being
 #. fetched from the server.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/books.py
-#, fuzzy
 msgid "Progress…"
-msgstr "Program"
+msgstr "Förlopp…"
 
 #. Shown in place of a grid or list that has no items in it.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/byname.py
 #: jellyfin_mpv_shim/mpvtk_browser/tile_renderer.py
-#, fuzzy
-#| msgid "Server Configuration"
 msgid "Nothing here."
-msgstr "Serverkonfiguration"
+msgstr "Inget här."
 
 #. Error shown when a comic file would not open.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/comic.py
 msgid "This comic could not be opened."
-msgstr ""
+msgstr "Det gick inte att öppna serien."
 
 #. Error shown when one page of a comic could not be decoded.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/comic.py
 msgid "This page could not be read."
-msgstr ""
+msgstr "Det gick inte att läsa sidan."
 
 #. Error shown when fetching a book or comic to this device did not finish.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/comic.py
 #: jellyfin_mpv_shim/mpvtk_browser/pages/reader.py
 msgid "The download failed."
-msgstr ""
+msgstr "Hämtningen misslyckades."
 
 #. Shown while a comic file is being fetched to this device.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/comic.py
 msgid "Getting the comic…"
-msgstr ""
+msgstr "Hämtar serien…"
 
 #. Tooltip of the comic reader's button that makes the page smaller. An
 #. imperative verb phrase.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/comic.py
 msgid "Zoom out"
-msgstr ""
+msgstr "Zooma ut"
 
 #. Tooltip of the comic reader's button that makes the page larger. An
 #. imperative verb phrase.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/comic.py
 msgid "Zoom in"
-msgstr ""
+msgstr "Zooma in"
 
 # seeded from jellyfin-web: HeaderMoreLikeThis
 #. Heading of the row of items similar to the one being viewed. Jellyfin
@@ -5804,7 +5812,7 @@ msgstr "Mer som detta"
 #: jellyfin_mpv_shim/mpvtk_browser/pages/detail.py
 #: jellyfin_mpv_shim/mpvtk_browser/tiles.py
 msgid "Go to Series"
-msgstr ""
+msgstr "Gå till serien"
 
 # seeded from jellyfin-web: HeaderScenes
 #. Heading over an item's chapter thumbnails on its page. Jellyfin Web uses
@@ -5819,7 +5827,7 @@ msgstr "Kapitel"
 #: jellyfin_mpv_shim/mpvtk_browser/pages/detail.py
 #, python-format
 msgid "Version %d"
-msgstr ""
+msgstr "Version %d"
 
 # seeded from jellyfin-web: LabelVersion
 #. Label of the dropdown on an item's page choosing between several files
@@ -5832,7 +5840,7 @@ msgstr "Version"
 #. item's page. Deliberately clipped, because it sits inside a narrow list.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/detail.py
 msgid "Sub"
-msgstr ""
+msgstr "Text"
 
 # seeded from jellyfin-web: EndsAtValue
 #. Caption on an item's page: the clock time it would finish at if started
@@ -5845,12 +5853,12 @@ msgstr "Slutar vid: %s"
 #. Shown on the Favorites page when nothing has been marked.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/favorites.py
 msgid "Nothing is marked as a favourite yet."
-msgstr ""
+msgstr "Inget är markerat som favorit ännu."
 
 #. Shown on the Genres page when the server listed none.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/genres.py
 msgid "No genres to show for this library."
-msgstr ""
+msgstr "Det finns inga genrer att visa för det här biblioteket."
 
 # seeded from jellyfin-web: LabelName
 #. Two uses. A choice in a library's Sort dropdown, ordering items
@@ -5885,10 +5893,8 @@ msgstr "Användaromdöme"
 #. Choice in a library's Sort dropdown: order items by when they were last
 #. watched.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/grid.py
-#, fuzzy
-#| msgid "Auto Play"
 msgid "Date Played"
-msgstr "Automatisk uppspelning"
+msgstr "Speldatum"
 
 # seeded from jellyfin-web: OptionPlayCount
 #. Choice in a library's Sort dropdown: order items by how many times they
@@ -5907,9 +5913,8 @@ msgstr "Speltid"
 #. Choice in a library's Sort dropdown: order items by the score
 #. professional reviewers have given them.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/grid.py
-#, fuzzy
 msgid "Critics Rating"
-msgstr "Användaromdöme"
+msgstr "Kritikerbetyg"
 
 # seeded from jellyfin-web: OptionRandom
 #. Choice in a library's Sort dropdown: order items unpredictably.
@@ -5920,53 +5925,48 @@ msgstr "Slumpmässig"
 #. Choice in a television library's Sort dropdown: order series by when
 #. their newest episode arrived.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/grid.py
-#, fuzzy
 msgid "Date Episode Added"
-msgstr "Tillagd den"
+msgstr "Datum då avsnitt lades till"
 
 #. Shown in place of the grid when a library's filters match nothing. The
 #. filters may have been chosen on an earlier visit and remembered, so this
 #. says the library is not empty, only filtered.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/grid.py
 msgid "No items match these filters."
-msgstr ""
+msgstr "Inga objekt matchar dessa filter."
 
 # seeded from jellyfin-web: Filters
 #. Button under "No items match these filters." on an empty library grid.
 #. Removes every filter set on the library. An imperative verb phrase.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/grid.py
-#, fuzzy
-#| msgid "Filters"
 msgid "Clear Filters"
-msgstr "Filter"
+msgstr "Rensa filter"
 
 #. Button above a library grid that opens the View settings modal. A noun:
 #. how this library is displayed.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/grid.py
 msgid "View"
-msgstr ""
+msgstr "Vy"
 
 #. Button above a library grid, and the title of the page it opens, listing
 #. the broadcasters that made the items.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/grid.py
 msgid "Networks"
-msgstr ""
+msgstr "Nätverk"
 
 #. Button above a library grid, and the title of the page it opens, listing
 #. groups of related items. Also a row heading on the Favorites page.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/grid.py
 #: jellyfin_mpv_shim/mpvtk_browser/repository.py
-#, fuzzy
-#| msgid "Remove Server"
 msgid "Collections"
-msgstr "Ta bort server"
+msgstr "Samlingar"
 
 #. Button above a library grid that opens the filter panel, when filters
 #. are set. %d is how many are set.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/grid.py
 #, python-format
 msgid "Filter (%d)"
-msgstr ""
+msgstr "Filter (%d)"
 
 # seeded from jellyfin-web: Filter
 #. Button above a library grid that opens the filter panel, when no filters
@@ -5979,10 +5979,8 @@ msgstr "Filter"
 #. An imperative verb phrase.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/grid.py
 #: jellyfin_mpv_shim/mpvtk_browser/pages/playlist.py
-#, fuzzy
-#| msgid "SyncPlay"
 msgid "Play All"
-msgstr "SyncPlay"
+msgstr "Spela alla"
 
 # seeded from jellyfin-web: Shuffle
 #. Button on a library grid, an album, a playlist, a series or a season that
@@ -6002,10 +6000,8 @@ msgstr "Blanda"
 #. server refused to remember which sort order the user picked. The sort
 #. itself has already been applied; only remembering it failed.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/grid.py
-#, fuzzy
-#| msgid "The PIN could not be saved."
 msgid "That sort could not be saved."
-msgstr "PIN-koden kunde inte sparas."
+msgstr "Det gick inte att spara sorteringen."
 
 #. A one-line status message at the bottom of the library screen, after the
 #. server refused to remember which filters the user picked. The filters
@@ -6024,14 +6020,14 @@ msgstr "Sortera"
 #. reach the server.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/grid.py
 msgid "That view setting could not be saved."
-msgstr ""
+msgstr "Det gick inte att spara vyinställningen."
 
 #. Status message when Play was chosen on something the app found no
 #. playable item inside.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/grid.py
 #: jellyfin_mpv_shim/mpvtk_browser/tiles.py
 msgid "There is nothing here to play."
-msgstr ""
+msgstr "Det finns inget här att spela upp."
 
 # seeded from jellyfin-web: HeaderLibraries
 #. Heading of the home-screen row holding the viewer's libraries.
@@ -6042,7 +6038,7 @@ msgstr "Bibliotek"
 #. Shown on the home screen when the server returned nothing to list.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/home.py
 msgid "Nothing to show yet."
-msgstr ""
+msgstr "Inget att visa ännu."
 
 # seeded from jellyfin-web: Programs
 #. Name of a tab on the Live TV page, listing what is on now and coming up.
@@ -6093,19 +6089,17 @@ msgstr "Serier"
 #. Shown on the Live TV Programs tab when the server returned no listings.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
 msgid "No programs are listed right now."
-msgstr ""
+msgstr "Inga program är listade just nu."
 
 #. Tooltip of the button that moves the Live TV guide back one day.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
-#, fuzzy
-#| msgid "Successfully added server."
 msgid "Previous Day"
-msgstr "Servern har lagts till."
+msgstr "Föregående dag"
 
 #. Tooltip of the button that scrolls the Live TV guide back a few hours.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
 msgid "Earlier"
-msgstr ""
+msgstr "Tidigare"
 
 #. Tooltip of the button that scrolls the Live TV guide forward a few
 #. hours. Later in time, and the counterpart of "Earlier" beside it. A
@@ -6114,123 +6108,115 @@ msgstr ""
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
 msgctxt "guide navigation"
 msgid "Later"
-msgstr ""
+msgstr "Senare"
 
 #. Tooltip of the button that moves the Live TV guide forward one day.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
 msgid "Next Day"
-msgstr ""
+msgstr "Nästa dag"
 
 #. Button that jumps the Live TV guide back to the current time. An adverb.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
 msgid "Now"
-msgstr ""
+msgstr "Nu"
 
 #. Caption above the Live TV guide, saying which slice of the channel list
 #. is on screen, as in "Channels 1-12 of 240".
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
 #, python-format
 msgid "Channels %(from)d-%(to)d of %(total)d"
-msgstr ""
+msgstr "Kanaler %(from)d–%(to)d av %(total)d"
 
 #. Tooltip of the button that shows the previous group of channels in the
 #. Live TV guide.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
-#, fuzzy
-#| msgid "Successfully added server."
 msgid "Previous Channels"
-msgstr "Servern har lagts till."
+msgstr "Föregående kanaler"
 
 #. Tooltip of the button that shows the next group of channels in the Live
 #. TV guide.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
 msgid "More Channels"
-msgstr ""
+msgstr "Fler kanaler"
 
 #. Shown on the Live TV Channels tab when it is filtered to favourites and
 #. none are marked.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
 msgid "No favorite channels yet."
-msgstr ""
+msgstr "Inga favoritkanaler ännu."
 
 #. Caption on the Live TV Channels tab, counting how many channels there
 #. are.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
 #, python-format
 msgid "%d channels"
-msgstr ""
+msgstr "%d kanaler"
 
 #. Heading over the most recent recordings on the Live TV Recordings tab.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
 msgid "Latest Recordings"
-msgstr ""
+msgstr "Senaste inspelningar"
 
 #. Heading over the folders the server files recordings into, on the Live
 #. TV Recordings tab. A noun phrase: folders holding recordings.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
-#, fuzzy
-#| msgid "Open Config Folder"
 msgid "Recording Folders"
-msgstr "Öppna konfigurationsmapp"
+msgstr "Inspelningsmappar"
 
 #. Shown on the Live TV Recordings tab when there are no recordings.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
-#, fuzzy
-#| msgid "Server Configuration"
 msgid "Nothing has been recorded yet."
-msgstr "Serverkonfiguration"
+msgstr "Inget har spelats in ännu."
 
 #. Shown on the Live TV Schedule tab when nothing is set to record.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
 msgid "Nothing is scheduled to record."
-msgstr ""
+msgstr "Inget är schemalagt för inspelning."
 
 #. Shown on the Live TV Series tab when no show is set to record every
 #. episode.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
 msgid "No series are set to record."
-msgstr ""
+msgstr "Inga serier är inställda på inspelning."
 
 #. State of a Live TV programme: it will be recorded when it airs.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
 msgid "Scheduled to record"
-msgstr ""
+msgstr "Schemalagd för inspelning"
 
 #. State of a Live TV programme: it is being recorded at this moment.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
 msgid "Recording now"
-msgstr ""
+msgstr "Spelar in nu"
 
 #. State of a Live TV programme: a rule is recording every episode of this
 #. show.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
 msgid "Recording this series"
-msgstr ""
+msgstr "Spelar in den här serien"
 
 #. State of a Live TV programme: a rule records the show, but this
 #. particular airing falls outside it, for instance because it is a repeat.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
 msgid "This series is set to record, but this showing is not scheduled"
 msgstr ""
+"Den här serien är inställd på inspelning, men det här programmet är inte "
+"schemalagt"
 
 #. Button that starts playing a Live TV channel that is on air now. An
 #. imperative verb, and it must not read the same as "Watched": in one
 #. language it did, and the button came out saying "Seen".
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
 #: jellyfin_mpv_shim/mpvtk_browser/tiles.py
-#, fuzzy
-#| msgid "Quit and Mark Unwatched"
 msgid "Watch"
-msgstr "Avsluta och märk som ospelad"
+msgstr "Titta"
 
 #. Button that starts playing the channel a programme is on, when that
 #. programme is not airing now. An imperative verb.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
 #: jellyfin_mpv_shim/mpvtk_browser/tiles.py
-#, fuzzy
-#| msgid "Quit and Mark Unwatched"
 msgid "Watch Channel"
-msgstr "Avsluta och märk som ospelad"
+msgstr "Titta på kanal"
 
 # seeded from jellyfin-web: HeaderStopRecording
 #. Button that ends the recording currently running for this programme. An
@@ -6261,29 +6247,25 @@ msgstr "Spela in"
 #. verb.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
 #: jellyfin_mpv_shim/mpvtk_browser/tiles.py
-#, fuzzy
-#| msgid "Remove Server"
 msgid "Record series"
-msgstr "Ta bort server"
+msgstr "Spela in serie"
 
 #. Shown on a channel's page when the server has no listings for it.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
 msgid "No guide data is available for this channel."
-msgstr ""
+msgstr "Det finns inga guiddata för den här kanalen."
 
 #. Caption on a channel's page, saying how many upcoming programmes are
 #. listed. American spelling of "programmes".
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
 #, python-format
 msgid "Showing the next %d programs."
-msgstr ""
+msgstr "Visar nästa %d program."
 
 #. Stands in for the name of a Live TV channel the server did not name.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/livetv.py
-#, fuzzy
-#| msgid "Quit and Mark Unwatched"
 msgid "Channel"
-msgstr "Avsluta och märk som ospelad"
+msgstr "Kanal"
 
 # seeded from jellyfin-web: Albums
 #. Name of a tab on the music page, and of a search-results and library
@@ -6298,30 +6280,27 @@ msgstr "Album"
 #. Heading of the row of musicians similar to the one being viewed.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/music_detail.py
 msgid "Similar Artists"
-msgstr ""
+msgstr "Liknande artister"
 
 # seeded from jellyfin-web: HeaderInstantMix
 #. Button that starts a queue of tracks like the one chosen. Jellyfin Web
 #. uses the same phrase; follow its wording in this language.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/music.py
-#, fuzzy
 msgid "Instant mix"
 msgstr "Direktmix"
 
 #. Caption under an album or playlist, counting its songs.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/music.py
-#, fuzzy, python-format
-#| msgid "Select Audio Track"
+#, python-format
 msgid "%d tracks"
-msgstr "Välj ljudfil"
+msgstr "%d spår"
 
 # seeded from jellyfin-web: Artists
 #. Name of a tab on the music page, listing the artists credited on whole
 #. albums as opposed to individual tracks.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/music.py
-#, fuzzy
 msgid "Album artists"
-msgstr "Artister"
+msgstr "Albumartister"
 
 # seeded from jellyfin-web: Artists
 #. Name of a tab on the music page, and of a search-results group, holding
@@ -6343,10 +6322,8 @@ msgstr "Låtar"
 
 #. Status message when music would not start playing.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/music.py
-#, fuzzy
-#| msgid "Could not start Quick Connect."
 msgid "Could not start playback."
-msgstr "Kunde inte starta Quick Connect."
+msgstr "Det gick inte att starta uppspelningen."
 
 # seeded from jellyfin-web: Edit
 #. Appended to a playlist's name in the page title, marking that the
@@ -6359,28 +6336,27 @@ msgstr "Ändra"
 #. Shown on a playlist's page when it has no items.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/playlist.py
 msgid "This playlist is empty."
-msgstr ""
+msgstr "Den här spellistan är tom."
 
 #. Shown on a playlist's page when everything in it is of a kind this
 #. application cannot play.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/playlist.py
 msgid "This playlist has no supported media types."
-msgstr ""
+msgstr "Den här spellistan innehåller inga medietyper som stöds."
 
 #. Title of the page listing what is queued to play, and the name given to
 #. that queue when it is saved as a playlist.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/queue_edit.py
 msgid "Play Queue"
-msgstr ""
+msgstr "Spela upp kö"
 
 #. Button on the queue and playlist editors that moves the selected rows to
 #. the start of the list. The beginning of an ordering, not a place on
 #. screen. Split from the subtitle position of the same English word.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/queue_edit.py
-#, fuzzy
 msgctxt "list position"
 msgid "Top"
-msgstr "Längst upp"
+msgstr "Överst"
 
 # seeded from jellyfin-web: Up
 #. Button on the queue and playlist editors that moves the selected rows
@@ -6400,17 +6376,16 @@ msgstr "Ner"
 #. the end of the list. The end of an ordering, not a place on screen.
 #. Split from the subtitle position of the same English word.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/queue_edit.py
-#, fuzzy
 msgctxt "list position"
 msgid "Bottom"
-msgstr "Längst ner"
+msgstr "Nederst"
 
 #. Caption on the queue and playlist editors, counting how many rows are
 #. ticked.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/queue_edit.py
 #, python-format
 msgid "%d selected"
-msgstr ""
+msgstr "%d markerade"
 
 # seeded from jellyfin-web: SelectAll
 #. Button on the queue and playlist editors that ticks every row. An
@@ -6423,15 +6398,13 @@ msgstr "Välj alla"
 #. imperative verb; it deselects rather than deletes.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/queue_edit.py
 msgid "Clear"
-msgstr ""
+msgstr "Rensa"
 
 #. Button on the queue editor that saves the queue as a playlist on the
 #. server.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/queue_edit.py
-#, fuzzy
-#| msgid "Remove Server"
 msgid "To Playlist"
-msgstr "Ta bort server"
+msgstr "Till spellista"
 
 #. Button that takes something out of a list without deleting the thing
 #. itself: rows out of the queue or a playlist, an item out of a
@@ -6441,56 +6414,49 @@ msgstr "Ta bort server"
 #: jellyfin_mpv_shim/mpvtk_browser/settings/downloads.py
 #: jellyfin_mpv_shim/mpvtk_browser/settings/servers.py
 #: jellyfin_mpv_shim/mpvtk_browser/tiles.py
-#, fuzzy
-#| msgid "Remove Server"
 msgid "Remove"
-msgstr "Ta bort server"
+msgstr "Ta bort"
 
 #. Shown on the queue editor when nothing is queued.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/queue_edit.py
 msgid "The queue is empty."
-msgstr ""
+msgstr "Kön är tom."
 
 #. Status message when taking rows out of the queue or a playlist failed.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/queue_edit.py
 msgid "Those items could not be removed."
-msgstr ""
+msgstr "Det gick inte att ta bort de objekten."
 
 #. Status message when moving rows in the queue failed.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/queue_edit.py
 msgid "The queue could not be reordered."
-msgstr ""
+msgstr "Det gick inte att ändra ordningen i kön."
 
 #. Button that changes a name: a local profile in Settings, or a playlist
 #. on its edit page. An imperative verb.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/queue_edit.py
 #: jellyfin_mpv_shim/mpvtk_browser/settings/servers.py
-#, fuzzy
-#| msgid "Username:"
 msgid "Rename"
-msgstr "Användarnamn:"
+msgstr "Byt namn"
 
 #. Checkbox on the playlist editor. When on, other users of the server can
 #. see this playlist.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/queue_edit.py
 msgid "Public"
-msgstr ""
+msgstr "Offentlig"
 
 #. Button on the playlist editor, and the title of the dialog it opens,
 #. removing the playlist from the server.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/queue_edit.py
-#, fuzzy
-#| msgid "Remove Server"
 msgid "Delete Playlist"
-msgstr "Ta bort server"
+msgstr "Ta bort spellista"
 
 #. Question in the dialog that removes a playlist from the server. %s is
 #. the playlist's name.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/queue_edit.py
-#, fuzzy, python-format
-#| msgid "Remove Server"
+#, python-format
 msgid "Delete the playlist %s?"
-msgstr "Ta bort server"
+msgstr "Ta bort spellistan %s?"
 
 # seeded from jellyfin-web: LabelType
 #. Column heading on the queue and playlist editors: what kind of item the
@@ -6510,12 +6476,12 @@ msgstr "Tid"
 #. Status message when moving rows in a playlist failed.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/queue_edit.py
 msgid "The playlist could not be reordered."
-msgstr ""
+msgstr "Det gick inte att ändra ordningen i spellistan."
 
 #. Status message when removing a playlist from the server failed.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/queue_edit.py
 msgid "The playlist could not be deleted."
-msgstr ""
+msgstr "Det gick inte att ta bort spellistan."
 
 #. Message shown when the Public checkbox is used before the server has
 #. said whether the playlist is public.
@@ -6524,57 +6490,51 @@ msgid ""
 "Still reading this playlist's visibility from the server. Try again in a "
 "moment."
 msgstr ""
+"Spellistans synlighet läses fortfarande in från servern. Försök igen om en "
+"stund."
 
 #. Error shown when a book file would not open.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/reader.py
 msgid "This book could not be opened."
-msgstr ""
+msgstr "Det gick inte att öppna boken."
 
 #. Entry on the book reader's context menu that puts the paragraph under
 #. the pointer on the clipboard. An imperative verb phrase.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/reader.py
 msgid "Copy Paragraph"
-msgstr ""
+msgstr "Kopiera stycke"
 
 #. Entry on the book reader's context menu that puts the whole page on the
 #. clipboard. An imperative verb phrase.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/reader.py
-#, fuzzy
-#| msgid "Page"
 msgid "Copy Page"
-msgstr "Sida"
+msgstr "Kopiera sida"
 
 #. Status message confirming a paragraph reached the clipboard.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/reader.py
 msgid "Copied the paragraph."
-msgstr ""
+msgstr "Stycket kopierades."
 
 #. Status message confirming a page reached the clipboard.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/reader.py
 msgid "Copied the page."
-msgstr ""
+msgstr "Sidan kopierades."
 
 #. Status message when Copy was pressed with no text under the cursor.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/reader.py
 msgid "There is nothing to copy."
-msgstr ""
+msgstr "Det finns inget att kopiera."
 
 #. Status message when this build of MPV cannot reach the system clipboard.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/reader.py
 msgid "Copying is not available."
-msgstr ""
+msgstr "Kopiering är inte tillgänglig."
 
 #. Status message when text could not be put on the clipboard.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/reader.py
 #: jellyfin_mpv_shim/mpvtk_browser/settings/logs.py
-#, fuzzy
-#| msgid ""
-#| "Could not add server.\n"
-#| "Please check your connection information."
 msgid "Could not copy"
-msgstr ""
-"Kunde inte lägga till server.\n"
-"Var snäll och kolla din uppkoppling."
+msgstr "Det gick inte att kopiera"
 
 #. Status message when the clipboard could not be reached, so the text was
 #. written to a file instead. %s is that file's path.
@@ -6582,60 +6542,51 @@ msgstr ""
 #: jellyfin_mpv_shim/mpvtk_browser/settings/logs.py
 #, python-format
 msgid "No clipboard available — saved to %s"
-msgstr ""
+msgstr "Inget urklipp tillgängligt – sparat i %s"
 
 #. Tooltip of the book reader's dropdown listing the chapters. A noun: the
 #. table of contents.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/reader.py
 msgid "Contents"
-msgstr ""
+msgstr "Innehåll"
 
 #. Shown while a book file is being fetched to this device.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/reader.py
-#, fuzzy
-#| msgid ""
-#| "Could not add server.\n"
-#| "Please check your connection information."
 msgid "Getting the book…"
-msgstr ""
-"Kunde inte lägga till server.\n"
-"Var snäll och kolla din uppkoppling."
+msgstr "Hämtar boken…"
 
 #. Error shown when a book was fetched but its pages could not be laid out.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/reader.py
 msgid "This book could not be drawn."
-msgstr ""
+msgstr "Det gick inte att rita boken."
 
 #. Tooltip of the book reader's button that shrinks the type.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/reader.py
 msgid "Smaller text"
-msgstr ""
+msgstr "Mindre text"
 
 #. Tooltip of the book reader's button that enlarges the type.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/reader.py
-#, fuzzy
-#| msgid "Large"
 msgid "Larger text"
-msgstr "Stor"
+msgstr "Större text"
 
 #. Tooltip of the book reader's button that switches between the dark,
 #. sepia and light page backgrounds. British spelling here; the settings
 #. row of the same meaning is spelled the same way.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/reader.py
 msgid "Page colour"
-msgstr ""
+msgstr "Sidfärg"
 
 #. Shown on the search page before anything has been typed.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/search.py
 msgid "Type in the search box above."
-msgstr ""
+msgstr "Skriv i sökrutan ovanför."
 
 #. Heading of the search page. %s is what was typed.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/search.py
-#, fuzzy, python-format
-#| msgid "Server:"
+#, python-format
 msgid "Results for \"%s\""
-msgstr "Server:"
+msgstr "Resultat för \"%s\""
 
 # seeded from jellyfin-web: Shows
 #. Name of a search-results and library group holding television series.
@@ -6663,13 +6614,13 @@ msgstr "Personer"
 #. because it labels a row of narrow tiles.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/search.py
 msgid "On TV"
-msgstr ""
+msgstr "På tv"
 
 #. Heading of the search-results row holding matches that fit none of the
 #. rows above it.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/search.py
 msgid "Other"
-msgstr ""
+msgstr "Övrigt"
 
 # seeded from jellyfin-web: NoSubtitleSearchResultsFound
 #. Shown on the search page when nothing matched.
@@ -6681,7 +6632,7 @@ msgstr "Inga resultat hittades."
 #. to.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/season.py
 msgid "To Series"
-msgstr ""
+msgstr "Till serien"
 
 # seeded from jellyfin-web: HeaderSeasons
 #. Heading over a series' seasons on its page. Do not confuse with
@@ -6693,25 +6644,13 @@ msgstr "Säsonger"
 
 #. Status message when fetching the next batch of a long list failed.
 #: jellyfin_mpv_shim/mpvtk_browser/pagination.py
-#, fuzzy
-#| msgid ""
-#| "Could not add server.\n"
-#| "Please check your connection information."
 msgid "Could not load more items."
-msgstr ""
-"Kunde inte lägga till server.\n"
-"Var snäll och kolla din uppkoppling."
+msgstr "Det gick inte att läsa in fler objekt."
 
 #. Status message when fetching one page of a paged grid failed.
 #: jellyfin_mpv_shim/mpvtk_browser/pagination.py
-#, fuzzy
-#| msgid ""
-#| "Could not add server.\n"
-#| "Please check your connection information."
 msgid "Could not load this page."
-msgstr ""
-"Kunde inte lägga till server.\n"
-"Var snäll och kolla din uppkoppling."
+msgstr "Det gick inte att läsa in sidan."
 
 # seeded from jellyfin-web: HeaderOnNow
 #. Heading of the home-screen row holding Live TV programmes airing at this
@@ -6724,47 +6663,45 @@ msgstr "Visas nu"
 #. Heading of a home-screen row of newly added items. {0} is a library's
 #. name, such as "Movies" or "Anime".
 #: jellyfin_mpv_shim/mpvtk_browser/repository.py
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Recently Added in {0}"
-msgstr "Nytillkommet"
+msgstr "Nyligen tillagt i {0}"
 
 #. Heading of a Live TV row listing episodes airing soon.
 #: jellyfin_mpv_shim/mpvtk_browser/repository.py
 msgid "Upcoming Episodes"
-msgstr ""
+msgstr "Kommande avsnitt"
 
 #. Heading of a Live TV row listing films airing soon.
 #: jellyfin_mpv_shim/mpvtk_browser/repository.py
 msgid "Upcoming Movies"
-msgstr ""
+msgstr "Kommande filmer"
 
 #. Heading of a Live TV row listing sports airing soon.
 #: jellyfin_mpv_shim/mpvtk_browser/repository.py
 msgid "Upcoming Sports"
-msgstr ""
+msgstr "Kommande sport"
 
 #. Heading of a Live TV row listing children's programmes airing soon.
 #: jellyfin_mpv_shim/mpvtk_browser/repository.py
 msgid "Upcoming Kids"
-msgstr ""
+msgstr "Kommande barnprogram"
 
 #. Heading of a Live TV row listing news programmes airing soon.
 #: jellyfin_mpv_shim/mpvtk_browser/repository.py
 msgid "Upcoming News"
-msgstr ""
+msgstr "Kommande nyheter"
 
 #. Name of a search-results group holding film trailers.
 #: jellyfin_mpv_shim/mpvtk_browser/repository.py
-#, fuzzy
-#| msgid "Fail"
 msgid "Trailers"
-msgstr "Misslyckat"
+msgstr "Förhandsvisningar"
 
 #. Name given to the stand-in server that holds what is on this device,
 #. shown in the server picker when browsing offline.
 #: jellyfin_mpv_shim/mpvtk_browser/repository.py
 msgid "Downloaded"
-msgstr ""
+msgstr "Hämtad"
 
 # seeded from jellyfin-web: TypeOptionPluralSeries
 #. Name of the offline library holding downloaded television series.
@@ -6780,7 +6717,7 @@ msgstr "TV-serier"
 #. the sense of "has no parent server", not "damaged".
 #: jellyfin_mpv_shim/mpvtk_browser/repository.py
 msgid "Orphaned Items"
-msgstr ""
+msgstr "Övergivna objekt"
 
 # seeded from jellyfin-web: Playlists
 #. Name of the offline library holding downloaded playlists.
@@ -6798,96 +6735,90 @@ msgstr "Spellistor"
 #: jellyfin_mpv_shim/mpvtk_browser/repository.py
 #, python-format
 msgid "%(name)s (%(server)s)"
-msgstr ""
+msgstr "%(name)s (%(server)s)"
 
 #. Heading of the offline home-screen row listing films on this device.
 #: jellyfin_mpv_shim/mpvtk_browser/repository.py
 msgid "Downloaded Movies"
-msgstr ""
+msgstr "Hämtade filmer"
 
 #. Heading of the offline home-screen row listing standalone videos on this
 #. device.
 #: jellyfin_mpv_shim/mpvtk_browser/repository.py
 msgid "Downloaded Videos"
-msgstr ""
+msgstr "Hämtade videor"
 
 #. Heading of the offline home-screen row listing television series on this
 #. device.
 #: jellyfin_mpv_shim/mpvtk_browser/repository.py
 msgid "Downloaded Shows"
-msgstr ""
+msgstr "Hämtade serier"
 
 # seeded from jellyfin-web: DownloadManager
 #. Heading of the offline home-screen row listing books on this device.
 #: jellyfin_mpv_shim/mpvtk_browser/repository.py
-#, fuzzy
 msgid "Downloaded Books"
-msgstr "Nedladdningar"
+msgstr "Hämtade böcker"
 
 #. Stands in for the name of a season the server did not name. %d is its
 #. number.
 #: jellyfin_mpv_shim/mpvtk_browser/repository.py
 #, python-format
 msgid "Season %d"
-msgstr ""
+msgstr "Säsong %d"
 
 #. Status message confirming a setting was written. %s is that setting's
 #. name.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/base.py
 #, python-format
 msgid "Saved: %s"
-msgstr ""
+msgstr "Sparat: %s"
 
 #. Status message when what was typed into a settings field was not
 #. accepted. %s is that setting's name.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/base.py
 #, python-format
 msgid "Invalid value: %s"
-msgstr ""
+msgstr "Ogiltigt värde: %s"
 
 #. Status message when saving one setting forced another off. Both
 #. placeholders are settings' names.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/base.py
 #, python-format
 msgid "Saved: %(key)s (also turned off \"%(other)s\")"
-msgstr ""
+msgstr "Sparat: %(key)s (stängde även av \"%(other)s\")"
 
 #. Shown on the Downloads page when nothing is on this device.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/downloads.py
 msgid "Nothing downloaded yet."
-msgstr ""
+msgstr "Inget har hämtats ännu."
 
 #. Button beside a downloads group that deletes the items in it already
 #. watched. An imperative verb phrase.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/downloads.py
-#, fuzzy
-#| msgid "Quit and Mark Unwatched"
 msgid "Remove Watched"
-msgstr "Avsluta och märk som ospelad"
+msgstr "Ta bort sedda"
 
 #. Marker beside a download that has been watched, in a row of small
 #. captions. Lower case, because it sits among other fragments rather than
 #. starting a sentence.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/downloads.py
-#, fuzzy
-#| msgid "Quit and Mark Unwatched"
 msgid "watched"
-msgstr "Avsluta och märk som ospelad"
+msgstr "sedd"
 
 #. Question in the dialog that removes watched downloads. %s is the group
 #. they are in, such as a series name.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/downloads.py
-#, fuzzy, python-format
-#| msgid "Remove Server"
+#, python-format
 msgid "Delete the watched downloads in %s?"
-msgstr "Ta bort server"
+msgstr "Ta bort de sedda hämtningarna i %s?"
 
 #. First entry of the interface language dropdown: follow whatever language
 #. the desktop is set to. Every other entry is a language's own name in
 #. that language and is not translated.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/general.py
 msgid "Use the system language"
-msgstr ""
+msgstr "Använd systemspråket"
 
 # seeded from jellyfin-web: ShowAdvancedSettings
 #. Checkbox at the top of Settings that reveals the rows not sorted into a
@@ -6915,20 +6846,23 @@ msgid ""
 "Hardware Decoding is the exception: set hwdec there and this app leaves it "
 "alone."
 msgstr ""
+"Avancerade MPV-alternativ anges i mpv.conf i den här mappen. MPV läser den "
+"vid start och dessa inställningar tillämpas efteråt, så de flesta "
+"åsidosätter den. Maskinvaruavkodning är undantaget: ange hwdec där så lämnar "
+"programmet det orört."
 
 # seeded from jellyfin-web: Restart
 #. Caption under a settings row whose change does nothing until the
 #. application is started again.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/general.py
-#, fuzzy
 msgid "Requires restart"
-msgstr "Starta om"
+msgstr "Kräver omstart"
 
 #. Shown when a settings search found nothing. %s is what was typed.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/general.py
 #, python-format
 msgid "No settings match \"%s\"."
-msgstr ""
+msgstr "Inga inställningar matchar \"%s\"."
 
 #. Explanation shown when a settings search found nothing. General, Browse
 #. and Playback are tab names on this screen; keep them matching those
@@ -6938,6 +6872,8 @@ msgid ""
 "Only the General, Browse and Playback tabs are searched. Some settings are "
 "hidden until the setting they depend on is turned on."
 msgstr ""
+"Endast flikarna Allmänt, Bläddra och Uppspelning genomsöks. Vissa "
+"inställningar är dolda tills den inställning de beror på har aktiverats."
 
 #. Caption under settings search results. %d is how many were found.
 #. Phrased with a count after a colon on purpose, because this application
@@ -6945,13 +6881,13 @@ msgstr ""
 #: jellyfin_mpv_shim/mpvtk_browser/settings/general.py
 #, python-format
 msgid "Matches: %d. Pick a tab above to stop searching."
-msgstr ""
+msgstr "Träffar: %d. Välj en flik ovanför för att sluta söka."
 
 #. Button beside the download folder in Settings that relocates what is
 #. already downloaded to a new folder. An imperative verb.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/general.py
 msgid "Move"
-msgstr ""
+msgstr "Flytta"
 
 #. Explanation shown under "Keep Running in Background" once it is on. The
 #. backticked text is a shell command; leave it as it is.
@@ -6960,6 +6896,8 @@ msgid ""
 "To stop the application, re-launch and uncheck this option or run `jellyfin-"
 "mpv-shim stop`."
 msgstr ""
+"Om du vill stoppa programmet startar du det igen och avmarkerar det här "
+"alternativet eller kör `jellyfin-mpv-shim stop`."
 
 #. Explanation under a settings row that is switched on but cannot work.
 #. "pypresence" is a software package name; "Logs" is a tab on this
@@ -6969,6 +6907,8 @@ msgid ""
 "Not active: the \"pypresence\" package is missing or failed to load. Install "
 "it and restart. (Details in the Logs tab.)"
 msgstr ""
+"Inte aktivt: paketet \"pypresence\" saknas eller kunde inte läsas in. "
+"Installera det och starta om. (Detaljer finns på fliken Loggar.)"
 
 #. Explanation under the Hardware Decoding setting when the user's own MPV
 #. configuration decides it instead. "mpv.conf" is a filename and "hwdec"
@@ -6977,110 +6917,104 @@ msgstr ""
 #, python-format
 msgid "Pinned by config: your mpv.conf sets hwdec=%s, which overrides this."
 msgstr ""
+"Låst av konfigurationen: din mpv.conf anger hwdec=%s, vilket åsidosätter "
+"detta."
 
 #. Explanation under a per-server setting. %s is the server it applies to;
 #. "servers tab" is the Servers & Users tab of this Settings screen.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/general.py
 #, python-format
 msgid "Applies to %s, enable other servers in servers tab."
-msgstr ""
+msgstr "Gäller %s; aktivera andra servrar på fliken Servrar."
 
 #. Question in the dialog that returns downloads to the folder this
 #. application chooses itself.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/general.py
 msgid "Move the downloads back to the default folder?"
-msgstr ""
+msgstr "Flytta tillbaka hämtningarna till standardmappen?"
 
 #. Confirming button of the dialog that returns downloads to the folder
 #. this application chooses itself.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/general.py
 msgid "Use the default folder"
-msgstr ""
+msgstr "Använd standardmappen"
 
 #. Status message while downloaded files are being relocated. %d is the
 #. percentage done; the doubled percent sign prints one.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/general.py
 #, python-format
 msgid "Moving downloads… %d%%"
-msgstr ""
+msgstr "Flyttar hämtningar… %d %%"
 
 #. Status message when relocating the download folder did not finish.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/general.py
 msgid "Moving the downloads failed."
-msgstr ""
+msgstr "Det gick inte att flytta hämtningarna."
 
 #. Status message after the download folder was relocated, saying the
 #. application must be started again.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/general.py
 msgid "Download folder moved. Restart to finish switching."
-msgstr ""
+msgstr "Hämtningsmappen har flyttats. Starta om för att slutföra bytet."
 
 #. Status message while downloaded files are being relocated, before any
 #. progress figure is known.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/general.py
 msgid "Moving downloads…"
-msgstr ""
+msgstr "Flyttar hämtningar…"
 
 #. Status message when a second download-folder move was asked for while
 #. one is running.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/general.py
 msgid "A move is already in progress."
-msgstr ""
+msgstr "En flytt pågår redan."
 
 #. Status message when offline browsing was chosen but nothing is on this
 #. device.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/general.py
 msgid "Nothing downloaded to browse offline."
-msgstr ""
+msgstr "Inget är hämtat för offlinebläddring."
 
 #. Status message when no Jellyfin server answered.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/general.py
-#, fuzzy
-#| msgid ""
-#| "Could not add server.\n"
-#| "Please check your connection information."
 msgid "Could not reach a server."
-msgstr ""
-"Kunde inte lägga till server.\n"
-"Var snäll och kolla din uppkoppling."
+msgstr "Det gick inte att nå en server."
 
 #. Name of the Settings section that chooses which rows the home screen
 #. shows.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/home.py
 #: jellyfin_mpv_shim/mpvtk_browser/settings/__init__.py
 msgid "Home Screen"
-msgstr ""
+msgstr "Startskärm"
 
 #. Shown in the Home Screen settings while offline, because these are
 #. stored on the server.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/home.py
 msgid "Connect to a server to change the home screen sections."
-msgstr ""
+msgstr "Anslut till en server för att ändra startskärmens avsnitt."
 
 #. Shown in the Home Screen settings when the server would not return them.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/home.py
 msgid "These settings could not be loaded from your server."
-msgstr ""
+msgstr "Det gick inte att läsa in dessa inställningar från din server."
 
 #. Button that retries fetching the home screen settings from the server.
 #. An imperative verb phrase.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/home.py
 msgid "Try Again"
-msgstr ""
+msgstr "Försök igen"
 
 #. Explanation in the Home Screen settings. "Jellyfin Web" is the browser
 #. client's product name; leave it as-is.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/home.py
 msgid "These settings are stored on your server and shared with Jellyfin Web."
-msgstr ""
+msgstr "Dessa inställningar lagras på din server och delas med Jellyfin Web."
 
 #. Heading in the Home Screen settings, above the list of rows the home
 #. screen shows.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/home.py
-#, fuzzy
-#| msgid "Remove Server"
 msgid "Sections"
-msgstr "Ta bort server"
+msgstr "Sektioner"
 
 #. Explanation under the Sections heading in the Home Screen settings.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/home.py
@@ -7088,20 +7022,22 @@ msgid ""
 "The rows the home screen shows, in order. Sections this app cannot draw are "
 "left as your web client set them."
 msgstr ""
+"Raderna som visas på startskärmen, i ordning. Avsnitt som programmet inte "
+"kan rita lämnas som webbklienten har angett dem."
 
 #. Shown for a home-screen row set to something this application cannot
 #. draw. %s is that section's name as Jellyfin Web calls it.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/home.py
 #, python-format
 msgid "Set to “%s” in Jellyfin Web, which this app does not display."
-msgstr ""
+msgstr "Inställt på ”%s” i Jellyfin Web, som inte visas i det här programmet."
 
 #. Label of one home-screen row in the settings list. %d is its position,
 #. counting from one.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/home.py
 #, python-format
 msgid "Section %d"
-msgstr ""
+msgstr "Avsnitt %d"
 
 # seeded from jellyfin-web: UseEpisodeImagesInNextUp
 #. Checkbox in the Home Screen settings. The quoted names are home-screen
@@ -7119,53 +7055,37 @@ msgid ""
 "Off by default: the show's artwork is used instead, because an episode image "
 "can spoil the episode you have not watched yet."
 msgstr ""
+"Av som standard: seriens bildmaterial används i stället, eftersom en "
+"avsnittsbild kan avslöja ett avsnitt som du inte har sett ännu."
 
 #. Status message when the home screen settings would not come back from
 #. the server.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/home.py
-#, fuzzy
-#| msgid ""
-#| "Could not add server.\n"
-#| "Please check your connection information."
 msgid "Could not load the home screen settings."
-msgstr ""
-"Kunde inte lägga till server.\n"
-"Var snäll och kolla din uppkoppling."
+msgstr "Det gick inte att läsa in startskärmsinställningarna."
 
 #. Status message confirming the home screen settings reached the server.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/home.py
 msgid "Home screen settings saved."
-msgstr ""
+msgstr "Startskärmsinställningarna har sparats."
 
 #. Status message when the home screen settings could not be written to the
 #. server.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/home.py
-#, fuzzy
-#| msgid ""
-#| "Could not add server.\n"
-#| "Please check your connection information."
 msgid "Could not save the home screen settings."
-msgstr ""
-"Kunde inte lägga till server.\n"
-"Var snäll och kolla din uppkoppling."
+msgstr "Det gick inte att spara startskärmsinställningarna."
 
 #. Status message confirming the order of the home screen rows reached the
 #. server.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/home.py
 msgid "Home screen layout saved."
-msgstr ""
+msgstr "Startskärmens layout har sparats."
 
 #. Status message when the order of the home screen rows could not be
 #. written to the server.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/home.py
-#, fuzzy
-#| msgid ""
-#| "Could not add server.\n"
-#| "Please check your connection information."
 msgid "Could not save the home screen layout."
-msgstr ""
-"Kunde inte lägga till server.\n"
-"Var snäll och kolla din uppkoppling."
+msgstr "Det gick inte att spara startskärmens layout."
 
 # seeded from jellyfin-web: General
 #. Name of the first tab of Settings, holding what belongs to this
@@ -7184,10 +7104,8 @@ msgstr "Bläddra"
 #. Name of a Settings tab, holding the Jellyfin servers and this
 #. application's local profiles.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/__init__.py
-#, fuzzy
-#| msgid "Server URL: "
 msgid "Servers & Users"
-msgstr "Server URL: "
+msgstr "Servrar och användare"
 
 # seeded from jellyfin-web: LabelLogs
 #. Name of a Settings tab showing this application's diagnostic output.
@@ -7198,10 +7116,8 @@ msgstr "Loggfiler"
 
 #. Placeholder in the empty field that searches the settings.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/__init__.py
-#, fuzzy
-#| msgid "SVP Settings"
 msgid "Search settings…"
-msgstr "SVP Inställningar"
+msgstr "Sök inställningar…"
 
 # seeded from jellyfin-web: Copy
 #. Button on the Logs tab that puts the log on the clipboard. An imperative
@@ -7213,69 +7129,61 @@ msgstr "Kopiera"
 #. Shown on the Logs tab when nothing has been logged.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/logs.py
 msgid "No log output captured yet."
-msgstr ""
+msgstr "Ingen loggutdata har sparats ännu."
 
 #. Status message when Copy was pressed on an empty log.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/logs.py
 msgid "There is nothing to copy yet."
-msgstr ""
+msgstr "Det finns inget att kopiera ännu."
 
 #. Status message confirming the log reached the clipboard. %d is how many
 #. lines.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/logs.py
 #, python-format
 msgid "Copied %d log lines."
-msgstr ""
+msgstr "%d loggrader kopierades."
 
 #. State beside a server in Settings: the application can reach it.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/servers.py
 msgid "Connected"
-msgstr ""
+msgstr "Ansluten"
 
 #. One-word status in the Servers list: this server answered, but it no
 #. longer accepts the saved login, so the user has to sign in again. The
 #. other two states are "Connected" and "Offline".
 #: jellyfin_mpv_shim/mpvtk_browser/settings/servers.py
 msgid "Signed out"
-msgstr ""
+msgstr "Utloggad"
 
 #. State beside a server in Settings: the application cannot reach it.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/servers.py
 msgid "Offline"
-msgstr ""
+msgstr "Offline"
 
 #. Placeholder in the empty field where the name of a new local profile is
 #. typed, in the Users settings. These are this application's own profiles,
 #. each with its own servers, not Jellyfin accounts.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/servers.py
-#, fuzzy
-#| msgid "Username: "
 msgid "New user name…"
-msgstr "Användarnamn: "
+msgstr "Nytt användarnamn…"
 
 #. Button in the Users settings that creates a new local profile. An
 #. imperative verb phrase.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/servers.py
-#, fuzzy
-#| msgid "Add Server"
 msgid "Add User"
-msgstr "Lägg till server"
+msgstr "Lägg till användare"
 
 #. Shown in the Servers settings when this profile has signed in to
 #. nothing.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/servers.py
-#, fuzzy
-#| msgid "Server Configuration"
 msgid "No servers configured yet."
-msgstr "Serverkonfiguration"
+msgstr "Inga servrar har konfigurerats ännu."
 
 #. Heading of the Users section of Settings, listing this application's
 #. local profiles.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/servers.py
-#, fuzzy
-#| msgid "Username:"
 msgid "Users"
-msgstr "Användarnamn:"
+msgstr "Användare"
 
 #. Subtitle under the Users heading in Settings. These are this
 #. application's own local profiles, not Jellyfin accounts, and a locked
@@ -7285,45 +7193,40 @@ msgid ""
 "Each user has its own servers and device identity; a locked user needs a PIN "
 "to switch to."
 msgstr ""
+"Varje användare har egna servrar och en egen enhetsidentitet; en låst "
+"användare behöver en PIN-kod för att kunna väljas."
 
 #. Heading of the Servers section of Settings. %s is the name of the local
 #. profile whose servers are listed.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/servers.py
-#, fuzzy, python-format
-#| msgid "Server:"
+#, python-format
 msgid "Servers for %s"
-msgstr "Server:"
+msgstr "Servrar för %s"
 
 #. Heading of the Servers section of Settings, used when no profile is
 #. named.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/servers.py
-#, fuzzy
-#| msgid "Server:"
 msgid "Servers"
-msgstr "Server:"
+msgstr "Servrar"
 
 #. Button beside a local profile in Settings that alters its numeric
 #. passcode. An imperative verb phrase.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/servers.py
-#, fuzzy
-#| msgid "Change Audio"
 msgid "Change PIN"
-msgstr "Ändra ljud"
+msgstr "Ändra PIN-kod"
 
 #. Button beside a local profile in Settings that gives it a numeric
 #. passcode. An imperative verb phrase.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/servers.py
-#, fuzzy
-#| msgid "Server:"
 msgid "Set PIN"
-msgstr "Server:"
+msgstr "Ange PIN-kod"
 
 #. Question in the dialog that removes a local profile. %s is the profile's
 #. name; "saved logins" are the servers it is signed in to.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/servers.py
 #, python-format
 msgid "Delete user %s and its saved logins?"
-msgstr ""
+msgstr "Ta bort användaren %s och dess sparade inloggningar?"
 
 # seeded from jellyfin-web: DeleteUser
 #. Title of the dialog that removes a local profile.
@@ -7335,14 +7238,13 @@ msgstr "Ta bort användare"
 #. Lower case, a small caption rather than a sentence.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/servers.py
 msgid "active"
-msgstr ""
+msgstr "aktiv"
 
 #. Question in the dialog that forgets a server. %s is the server's name.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/servers.py
-#, fuzzy, python-format
-#| msgid "Remove Server"
+#, python-format
 msgid "Remove %s and its saved login?"
-msgstr "Ta bort server"
+msgstr "Ta bort %s och dess sparade inloggning?"
 
 #. Title of the dialog that forgets a server.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/servers.py
@@ -7353,28 +7255,26 @@ msgstr "Ta bort server"
 #. be fetched automatically.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/servers.py
 msgid "Auto-download"
-msgstr ""
+msgstr "Hämta automatiskt"
 
 #. Status message when a reconnect to a server is already under way: the user
 #. pressed Retry a second time, or something else (the periodic health check)
 #. was already connecting to it.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/servers.py
 msgid "Already reconnecting."
-msgstr ""
+msgstr "Återansluter redan."
 
 #. Status message after a manual retry succeeded. %s is the server's name.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/servers.py
-#, fuzzy, python-format
-#| msgid "Connect to Jellyfin"
+#, python-format
 msgid "Connected to %s."
-msgstr "Anslut till Jellyfin"
+msgstr "Ansluten till %s."
 
 #. Status message while a manual retry is running. %s is the server's name.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/servers.py
-#, fuzzy, python-format
-#| msgid "Connecting…"
+#, python-format
 msgid "Connecting to %s…"
-msgstr "Ansluter…"
+msgstr "Ansluter till %s…"
 
 #. Body of the dialog shown when a server could not be reached. %s is the
 #. server's name. This is the version for a server that IS reachable and
@@ -7385,6 +7285,8 @@ msgid ""
 "%s answered, but it no longer accepts the saved login. Signing in again "
 "keeps its downloads and settings."
 msgstr ""
+"%s svarade, men accepterar inte längre den sparade inloggningen. Om du "
+"loggar in igen behålls hämtningar och inställningar."
 
 #. Body of the same dialog, for a server that did not respond at all. %s is
 #. the server's name.
@@ -7394,33 +7296,34 @@ msgid ""
 "%s did not answer. It may be switched off, or this machine may not be able "
 "to reach it right now."
 msgstr ""
+"%s svarade inte. Den kan vara avstängd eller så kan datorn inte nå den just "
+"nu."
 
 #. Title of that dialog. %s is the server's name.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/servers.py
-#, fuzzy, python-format
-#| msgid "Could not connect to the server."
+#, python-format
 msgid "Couldn't connect to %s"
-msgstr "Uppkopplingen till servern misslyckades."
+msgstr "Det gick inte att ansluta till %s"
 
 #. Status message when forgetting a server failed.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/servers.py
 msgid "The server could not be removed."
-msgstr ""
+msgstr "Det gick inte att ta bort servern."
 
 #. Status message when creating a local profile failed.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/servers.py
 msgid "That user could not be added."
-msgstr ""
+msgstr "Det gick inte att lägga till användaren."
 
 #. Title of the dialog that changes a local profile's name.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/servers.py
 msgid "Rename User"
-msgstr ""
+msgstr "Byt namn på användare"
 
 #. Status message when changing a local profile's name failed.
 #: jellyfin_mpv_shim/mpvtk_browser/settings/servers.py
 msgid "That user could not be renamed."
-msgstr ""
+msgstr "Det gick inte att byta namn på användaren."
 
 # seeded from jellyfin-web: LabelYear
 #. Column heading in a library shown as a list: the item's release year.
@@ -7431,7 +7334,7 @@ msgstr "År"
 #. Column heading in a library shown as a list: how long the item runs.
 #: jellyfin_mpv_shim/mpvtk_browser/tile_renderer.py
 msgid "Length"
-msgstr ""
+msgstr "Längd"
 
 # seeded from jellyfin-web: Artist
 #. Column heading in a music track table: who performs the track.
@@ -7456,69 +7359,57 @@ msgstr "Spela från början"
 #. Action on an item's menu that puts it directly after what is playing
 #. now. An imperative verb phrase.
 #: jellyfin_mpv_shim/mpvtk_browser/tiles.py
-#, fuzzy
 msgid "Play next"
-msgstr "Antal visningar"
+msgstr "Spela nästa"
 
 # seeded from jellyfin-web: Unplayed
 #. Action on an item's menu that tells the server it has not been watched.
 #. An imperative verb phrase.
 #: jellyfin_mpv_shim/mpvtk_browser/tiles.py
-#, fuzzy
 msgid "Mark unplayed"
-msgstr "Inte spelad"
+msgstr "Markera som ospelad"
 
 #. Action on an item's menu that tells the server it has been watched. An
 #. imperative verb phrase.
 #: jellyfin_mpv_shim/mpvtk_browser/tiles.py
-#, fuzzy
-#| msgid "Quit and Mark Unwatched"
 msgid "Mark played"
-msgstr "Avsluta och märk som ospelad"
+msgstr "Markera som spelad"
 
 #. Action on an item's menu that opens the playlist chooser. An imperative
 #. verb phrase.
 #: jellyfin_mpv_shim/mpvtk_browser/tiles.py
-#, fuzzy
-#| msgid "Remove Server"
 msgid "Add to playlist"
-msgstr "Ta bort server"
+msgstr "Lägg till i spellista"
 
 #. Action on an item's menu, and the title of the dialog it opens, taking
 #. the item out of the playlist being viewed. An imperative verb phrase.
 #: jellyfin_mpv_shim/mpvtk_browser/tiles.py
-#, fuzzy
-#| msgid "Remove Server"
 msgid "Remove from playlist"
-msgstr "Ta bort server"
+msgstr "Ta bort från spellista"
 
 #. Action on an item's menu, and the title of the dialog it opens, taking
 #. the item out of the collection being viewed. An imperative verb phrase.
 #: jellyfin_mpv_shim/mpvtk_browser/tiles.py
-#, fuzzy
-#| msgid "Remove Server"
 msgid "Remove from collection"
-msgstr "Ta bort server"
+msgstr "Ta bort från samling"
 
 #. Question in the confirmation dialog. %s is the item's name.
 #: jellyfin_mpv_shim/mpvtk_browser/tiles.py
-#, fuzzy, python-format
-#| msgid "Remove Server"
+#, python-format
 msgid "Remove %s from this playlist?"
-msgstr "Ta bort server"
+msgstr "Ta bort %s från spellistan?"
 
 #. Question in the confirmation dialog. %s is the item's name.
 #: jellyfin_mpv_shim/mpvtk_browser/tiles.py
-#, fuzzy, python-format
-#| msgid "Remove Server"
+#, python-format
 msgid "Remove %s from this collection?"
-msgstr "Ta bort server"
+msgstr "Ta bort %s från samlingen?"
 
 #. Status message when Add to play queue was chosen on something the app
 #. found no playable item inside.
 #: jellyfin_mpv_shim/mpvtk_browser/tiles.py
 msgid "There is nothing here to queue."
-msgstr ""
+msgstr "Det finns inget här att lägga i kön."
 
 #. How a clock time is assembled on a twelve-hour clock. {time} is like
 #. "8:30" and {period} is the translation of AM or PM. Reorder them, or
@@ -7527,14 +7418,14 @@ msgstr ""
 #, python-brace-format
 msgctxt "12-hour clock"
 msgid "{time} {period}"
-msgstr ""
+msgstr "{time} {period}"
 
 #. The morning half of a twelve-hour clock, as in "8:30 AM". Many languages
 #. have their own marker; some drop it and use a 24-hour clock instead.
 #: jellyfin_mpv_shim/mpvtk_browser/timefmt.py
 msgctxt "12-hour clock"
 msgid "AM"
-msgstr ""
+msgstr "fm"
 
 #. The afternoon half of a twelve-hour clock, as in "8:30 PM". Many
 #. languages have their own marker; some drop it and use a 24-hour clock
@@ -7542,7 +7433,7 @@ msgstr ""
 #: jellyfin_mpv_shim/mpvtk_browser/timefmt.py
 msgctxt "12-hour clock"
 msgid "PM"
-msgstr ""
+msgstr "em"
 
 # seeded from jellyfin-web: Search
 #. Tooltip of the navigation bar's search button. A verb.
@@ -7556,12 +7447,12 @@ msgstr "Sök"
 #: jellyfin_mpv_shim/mpvtk_browser/window_chrome.py
 #, python-format
 msgid "%s (needs reconnect)"
-msgstr ""
+msgstr "%s (kräver återanslutning)"
 
 #. Tooltip of the window button that hides the window to the taskbar.
 #: jellyfin_mpv_shim/mpvtk_browser/window_chrome.py
 msgid "Minimize"
-msgstr ""
+msgstr "Minimera"
 
 # seeded from jellyfin-web: LabelRestore
 #. Tooltip of the window button that returns a maximized window to its
@@ -7572,16 +7463,14 @@ msgstr "Återställ"
 
 #. Tooltip of the window button that fills the screen with the window.
 #: jellyfin_mpv_shim/mpvtk_browser/window_chrome.py
-#, fuzzy
-#| msgid "Maximum"
 msgid "Maximize"
-msgstr "Maximal"
+msgstr "Maximera"
 
 #. Tooltip of the grip in the window's bottom corner that drags the window
 #. larger or smaller. A verb.
 #: jellyfin_mpv_shim/mpvtk_browser/window_chrome.py
 msgid "Resize"
-msgstr ""
+msgstr "Ändra storlek"
 
 # seeded from jellyfin-web: Home
 #. Name of the home screen, on the navigation bar's Home button and as the
@@ -7594,32 +7483,26 @@ msgstr "Hem"
 #. downloaded to this computer, without a server. A place to go, not the
 #. state of a server (compare the Settings status word "Offline").
 #: jellyfin_mpv_shim/mpvtk_browser/window_chrome.py
-#, fuzzy
-#| msgid "Work Offline"
 msgctxt "server switcher entry"
 msgid "Offline"
-msgstr "Arbeta offline"
+msgstr "Offline"
 
 #. Tooltip of the navigation bar's dropdown that switches between Jellyfin
 #. servers.
 #: jellyfin_mpv_shim/mpvtk_browser/window_chrome.py
-#, fuzzy
-#| msgid "Server:"
 msgid "Server"
-msgstr "Server:"
+msgstr "Server"
 
 #. Tooltip of the navigation bar's dropdown that switches between accounts
 #. on this server.
 #: jellyfin_mpv_shim/mpvtk_browser/window_chrome.py
-#, fuzzy
-#| msgid "Username:"
 msgid "User"
-msgstr "Användarnamn:"
+msgstr "Användare"
 
 #. Placeholder in the empty search field on the navigation bar.
 #: jellyfin_mpv_shim/mpvtk_browser/window_chrome.py
 msgid "Search…"
-msgstr ""
+msgstr "Sök…"
 
 #. Banner shown when settings were changed that only take effect after the
 #. application is started again. %s is a comma-separated list of those
@@ -7627,15 +7510,14 @@ msgstr ""
 #: jellyfin_mpv_shim/mpvtk_browser/window_chrome.py
 #, python-format
 msgid "Restart to apply: %s"
-msgstr ""
+msgstr "Starta om för att tillämpa: %s"
 
 # seeded from jellyfin-web: Restart
 #. Button on the restart banner that closes and reopens the application
 #. immediately. An imperative verb.
 #: jellyfin_mpv_shim/mpvtk_browser/window_chrome.py
-#, fuzzy
 msgid "Restart Now"
-msgstr "Starta om"
+msgstr "Starta om nu"
 
 #. Button on the banner asking for a restart, putting it off for now. It
 #. carries a context because the update banner has a button of the same
@@ -7643,7 +7525,7 @@ msgstr "Starta om"
 #: jellyfin_mpv_shim/mpvtk_browser/window_chrome.py
 msgctxt "Restart banner"
 msgid "Later"
-msgstr ""
+msgstr "Senare"
 
 #. Banner announcing a newer release, shown inside a Flatpak where the
 #. desktop's own updater installs it. %s is the version number; the quoted
@@ -7651,20 +7533,20 @@ msgstr ""
 #: jellyfin_mpv_shim/mpvtk_browser/window_chrome.py
 #, python-format
 msgid "Update available: %s — run “flatpak update”"
-msgstr ""
+msgstr "Uppdatering tillgänglig: %s – kör ”flatpak update”"
 
 #. Banner announcing a newer release of this application. %s is the version
 #. number.
 #: jellyfin_mpv_shim/mpvtk_browser/window_chrome.py
 #, python-format
 msgid "Update available: %s"
-msgstr ""
+msgstr "Uppdatering tillgänglig: %s"
 
 #. Button on the update banner that opens the release notes. The ellipsis
 #. means it opens something else.
 #: jellyfin_mpv_shim/mpvtk_browser/window_chrome.py
 msgid "Details…"
-msgstr ""
+msgstr "Detaljer…"
 
 #. Button on the update banner that puts the notice off for now, so it
 #. returns next time. "Not now", not a direction in time. Two other buttons
@@ -7672,39 +7554,37 @@ msgstr ""
 #: jellyfin_mpv_shim/mpvtk_browser/window_chrome.py
 msgctxt "update banner"
 msgid "Later"
-msgstr ""
+msgstr "Senare"
 
 #. Button on the update banner that hides it for this version for good. An
 #. imperative verb.
 #: jellyfin_mpv_shim/mpvtk_browser/window_chrome.py
 msgid "Ignore"
-msgstr ""
+msgstr "Ignorera"
 
 #. Tooltip of the update banner's Ignore button.
 #: jellyfin_mpv_shim/mpvtk_browser/window_chrome.py
 msgid "Do not mention this version again"
-msgstr ""
+msgstr "Nämn inte den här versionen igen"
 
 #. Banner across the top of the library after something the user asked
 #. for failed because the server could not be reached. Followed by the
 #. "Retry" and "Go Offline" buttons.
 #: jellyfin_mpv_shim/mpvtk_browser/window_chrome.py
 msgid "The server isn't answering."
-msgstr ""
+msgstr "Servern svarar inte."
 
 #. Button on the "server isn't answering" banner: browse only what is
 #. downloaded to this computer instead.
 #: jellyfin_mpv_shim/mpvtk_browser/window_chrome.py
-#, fuzzy
-#| msgid "Work Offline"
 msgid "Go Offline"
-msgstr "Arbeta offline"
+msgstr "Gå offline"
 
 #. Banner shown when no server could be reached and only downloaded items
 #. are listed.
 #: jellyfin_mpv_shim/mpvtk_browser/window_chrome.py
 msgid "Offline — showing what's available."
-msgstr ""
+msgstr "Offline – visar tillgängligt innehåll."
 
 #. Button on the offline banner that opens the server settings. An
 #. imperative verb phrase.
@@ -7717,62 +7597,56 @@ msgstr "Konfigurera servrar"
 #: jellyfin_mpv_shim/mpvtk_browser/window_chrome.py
 #, python-format
 msgid "Downloading %(name)s — %(n)d remaining"
-msgstr ""
+msgstr "Hämtar %(name)s – %(n)d återstår"
 
 #. Bar along the bottom while items are being fetched and the current one
 #. has no name. %(n)d is how many are still queued.
 #: jellyfin_mpv_shim/mpvtk_browser/window_chrome.py
 #, python-format
 msgid "Downloading — %(n)d remaining"
-msgstr ""
+msgstr "Hämtar – %(n)d återstår"
 
 #. Button on the downloading bar that opens the downloads page. An
 #. imperative verb phrase.
 #: jellyfin_mpv_shim/mpvtk_browser/window_chrome.py
 msgid "View Downloads"
-msgstr ""
+msgstr "Visa hämtningar"
 
 #. Stands in for a value the player could not report, on the playback
 #. controls. Lower case, because it appears inside a line rather than
 #. starting one.
 #: jellyfin_mpv_shim/osc_bridge.py
 msgid "unknown"
-msgstr ""
+msgstr "okänd"
 
 #. Entry on the settings menu of the classic on-screen controls, opening
 #. MPV's own statistics overlay.
 #: jellyfin_mpv_shim/osc_bridge.py
 msgid "Playback Data"
-msgstr ""
+msgstr "Uppspelningsdata"
 
 #. Marker beside a quality option on the playback controls, meaning the
 #. server would re-encode the video to reach it. A noun here.
 #: jellyfin_mpv_shim/osc_bridge.py
-#, fuzzy
-#| msgid " (Transcode)"
 msgid "Transcode"
-msgstr " (Omkoda)"
+msgstr "Omkoda"
 
 #. First entry of a video profile list for a narrower scope, meaning "stop
 #. overriding and follow the wider setting".
 #: jellyfin_mpv_shim/osc_bridge.py jellyfin_mpv_shim/video_profile.py
-#, fuzzy
-#| msgid "Theme default"
 msgid "Use the default"
-msgstr "Standardtema"
+msgstr "Använd standardvärdet"
 
 #. Value shown beside the SyncPlay row on the playback controls when this
 #. device is watching in sync with a group.
 #: jellyfin_mpv_shim/osc_bridge.py
-#, fuzzy
-#| msgid "SyncPlay enabled."
 msgid "SyncPlay enabled"
-msgstr "SyncPlay aktiverat."
+msgstr "SyncPlay aktiverat"
 
 #. Shown over the video while the next item is being opened.
 #: jellyfin_mpv_shim/player.py
 msgid "Please wait, loading..."
-msgstr ""
+msgstr "Vänta, läser in…"
 
 #. Warning drawn over the video when the server is re-encoding it. "c" is a
 #. keyboard key; leave the letter as it is. Keep the line break.
@@ -7789,13 +7663,13 @@ msgstr ""
 #. "Could not play this item: <title> — "; "it" is that item.
 #: jellyfin_mpv_shim/player.py
 msgid "The server stopped sending it partway through."
-msgstr ""
+msgstr "Servern slutade skicka den mitt i."
 
 #. Shown over the video when playback reaches the end of a downloaded
 #. episode and the one after it is not on this device.
 #: jellyfin_mpv_shim/player.py
 msgid "Next episode is not downloaded."
-msgstr ""
+msgstr "Nästa avsnitt har inte hämtats."
 
 #. How an episode is named in what this application reports to the server
 #. and to Discord. {0} and {1} are numbers.
@@ -7849,11 +7723,12 @@ msgstr "Aktivera SVP"
 #: jellyfin_mpv_shim/sync/manager.py
 msgid "Downloads are unavailable: the saved logins could not be read."
 msgstr ""
+"Hämtningar är inte tillgängliga: de sparade inloggningarna kunde inte läsas."
 
 #. Error when the folder chosen for downloads is the one already in use.
 #: jellyfin_mpv_shim/sync/manager.py
 msgid "The downloads are already in that folder."
-msgstr ""
+msgstr "Hämtningarna finns redan i den mappen."
 
 #. Error when the download folder was changed while something is being
 #. fetched.
@@ -7862,24 +7737,27 @@ msgid ""
 "Can't change the download folder while a download is in progress. Wait for "
 "it to finish, then try again."
 msgstr ""
+"Det går inte att ändra hämtningsmappen medan en hämtning pågår. Vänta tills "
+"den är klar och försök sedan igen."
 
 #. Error when the folder chosen for downloads sits within the present one,
 #. which the move cannot handle.
 #: jellyfin_mpv_shim/sync/manager.py
 msgid ""
 "That folder is inside the current download folder. Choose one outside it."
-msgstr ""
+msgstr "Mappen ligger i den aktuella hämtningsmappen. Välj en utanför den."
 
 #. Error when the folder chosen for downloads could not be opened.
 #: jellyfin_mpv_shim/sync/manager.py
 msgid "Can't read that folder. Check the path and its permissions."
 msgstr ""
+"Det går inte att läsa mappen. Kontrollera sökvägen och dess behörigheter."
 
 #. Error when the folder chosen for downloads already holds this
 #. application's files.
 #: jellyfin_mpv_shim/sync/manager.py
 msgid "That folder already contains downloads. Choose an empty folder."
-msgstr ""
+msgstr "Mappen innehåller redan hämtningar. Välj en tom mapp."
 
 #. Error when the folder chosen for downloads holds other files, which this
 #. application would take charge of.
@@ -7888,11 +7766,14 @@ msgid ""
 "That folder isn't empty. Choose an empty folder — the download folder is "
 "managed by this app and anything else in it can be moved or removed."
 msgstr ""
+"Mappen är inte tom. Välj en tom mapp – hämtningsmappen hanteras av "
+"programmet och allt annat i den kan flyttas eller tas bort."
 
 #. Error when the folder chosen for downloads could not be made.
 #: jellyfin_mpv_shim/sync/manager.py
 msgid "Can't create that folder. Check the path and its permissions."
 msgstr ""
+"Det går inte att skapa mappen. Kontrollera sökvägen och dess behörigheter."
 
 #. Shown after choosing a new download folder the app cannot write into --
 #. another account's folder, or a read-only disk. Nothing has been moved.
@@ -7901,12 +7782,16 @@ msgid ""
 "This app isn't allowed to write to that folder. Pick one you own, or change "
 "its permissions, and try again."
 msgstr ""
+"Programmet har inte behörighet att skriva till mappen. Välj en som du äger "
+"eller ändra dess behörigheter och försök igen."
 
 #. Error when the download folder was changed while a transfer is still
 #. ending.
 #: jellyfin_mpv_shim/sync/manager.py
 msgid "A download is still finishing. Wait for it to stop, then try again."
 msgstr ""
+"En hämtning avslutas fortfarande. Vänta tills den har stoppats och försök "
+"sedan igen."
 
 #. Error when the disk holding the chosen folder is too small for what is
 #. already downloaded.
@@ -7915,6 +7800,8 @@ msgid ""
 "There isn't enough space on that drive to move the downloads. Free some "
 "space and try again — nothing was moved."
 msgstr ""
+"Det finns inte tillräckligt med utrymme på enheten för att flytta "
+"hämtningarna. Frigör utrymme och försök igen – inget flyttades."
 
 #. The same problem, discovered part way through the move rather than
 #. before it started. Past tense for that reason. Nothing was lost.
@@ -7923,6 +7810,8 @@ msgid ""
 "This app wasn't allowed to write to that folder. The downloads were left in "
 "place; check the folder's permissions and try again."
 msgstr ""
+"Programmet hade inte behörighet att skriva till mappen. Hämtningarna "
+"lämnades kvar; kontrollera mappens behörigheter och försök igen."
 
 #. Error when relocating the downloads did not finish, saying nothing was
 #. lost.
@@ -7931,6 +7820,8 @@ msgid ""
 "Moving the downloads failed. They were left in place; the download folder "
 "was not changed."
 msgstr ""
+"Det gick inte att flytta hämtningarna. De lämnades kvar; hämtningsmappen "
+"ändrades inte."
 
 #. Error when the watch-together group asked for is gone.
 #: jellyfin_mpv_shim/syncplay.py
@@ -7957,10 +7848,9 @@ msgstr "Tillgång till SyncPlay biblioteket nekades."
 #. started it; the possessive ending is English and should be rendered
 #. however the language marks possession.
 #: jellyfin_mpv_shim/syncplay.py
-#, fuzzy, python-brace-format
-#| msgid "{0}'s Group"
+#, python-brace-format
 msgid "{0}'s group"
-msgstr "{0}s grupp"
+msgstr "{0}:s grupp"
 
 #. Shown over the video while SyncPlay speeds playback slightly to catch up
 #. with the group. {0} is the speed multiplier. The name is SyncPlay's own
@@ -8010,10 +7900,9 @@ msgstr "{0} har lämnat."
 #. Shown over the video while somebody in the watch-together group is still
 #. loading, so everyone waits. {0} is their name.
 #: jellyfin_mpv_shim/syncplay.py
-#, fuzzy, python-brace-format
-#| msgid "{0} is buffering."
+#, python-brace-format
 msgid "{0} is buffering…"
-msgstr "{0} håller på att buffra."
+msgstr "{0} buffrar…"
 
 #. Warning shown when no tray icon could be created on GNOME. The quoted
 #. extension name is how it appears in the GNOME extensions site; leave it
@@ -8025,6 +7914,9 @@ msgid ""
 "KStatusNotifierItem Support\" extension to get one, or turn on \"Allow "
 "Background\" in Settings to run without a window anyway."
 msgstr ""
+"GNOME ritar inte själv något systemfält. Installera tillägget \"AppIndicator "
+"and KStatusNotifierItem Support\" för att få ett, eller aktivera \"Tillåt i "
+"bakgrunden\" i Inställningar för att köra utan fönster ändå."
 
 #. Warning shown when no tray icon could be created. "Allow Background" is
 #. a setting on this application's Settings screen; keep it matching that
@@ -8034,12 +7926,14 @@ msgid ""
 "No system tray is running on this desktop. Turn on \"Allow Background\" in "
 "Settings to run without a window anyway."
 msgstr ""
+"Inget systemfält körs på det här skrivbordet. Aktivera \"Tillåt i "
+"bakgrunden\" i Inställningar för att köra utan fönster ändå."
 
 #. Entry on this application's system tray menu that brings the window up.
 #. An imperative verb phrase.
 #: jellyfin_mpv_shim/tray.py
 msgid "Show Library Browser"
-msgstr ""
+msgstr "Visa biblioteksbläddraren"
 
 #. Entry on this application's system tray menu, on Windows, that reveals
 #. the terminal window. An imperative verb phrase.
@@ -8172,39 +8066,38 @@ msgstr "Anime4K x2 Perceptuell + Deblurr (För HD)"
 #. the bracketed words say what it does.
 #: jellyfin_mpv_shim/video_profile.py
 msgid "ArtCNN (Denoise + Sharpen)"
-msgstr ""
+msgstr "ArtCNN (Denoise + Sharpen)"
 
 #. Name of a video shader profile. The bracketed code is the model's own
 #. name; leave it as it is.
 #: jellyfin_mpv_shim/video_profile.py
 msgid "ArtCNN High (C4F32)"
-msgstr ""
+msgstr "ArtCNN High (C4F32)"
 
 #. Name of the widest video-profile scope: the profile used when nothing
 #. narrower is set.
 #: jellyfin_mpv_shim/video_profile.py
 msgid "Default (all media)"
-msgstr ""
+msgstr "Standard (alla medier)"
 
 #. Name of a video-profile scope: the profile applies to everything in the
 #. library being viewed.
 #: jellyfin_mpv_shim/video_profile.py
 msgid "This Library"
-msgstr ""
+msgstr "Det här biblioteket"
 
 # seeded from jellyfin-web: Series
 #. Name of a video-profile scope: the profile applies to every episode of
 #. this series.
 #: jellyfin_mpv_shim/video_profile.py
-#, fuzzy
 msgid "This Series"
-msgstr "Serier"
+msgstr "Den här serien"
 
 #. Shown for a video-profile scope that has no profile of its own, so it
 #. follows a wider one.
 #: jellyfin_mpv_shim/video_profile.py
 msgid "Not set"
-msgstr ""
+msgstr "Inte angivet"
 
 #. Marks which video-profile scope is actually deciding right now. {0} is
 #. that scope's name; the arrow is drawn from plain characters and should
@@ -8212,15 +8105,13 @@ msgstr ""
 #: jellyfin_mpv_shim/video_profile.py
 #, python-brace-format
 msgid "{0}  <-- in effect"
-msgstr ""
+msgstr "{0}  <-- används"
 
 #. Title of the in-player screen that chooses a video profile per scope. A
 #. video profile is a saved set of MPV shader and rendering options.
 #: jellyfin_mpv_shim/video_profile.py
-#, fuzzy
-#| msgid "Video Playback Profiles"
 msgid "Video Playback Profile"
-msgstr "Uppspelningsprofiler"
+msgstr "Videouppspelningsprofil"
 
 #. Title of the in-player submenu listing the shader profiles that can be
 #. applied.
