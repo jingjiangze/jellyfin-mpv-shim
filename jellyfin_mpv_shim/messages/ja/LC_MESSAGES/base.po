@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-24 02:13-0400\n"
-"PO-Revision-Date: 2026-10-30 15:45+0000\n"
+"PO-Revision-Date: 2026-10-31 18:44+0000\n"
 "Last-Translator: INOUE Daisuke <inoue.daisuke@gmail.com>\n"
 "Language-Team: Japanese <https://translate.jellyfin.org/projects/jellyfin/"
 "jellyfin-mpv-shim/ja/>\n"
@@ -1089,13 +1089,13 @@ msgstr "サーバー URL"
 #. is typed.
 #: jellyfin_mpv_shim/mpvtk_browser/auth.py
 msgid "Username"
-msgstr "ユーザ名 :"
+msgstr "ユーザ名"
 
 #. Label of the field on the sign-in page where the Jellyfin account
 #. password is typed.
 #: jellyfin_mpv_shim/mpvtk_browser/auth.py
 msgid "Password"
-msgstr "パスワード :"
+msgstr "パスワード"
 
 # seeded from jellyfin-web: ButtonUseQuickConnect
 #. Button on the sign-in page that signs in with a code instead of a
@@ -1135,7 +1135,7 @@ msgstr "まずサーバー URL を入力してください。"
 #. Status shown while the Quick Connect code is being requested.
 #: jellyfin_mpv_shim/mpvtk_browser/auth.py
 msgid "Contacting the server…"
-msgstr "サーバーに接続しています…"
+msgstr "サーバーに接続中…"
 
 #. Status shown while Quick Connect waits for someone to accept the code in
 #. another Jellyfin app.
@@ -1235,14 +1235,14 @@ msgstr "キャストができるようになりました"
 #. Instruction under the idle cast screen's heading.
 #: jellyfin_mpv_shim/mpvtk_browser/cast.py
 msgid "Select your media in Jellyfin and play it here."
-msgstr "Jellyfin でメディアを選択し、ここで再生します。"
+msgstr "Jellyfin のメディアを選択し、ここで再生します。"
 
 # seeded from jellyfin-web: HeaderCastAndCrew
 #. Heading over the actors and film-makers on an item's page. Jellyfin Web
 #. uses the same phrase.
 #: jellyfin_mpv_shim/mpvtk_browser/components/detail.py
 msgid "Cast & Crew"
-msgstr "キャスト＆クルー"
+msgstr "キャスト・スタッフ"
 
 # seeded from jellyfin-web: Download
 #. Button in the Download modal that starts fetching the selected items. An
@@ -1640,7 +1640,7 @@ msgstr "映像レンジ"
 #. video uses, such as HDR10 or Dolby Vision.
 #: jellyfin_mpv_shim/mpvtk_browser/components/media_info.py
 msgid "Video range type"
-msgstr "動画レンジタイプ"
+msgstr "映像レンジタイプ"
 
 #. Row label in the Media Info panel: the colour space the video is encoded
 #. in, such as BT.709.
@@ -1760,7 +1760,7 @@ msgstr "Dobly Vision RPU プリセットフラグ"
 #. languages keep them as-is.
 #: jellyfin_mpv_shim/mpvtk_browser/components/media_info.py
 msgid "DV el preset flag"
-msgstr "Dolby VisionのELプリセットのフラグ"
+msgstr "Dolby Vision EL プリセットフラグ"
 
 # seeded from jellyfin-web: MediaInfoBlPresentFlag
 #. Row label in the Media Info panel: whether the Dolby Vision base layer
@@ -5460,7 +5460,7 @@ msgstr "表示対象"
 #. programme are colour coded.
 #: jellyfin_mpv_shim/mpvtk_browser/livetv_dialogs.py
 msgid "Categories"
-msgstr "カテゴリ"
+msgstr "カテゴリー"
 
 #. Button on the Live TV guide, and the title of the dialog it opens,
 #. holding how channels are sorted and which badges are shown.
@@ -5923,7 +5923,7 @@ msgstr "再生回数"
 #. Choice in a library's Sort dropdown: order items by how long they run.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/grid.py
 msgid "Runtime"
-msgstr "実行時間"
+msgstr "再生時間"
 
 # seeded from jellyfin-web: OptionCommunityRating
 #. Choice in a library's Sort dropdown: order items by the score
@@ -6301,7 +6301,7 @@ msgstr "似ているアーチスト"
 #. uses the same phrase; follow its wording in this language.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/music.py
 msgid "Instant mix"
-msgstr "jellyfin-web から生成 : HeaderInstantMix"
+msgstr "インスタントミックス"
 
 #. Caption under an album or playlist, counting its songs.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/music.py
