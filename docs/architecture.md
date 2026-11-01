@@ -5,7 +5,7 @@ instance, what a launch claims before anything else can, the tray child, how
 quitting is made to finish, the input models, the local user model, and how the
 module-level singletons find each other.
 
-`CLAUDE.md` lists what the singletons *are*. This file is about the process
+`STARTHERE.md` lists what the singletons *are*. This file is about the process
 around them. Player-side seams (backends, mpv versions, SDL, input sections) are
 in `docs/mpv-backends.md` and are cross-referenced rather than repeated.
 

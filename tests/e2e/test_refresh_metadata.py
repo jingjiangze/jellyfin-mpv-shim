@@ -104,7 +104,7 @@ def _assert_recursive_is_not_a_parameter(test, address, token, path, params):
     baseline also answers 204. So a comparison of statuses passes for a
     parameter that unquestionably does something.
 
-    What can fail is the contrast CLAUDE.md already prescribes -- "the
+    What can fail is the contrast STARTHERE.md already prescribes -- "the
     evidence that a value parses is the contrast with a deliberately bogus
     one". The endpoint **does** validate the names it knows: an unparseable
     value for `RECOGNISED` is a 400. `Recursive` with an equally unparseable

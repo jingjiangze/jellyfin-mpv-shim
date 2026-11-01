@@ -45,7 +45,7 @@ def _preview_api(version):
     """`player.osc_preview_api_works` without importing player.
 
     Importing `jellyfin_mpv_shim.player` builds its module-level singleton
-    and opens a real mpv window (see CLAUDE.md), which is not something a
+    and opens a real mpv window (see STARTHERE.md), which is not something a
     unit test about a version string should cost. The predicate is pure, so
     it is read out of the source and executed on its own -- the same trick
     `test_mpv_options` uses to keep option behaviour testable without a

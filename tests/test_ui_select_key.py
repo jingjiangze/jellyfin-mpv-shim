@@ -69,7 +69,7 @@ def remote_ok_key():
 
     The same accessor, asserted at the source to be what `player.py`
     actually calls -- importing that module builds its singleton and opens
-    a real mpv window (CLAUDE.md), so the press path cannot be executed
+    a real mpv window (STARTHERE.md), so the press path cannot be executed
     here. `test_the_remote_path_calls_it` is the half that keeps this
     honest.
     """

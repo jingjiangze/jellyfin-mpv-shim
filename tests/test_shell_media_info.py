@@ -172,7 +172,7 @@ class MediaInfoDialogTest(unittest.TestCase):
         ``build_scene`` renders when asked whether or not the app would
         ever have redrawn — so the test that follows this one passes
         against a handler that never invalidates. That is the browser's
-        standing footgun in its quietest form (CLAUDE.md), and a mutation
+        standing footgun in its quietest form (STARTHERE.md), and a mutation
         run is what caught this test not covering it."""
         b, _s = self._browser()
         _nodes, handlers = self._open(b)

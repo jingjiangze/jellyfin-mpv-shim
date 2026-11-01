@@ -2303,7 +2303,7 @@ class TestPlaybackInfoPanel(unittest.TestCase):
     def test_closing_the_panel_asks_for_a_repaint(self):
         """A Checkbox-shaped trap: nothing reconciles the tree afterwards,
         so a handler that changes state without invalidating leaves the
-        panel on screen (see CLAUDE.md on the browser's standing footgun)."""
+        panel on screen (see STARTHERE.md on the browser's standing footgun)."""
         b, _c = self._browser()
         b.hud.info = True
         b.invalidated = 0

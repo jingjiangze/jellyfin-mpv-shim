@@ -17,7 +17,7 @@ with a no while the user is looking straight at it.
 and audiobook playback. The mouse's back button rides the same path (the
 renderer routes it as a synthetic ESC), so it died the moment anything
 played; and with no way back, FORWARD had nothing to return to and looked
-broken with it. `CLAUDE.md` lists this as one of two "ambushes that fire far
+broken with it. `STARTHERE.md` lists this as one of two "ambushes that fire far
 from the feature that owns them".
 
 So the table below is not about a boolean. Each row is a state a user can be

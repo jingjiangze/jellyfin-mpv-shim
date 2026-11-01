@@ -325,7 +325,7 @@ class FakeSource:
                 # always has some. Modelled here rather than on one fixture
                 # item because a stand-in that omits a field does not leave
                 # a path uncovered -- it makes the path unreachable while
-                # reporting a pass (see CLAUDE.md).
+                # reporting a pass (see STARTHERE.md).
                 "ExternalUrls": [
                     {"Name": "IMDb", "Url": "https://www.imdb.com/title/tt1/"},
                     {"Name": "TheMovieDb",

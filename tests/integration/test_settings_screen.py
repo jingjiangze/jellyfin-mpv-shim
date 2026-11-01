@@ -194,7 +194,7 @@ class RealSettingsClickTest(unittest.TestCase):
     is no renderer to press a button on and no repaint to observe.
 
     It asserts against the scene the RENDERER holds after a real click, not
-    against a tree the test rebuilt -- CLAUDE.md's "a scene assertion is not
+    against a tree the test rebuilt -- STARTHERE.md's "a scene assertion is not
     a repaint assertion". That distinction is load-bearing here: measured, a
     fresh `build()` and the renderer's scene DO disagree when the toggle
     half-fails, and only the renderer's copy says what a user sees.
@@ -355,7 +355,7 @@ class RealSettingsClickTest(unittest.TestCase):
         from any input path at all; it can only bite a state change with
         nothing driving it -- a poller, a websocket event, a timer -- and a
         test for that belongs where such a change happens, asserting
-        `invalidate` was called, per CLAUDE.md. Nothing on this screen has
+        `invalidate` was called, per STARTHERE.md. Nothing on this screen has
         one, which is why no such test is added here.
         """
         from jellyfin_mpv_shim.conf import settings

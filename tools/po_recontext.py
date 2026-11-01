@@ -9,7 +9,7 @@ had one discards every existing translation of it -- 60 locales for `Default`,
 unsplit (docs/i18n.md section 6), and this is what removes it: the volunteer's
 words are moved onto the new keys instead of being dropped on the floor.
 
-**It writes to the per-locale `.po` files**, which CLAUDE.md otherwise
+**It writes to the per-locale `.po` files**, which STARTHERE.md otherwise
 forbids. Same standing as `tools/po_lint.py --fuzzy`: a bounded, deliberate
 exception, run once per split, touching only the entries the plan names.
 Weblate cannot do this itself -- it sees a new msgid and an obsolete one, with

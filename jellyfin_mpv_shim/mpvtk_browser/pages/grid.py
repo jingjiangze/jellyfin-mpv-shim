@@ -1152,7 +1152,7 @@ class GridPage(Page):
         # and nothing ever moved. `_clear_filters` replaces the dict
         # outright, which breaks it a second way.
         #
-        # This is the standing browser footgun (CLAUDE.md): a widget tree
+        # This is the standing browser footgun (STARTHERE.md): a widget tree
         # is a snapshot, so read mutable state INSIDE the builder.
         self.ctx.dialogs.filter_panel(
             lambda: self.route.get("_filtervals") or {},
@@ -1188,7 +1188,7 @@ class GridPage(Page):
         The renderer flips a Dropdown's own selection optimistically, but
         **a Checkbox is drawn from its `checked` argument** and only a
         redraw can move the tick -- the standing footgun in this codebase
-        (CLAUDE.md), and the reason the Add to Playlist dialog once had a
+        (STARTHERE.md), and the reason the Add to Playlist dialog once had a
         Private box that flipped invisibly.
         """
         self._toggle_filter(key)
