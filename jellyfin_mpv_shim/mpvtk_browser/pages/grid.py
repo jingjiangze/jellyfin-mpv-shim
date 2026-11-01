@@ -74,7 +74,10 @@ _LETTERS = "#ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 def sorts_for(collection_type):
     """The sort menu for a library of this kind."""
-    return SORTS + EXTRA_SORTS.get(collection_type or "", [])
+    # Append after the per-type sorts too: routes keep their menu index.
+    return SORTS + EXTRA_SORTS.get(collection_type or "", []) + [
+        (_("Oldest Released"), "PremiereDate", "Ascending"),
+    ]
 
 #: A view with nothing stored: web's defaults, which are also what the shim
 #: did before any of this existed, so an untouched library is unchanged.
