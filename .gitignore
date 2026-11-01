@@ -33,3 +33,6 @@ mpv.zip
 mpv.tar.gz
 libfribidi.0.dylib
 .DS_Store
+
+# Local symlink to STARTHERE.md for tools that look for this name.
+CLAUDE.md

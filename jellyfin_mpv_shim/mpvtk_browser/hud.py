@@ -472,7 +472,7 @@ def _menu_rows(b, st, shed=None):
         # mpv when it fires rather than closing over `on`. A gear menu can
         # sit open across a queue advance, and a handler built from what
         # was true when the row drew toggles from the wrong side (the
-        # browser's standing footgun; see CLAUDE.md).
+        # browser's standing footgun; see STARTHERE.md).
         on, auto = _ctl_get(b, "deinterlace", (False, False))
         rows.append((with_current(_("Deinterlace"),
                                   _("Auto") if auto and not on else None),

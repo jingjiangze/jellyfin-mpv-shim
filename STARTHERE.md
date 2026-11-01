@@ -1,6 +1,6 @@
-# CLAUDE.md
+# Start Here
 
-Guidance for Claude Code (claude.ai/code) when working in this repository.
+The developer entry point for this repository, for anyone working on the code.
 
 This file is a **summary and an arrival brief**: the commands, the shape of the app,
 and the rules that apply tree-wide. Subsystem detail lives in `docs/`, because it is
@@ -8,7 +8,7 @@ worth reading when you are working on that subsystem and not otherwise.
 
 ## Required Reading (VERY IMPORTANT)
 
-**You MUST read these before starting work** — this CLAUDE.md is a summary only, and
+**You MUST read these before starting work** — this file is a summary only, and
 each of these docs carries footguns that have **no line to sit on**: the danger is in
 the line you are about to add, so an inline comment cannot warn you.
 

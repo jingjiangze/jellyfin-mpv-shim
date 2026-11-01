@@ -1,7 +1,7 @@
 """Slice S3, `type_seams_live`: one session across every media type.
 
 Critical-path inventory rows 22 and 23 (19-26 are this module's). mpv is not
-re-created between items (CLAUDE.md), so a global one type leaves behind
+re-created between items (STARTHERE.md), so a global one type leaves behind
 only shows up at the hop AFTER the next -- which pairwise tests cannot see
 (`test_type_seams` covers pairs, and its music half is LYING, audit A2:224).
 Here one scripted chain goes library -> music -> comic -> film -> photo ->

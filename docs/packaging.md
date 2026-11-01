@@ -1,6 +1,6 @@
 # Packaging and platform builds
 
-`CLAUDE.md` carries the commands. This is what is behind them: the platform traps,
+`STARTHERE.md` carries the commands. This is what is behind them: the platform traps,
 why the ARM64 job is shaped differently from the x86 ones, and the version-spelling
 rules.
 
@@ -277,7 +277,7 @@ which *is* a manifest change and is not done here.
 `jellyfin_mpv_shim/constants.py:CLIENT_VERSION` is the single source of truth for the
 Python package; `pyproject.toml` reads it via `tool.setuptools.dynamic`. The Inno Setup
 and Flatpak appdata files are not derived and must be kept in sync by hand — see the
-checklist in `CLAUDE.md`. `gen_pkg.sh` warns loudly on drift.
+checklist in `STARTHERE.md`. `gen_pkg.sh` warns loudly on drift.
 
 ### Pre-releases skip the appdata
 

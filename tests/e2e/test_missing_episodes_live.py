@@ -13,7 +13,7 @@ them can be asked of a dict this repo wrote:
 * **the play queue does not.** `get_season_queue` sends `IsMissing: false` and
   `IsVirtualUnaired: false` -- web's own filters for this gesture. **A filter
   Jellyfin does not recognise answers exactly as sending nothing does**
-  (CLAUDE.md), so a dropped one here is invisible from this side: the queue
+  (STARTHERE.md), so a dropped one here is invisible from this side: the queue
   would carry an unplayable episode and the failure would surface as a play
   that does nothing, far from the cause;
 * **which word a gap gets is decided from the server's own PremiereDate.**

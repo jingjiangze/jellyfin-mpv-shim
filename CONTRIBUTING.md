@@ -3,9 +3,15 @@
 Thank you for interest in contributing to this project! Contributing is the best way to have functionality
 quickly added to the project.
 
-## AI-Assisted Development
+## Getting Started
 
-This project is developed with assistance from LLMs. We have a CLAUDE.md which should help you with this. If you submit PRs, please ensure that at a minimum, a hand-written summary of intent is provided and you manually test your changes first. Don't blindly submit AI-assisted PRs without testing or understanding of what the change does. Please remember the human. If you paste unhelpful or inaccurate AI responses verbatim back at a maintainer asking you a question, that may result in your changes being rejected. Please declare AI usage on PRs (Claude's default Co-Authored-By is enough).
+Start with [STARTHERE.md](STARTHERE.md): the common commands, the shape of the application, the rules that
+apply across the tree, and which document in `docs/` to read before working on each subsystem. If your tools
+expect a `CLAUDE.md` or `AGENTS.md`, a local symlink to `STARTHERE.md` works; `CLAUDE.md` is already gitignored.
+
+## AI-Assisted Contributions
+
+If you use AI tools and submit PRs, please ensure that at a minimum, a hand-written summary of intent is provided and you manually test your changes first. Don't blindly submit AI-assisted PRs without testing or understanding of what the change does. Please remember the human. If you paste unhelpful or inaccurate AI responses verbatim back at a maintainer asking you a question, that may result in your changes being rejected. Please declare AI usage on PRs (Claude's default Co-Authored-By is enough).
 
 ## Issues
 

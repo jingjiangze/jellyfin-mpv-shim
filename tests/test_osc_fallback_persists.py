@@ -11,7 +11,7 @@ went back to "mpvtk" with no renderer behind it and `on_hud_menu` still
 None: no HUD, no OSD menu, and no way to reach either. One idle timeout
 undid the whole fallback.
 
-This is the shape CLAUDE.md warns about -- state feeding back into the
+This is the shape STARTHERE.md warns about -- state feeding back into the
 input that produced it -- so it is asserted over repeated re-inits, not
 one. A single-step test passes against the broken code.
 """
@@ -42,7 +42,7 @@ class _Fake(PlayerManager):
     `_effective_osc_style`. The first version of this test carried its own
     copy of the logic in a stand-in and a mutation of the production code
     sailed straight through it -- the stand-in agreed with the test, which
-    is the trap CLAUDE.md names.
+    is the trap STARTHERE.md names.
     """
 
     def __init__(self):

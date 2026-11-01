@@ -57,7 +57,7 @@ class _Chrome:
     """`WindowMixin.window_controls_wanted` on a stand-in.
 
     The mixin is imported rather than a whole PlayerManager built: importing
-    `player` opens a real mpv window (CLAUDE.md), and this method only
+    `player` opens a real mpv window (STARTHERE.md), and this method only
     touches `settings`, `_player` and `_mpv_alive`.
     """
 

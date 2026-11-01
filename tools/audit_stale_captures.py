@@ -35,7 +35,7 @@ cannot, because a different id is a different route.
 **A lead generator, not a proof.** It follows a call one frame deep and no
 further, so state laundered through two helpers is invisible to it; and it
 says nothing about the mirror-image bug, a handler that writes state
-without asking for a repaint (see CLAUDE.md -- a Checkbox cannot redraw
+without asking for a repaint (see STARTHERE.md -- a Checkbox cannot redraw
 itself).
 
 Usage:

@@ -9,7 +9,7 @@ number would have no answer here at all, which is why it is not the state.
 The rest of these are the ones a single-step test cannot see: paging
 through a whole document and asserting the text arrives exactly once, and
 re-laying-out repeatedly and asserting the offset does not walk. Both are
-the shape ``CLAUDE.md`` names — state feeding back into the input that
+the shape ``STARTHERE.md`` names — state feeding back into the input that
 produced it — and both are how the two real bugs found while writing this
 showed up.
 """

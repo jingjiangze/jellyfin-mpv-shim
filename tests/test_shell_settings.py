@@ -915,7 +915,7 @@ class TestServersPanel(unittest.TestCase):
         has to reach the store -- and the row has to be asked to redraw,
         because mpvtk colours a Checkbox from `checked` and never moves one
         optimistically (docs/browser-shell.md; the standing footgun in
-        CLAUDE.md)."""
+        STARTHERE.md)."""
         redraws = []
         self.b.invalidate = lambda *a, **k: redraws.append(1)
         before, _h = build_scene(self.b)

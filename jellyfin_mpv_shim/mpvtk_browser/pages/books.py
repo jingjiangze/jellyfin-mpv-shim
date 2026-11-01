@@ -157,7 +157,7 @@ class BooksPage(GridPage):
             # literal rebuilt in the builder is a fresh dict every frame, so
             # the button could never show its own on-state and every press
             # re-sent the same value. One of the two named footguns in
-            # CLAUDE.md, in its other form: state that a handler writes and
+            # STARTHERE.md, in its other form: state that a handler writes and
             # the next draw cannot see.
             folder = route.setdefault("_folder_stub", {
                 "Id": route.get("parent_id"), "Type": "Folder",

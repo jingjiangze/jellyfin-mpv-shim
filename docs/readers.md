@@ -625,7 +625,7 @@ But it is the **window's** property, owned by `set_browse_window` (off) and
 `browse_yield` (on); `show_picture` only borrows it, so `reset_picture_view` must
 **not** put it back while something is playing. That second trap is the more
 expensive one and it fires with no comic anywhere in the session — see the
-`keepaspect` / `reset_picture_view` bullet in `CLAUDE.md`, which is where it
+`keepaspect` / `reset_picture_view` bullet in `STARTHERE.md`, which is where it
 lives, because it is a `run_action` ordering hazard about playback rather than
 about books. `_video is None and not self._loading` is the guard;
 `tests/test_window_geometry.py:PictureViewHandoffTest` asserts both interleavings
@@ -691,7 +691,7 @@ The full write-up, including what is pinned and where, is
 
 ---
 
-Two related facts deliberately live in `CLAUDE.md` rather than in this file,
+Two related facts deliberately live in `STARTHERE.md` rather than in this file,
 because both fire when no book is involved: the `keepaspect` / `reset_picture_view`
 handoff ordering (§5.3), and `_library_showing()` never being `_video is None` —
 which bit audiobook playback but is a property of the browser's back navigation

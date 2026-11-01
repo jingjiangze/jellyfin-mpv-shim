@@ -4,7 +4,7 @@ Run the suite: `xvfb-run -a python3 -m unittest discover tests`
 (stdlib unittest, no extra deps). The integration matrix:
 `xvfb-run -a python3 tests/integration/run_integration.py`.
 
-`CLAUDE.md` carries the two rules you need before running anything (select with
+`STARTHERE.md` carries the two rules you need before running anything (select with
 `-k`, never a module name; always use `xvfb-run`) and the three standing
 disciplines. This file is the long version: what each specialised suite exists to
 catch, and the case histories behind the rules.

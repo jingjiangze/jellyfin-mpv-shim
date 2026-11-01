@@ -11,7 +11,7 @@ format prints the logger name, and these messages have been landing in users'
 log.txt under "player" for as long as the feature has existed.
 
 Why this is a mixin rather than an owned object, and why the backend globals
-are imported per call: CLAUDE.md, "MPV backend selection".
+are imported per call: STARTHERE.md, "MPV backend selection".
 
 Before editing this file, read ``docs/mpv-backends.md``.
 """
