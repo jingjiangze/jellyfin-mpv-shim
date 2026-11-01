@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jellyfin-mpv-shim\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-24 02:13-0400\n"
+"POT-Creation-Date: 2026-11-01 07:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -5476,6 +5476,12 @@ msgstr ""
 #. their newest episode arrived.
 #: jellyfin_mpv_shim/mpvtk_browser/pages/grid.py
 msgid "Date Episode Added"
+msgstr ""
+
+#. Library sort option: order items by their original release date, with
+#. the oldest releases first. The other Release Date option is newest first.
+#: jellyfin_mpv_shim/mpvtk_browser/pages/grid.py
+msgid "Oldest Released"
 msgstr ""
 
 #. Shown in place of the grid when a library's filters match nothing. The

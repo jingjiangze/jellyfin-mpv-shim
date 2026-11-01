@@ -78,6 +78,37 @@ class SortPersistenceTest(unittest.TestCase):
         self.assertIn(("sortby", "DateCreated"), saved)
         self.assertIn(("sortorder", "Descending"), saved)
 
+    def test_oldest_release_can_be_selected_and_is_remembered(self):
+        """#830: choosing release date must also offer oldest first."""
+        for ctype in ("movies", "tvshows"):
+            with self.subTest(collection_type=ctype):
+                b, src = self._browser(ctype=ctype)
+                nodes, handlers = build_scene(b)
+                picker = next(n for n in nodes if n.get("id") == "grid-sort")
+                self.assertIn("Oldest Released", picker["items"])
+                index = picker["items"].index("Oldest Released")
+
+                handlers["grid-sort"]["select"](index, "Oldest Released")
+
+                self.assertEqual("PremiereDate", src.queries[-1]["sort_by"])
+                self.assertEqual("Ascending", src.queries[-1]["sort_order"])
+                saved = {setting: (value, key)
+                         for _p, setting, value, key in src.saved_view_settings}
+                self.assertEqual("PremiereDate", saved["sortby"][0])
+                self.assertEqual("Ascending", saved["sortorder"][0])
+
+                restored, source = self._browser(view_settings=saved, ctype=ctype)
+                self.assertEqual("PremiereDate", source.queries[-1]["sort_by"])
+                self.assertEqual("Ascending", source.queries[-1]["sort_order"])
+                nodes, _handlers = build_scene(restored)
+                picker = next(n for n in nodes if n.get("id") == "grid-sort")
+                self.assertEqual("Oldest Released", picker["items"][picker["sel"]])
+
+    def test_the_existing_tv_sort_keeps_its_route_index(self):
+        # In-flight routes already use index 10 for Date Episode Added.
+        self.assertEqual(("DateLastContentAdded", "Descending"),
+                         grid.sorts_for("tvshows")[10][1:])
+
     def test_it_stores_the_name_and_not_the_index(self):
         """The trap `EXTRA_SORTS` documents: a TV library's menu is longer, so
         an index means a different sort depending on where it was written."""
