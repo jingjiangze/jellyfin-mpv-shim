@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-24 02:13-0400\n"
-"PO-Revision-Date: 2026-11-01 01:52+0000\n"
+"PO-Revision-Date: 2026-11-01 02:57+0000\n"
 "Last-Translator: INOUE Daisuke <inoue.daisuke@gmail.com>\n"
 "Language-Team: Japanese <https://translate.jellyfin.org/projects/jellyfin/"
 "jellyfin-mpv-shim/ja/>\n"
@@ -1831,7 +1831,7 @@ msgstr "コンテナがサポートされていません"
 #. playback information panel.
 #: jellyfin_mpv_shim/mpvtk_browser/components/media_info.py
 msgid "The video codec is not supported"
-msgstr "動画コーデックがサポートされていません"
+msgstr "映像コーデックがサポートされていません"
 
 # seeded from jellyfin-web: AudioCodecNotSupported
 #. One reason the server gives for having to re-encode, listed on the
@@ -1915,14 +1915,14 @@ msgstr "アナモルフィック動画がサポートされていません"
 #. playback information panel.
 #: jellyfin_mpv_shim/mpvtk_browser/components/media_info.py
 msgid "Interlaced video is not supported"
-msgstr "インターレース動画はサポートされていません"
+msgstr "インターレース映像がサポートされていません"
 
 # seeded from jellyfin-web: AudioChannelsNotSupported
 #. One reason the server gives for having to re-encode, listed on the
 #. playback information panel.
 #: jellyfin_mpv_shim/mpvtk_browser/components/media_info.py
 msgid "The number of audio channels is not supported"
-msgstr "サポートされていない音声チャンネル数です"
+msgstr "音声チャンネル数がサポートされていません"
 
 # seeded from jellyfin-web: AudioProfileNotSupported
 #. One reason the server gives for having to re-encode, listed on the
@@ -1950,14 +1950,14 @@ msgstr "音声のビット深度がサポートされていません"
 #. playback information panel.
 #: jellyfin_mpv_shim/mpvtk_browser/components/media_info.py
 msgid "The video's bitrate exceeds the limit"
-msgstr "動画のビットレートが制限を超えています"
+msgstr "映像ビットレートが制限を超えています"
 
 # seeded from jellyfin-web: VideoBitrateNotSupported
 #. One reason the server gives for having to re-encode, listed on the
 #. playback information panel.
 #: jellyfin_mpv_shim/mpvtk_browser/components/media_info.py
 msgid "The video's bitrate is not supported"
-msgstr "動画のビットレートがサポートされていません"
+msgstr "映像ビットレートがサポートされていません"
 
 # seeded from jellyfin-web: AudioBitrateNotSupported
 #. One reason the server gives for having to re-encode, listed on the
@@ -1971,7 +1971,7 @@ msgstr "音声ビットレートがサポートされていません"
 #. the video stream's details.
 #: jellyfin_mpv_shim/mpvtk_browser/components/media_info.py
 msgid "The video stream info is unknown"
-msgstr "動画ストリーム情報が不明です"
+msgstr "映像ストリーム情報が不明です"
 
 # seeded from jellyfin-web: UnknownAudioStreamInfo
 #. One reason the server gives for having to re-encode: it could not read
@@ -3224,13 +3224,13 @@ msgid ""
 "player's settings menu, which lasts until you return to the library. Needs "
 "MPV 0.38 or newer."
 msgstr ""
-"ファイルにインターレースと指定している動画のインターレース解除を行います。"
-"MPV そのものと同様、デフォルトはオフです。ファイルのこのフラグは信頼性が低"
-"く、プログレッシブ形式の動画にインターレース解除を適用すると、もともと鮮明"
-"だった映像がぼやけてしまいます。インターレース形式と明記していない動画に強制"
-"的にインターレース解除を行うには、プレーヤーの設定メニューにある「インター"
-"レース解除」をご利用ください。この設定はライブラリーに戻るまで有効です。MPV "
-"0.38 以降が必要です。"
+"ファイルにインターレースと指定している映像のインターレース解除を行います。"
+"MPV そのものと同様、デフォルトはオフです。ファイルのこのフラグは信頼性が低く"
+"、プログレッシブ形式の映像にインターレース解除を適用すると、もともと鮮明だっ"
+"た映像がぼやけてしまいます。インターレース形式と明記していない映像に強制的に"
+"インターレース解除を行うには、プレーヤーの設定メニューにある「インターレース"
+"解除」をご利用ください。この設定はライブラリーに戻るまで有効です。MPV 0.38 以"
+"降が必要です。"
 
 #. Explanation shown under the "Debanding" setting (Settings > Playback >
 #. Video Enhancement).
