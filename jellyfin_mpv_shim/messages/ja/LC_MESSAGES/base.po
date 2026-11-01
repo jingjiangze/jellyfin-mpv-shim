@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-24 02:13-0400\n"
-"PO-Revision-Date: 2026-10-31 18:44+0000\n"
+"PO-Revision-Date: 2026-11-01 01:52+0000\n"
 "Last-Translator: INOUE Daisuke <inoue.daisuke@gmail.com>\n"
 "Language-Team: Japanese <https://translate.jellyfin.org/projects/jellyfin/"
 "jellyfin-mpv-shim/ja/>\n"
@@ -1866,35 +1866,35 @@ msgstr "第2音声トラックがサポートされていません"
 #. codec feature set, such as High or Main 10.
 #: jellyfin_mpv_shim/mpvtk_browser/components/media_info.py
 msgid "The video codec's profile is not supported"
-msgstr "動画コーデックのプロファイルがサポートされていません"
+msgstr "映像コーデックのプロファイルがサポートされていません"
 
 # seeded from jellyfin-web: VideoLevelNotSupported
 #. One reason the server gives for having to re-encode. "Level" is a codec
 #. limit on resolution and bitrate.
 #: jellyfin_mpv_shim/mpvtk_browser/components/media_info.py
 msgid "The video codec's level is not supported"
-msgstr "動画コーデックレベルがサポートされていません"
+msgstr "映像コーデックレベルがサポートされていません"
 
 # seeded from jellyfin-web: VideoResolutionNotSupported
 #. One reason the server gives for having to re-encode, listed on the
 #. playback information panel.
 #: jellyfin_mpv_shim/mpvtk_browser/components/media_info.py
 msgid "The video's resolution is not supported"
-msgstr "動画の解像度がサポートされていません"
+msgstr "映像の解像度がサポートされていません"
 
 # seeded from jellyfin-web: VideoBitDepthNotSupported
 #. One reason the server gives for having to re-encode, listed on the
 #. playback information panel.
 #: jellyfin_mpv_shim/mpvtk_browser/components/media_info.py
 msgid "The video's bit depth is not supported"
-msgstr "動画のビット深度がサポートされていません"
+msgstr "映像ビット深度がサポートされていません"
 
 # seeded from jellyfin-web: VideoFramerateNotSupported
 #. One reason the server gives for having to re-encode, listed on the
 #. playback information panel.
 #: jellyfin_mpv_shim/mpvtk_browser/components/media_info.py
 msgid "The video's framerate is not supported"
-msgstr "動画のフレームレートがサポートされていません"
+msgstr "映像フレームレートがサポートされていません"
 
 # seeded from jellyfin-web: RefFramesNotSupported
 #. One reason the server gives for having to re-encode: how many earlier
