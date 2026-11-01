@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-24 02:13-0400\n"
-"PO-Revision-Date: 2026-11-01 05:32+0000\n"
+"PO-Revision-Date: 2026-11-01 18:52+0000\n"
 "Last-Translator: INOUE Daisuke <inoue.daisuke@gmail.com>\n"
 "Language-Team: Japanese <https://translate.jellyfin.org/projects/jellyfin/"
 "jellyfin-mpv-shim/ja/>\n"
@@ -2588,7 +2588,7 @@ msgstr "ゲームコントローラー"
 #. General > Input).
 #: jellyfin_mpv_shim/mpvtk_browser/config.py
 msgid "Swap Confirm and Back Buttons"
-msgstr "決定ボタンと戻るボタンを入れ替え"
+msgstr "確認ボタンと戻るボタンを入れ替え"
 
 #. Label of the text field for the "sync_path" setting (Settings > Browse >
 #. Downloads).
@@ -3910,7 +3910,7 @@ msgstr "年"
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 #: jellyfin_mpv_shim/mpvtk_browser/pages/grid.py
 msgid "Parental Rating"
-msgstr "個人評価"
+msgstr "ペアレンタル レーティング"
 
 # seeded from jellyfin-web: Tags
 #. Heading of a filter-panel section, above a dropdown listing the tags on
@@ -3954,19 +3954,19 @@ msgstr "予告編あり"
 #. to items with bonus material (deleted scenes, featurettes).
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "Has Special Features"
-msgstr "特典映像"
+msgstr "特典映像あり"
 
 #. Checkbox in the filter panel's Features section. Restricts the library
 #. to items with a theme song attached.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "Has Theme Song"
-msgstr "テーマ曲"
+msgstr "テーマ曲あり"
 
 #. Checkbox in the filter panel's Features section. Restricts the library
 #. to items with a theme video attached.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "Has Theme Video"
-msgstr "テーマ動画"
+msgstr "テーマ動画あり"
 
 # seeded from jellyfin-web: HeaderVideos
 #. Heading of a filter-panel section, above checkboxes for resolution and
@@ -4138,7 +4138,7 @@ msgstr "特典映像はダウンロードできません。"
 #. which episodes are still missing.
 #: jellyfin_mpv_shim/mpvtk_browser/dialogs.py
 msgid "Could not check what needs downloading."
-msgstr "ダウンロードを必要とするエピソードが不明です。"
+msgstr "ダウンロードが必要なものを確認できませんでした。"
 
 #. Placeholder in the Download modal while the app works out how many items
 #. would be downloaded and how much space they need.
